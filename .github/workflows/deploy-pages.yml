@@ -1,0 +1,56 @@
+name: Deploy Dashboard Liquidação BCMS no GitHub Pages
+
+on:
+  push:
+    branches:
+      - main
+  schedule:
+    # Atualização diária às 06:00 BRT (09:00 UTC)
+    - cron: '0 9 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: 'pages'
+  cancel-in-progress: false
+
+jobs:
+  build-and-deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repositório
+        uses: actions/checkout@v4
+
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Instalar Dependências
+        run: |
+          python -m pip install --upgrade pip
+          pip install openpyxl
+
+      - name: Executar Build do Painel
+        run: |
+          python gerar_dashboard.py
+
+      - name: Configurar GitHub Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload Artefato do Site
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: 'site'
+
+      - name: Publicar no GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
