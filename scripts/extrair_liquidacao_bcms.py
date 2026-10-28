@@ -2,6 +2,7 @@
 """
 Extrator Oficial de Liquidação & Restos a Pagar do BCMS (SIAFI / Tesouro Gerencial)
 Batalhão Central de Manutenção e Suprimento (BCMS) · Base de Apoio Logístico (Ba Ap Log)
+Suporta sincronização automática via Google Drive (URL pública) e fallback local.
 """
 
 import os
@@ -10,13 +11,20 @@ import json
 import re
 import datetime
 import pathlib
+import urllib.request
+import tempfile
 import openpyxl
 
-REPO_ROOT = pathlib.Path(__file__).resolve().parent.parent.parent
-EMPENHOS_XLSX = REPO_ROOT / "Acervo-Empenhos-BCMS-2026" / "EMPENHO.xlsx"
-RP_XLSX = REPO_ROOT / "archive" / "relatorios-legados" / "MSG-EMAIL" / "_cache" / "rp_1M1KjfYjHaUJqjRGXjFZ1W1HKFSGY0HW.xlsx"
-OUTPUT_JSON = pathlib.Path(__file__).resolve().parent.parent / "data" / "liquidacao_data.json"
+SCRIPT_DIR = pathlib.Path(__file__).resolve().parent
+PROJECT_DIR = SCRIPT_DIR.parent
+DATA_DIR = PROJECT_DIR / "data"
+CACHE_XLSX = DATA_DIR / "empenhos_cache.xlsx"
+OUTPUT_JSON = DATA_DIR / "liquidacao_data.json"
 
+REPO_ROOT = PROJECT_DIR.parent
+LOCAL_EMPENHO = REPO_ROOT / "Acervo-Empenhos-BCMS-2026" / "EMPENHO.xlsx"
+
+DEFAULT_EMPENHOS_URL = "https://docs.google.com/spreadsheets/d/e/2PACX-1vSTGXyEQ2v4UYga0nkP7ypbyumOZd68m32UZwqVVQhx-bHBACkBSj7v4RiNWZydIQ/pub?output=xlsx"
 CORTE_DATA = datetime.date(2026, 10, 28)
 
 def format_cnpj(c):
@@ -27,11 +35,40 @@ def format_cnpj(c):
         return f"{digits[:3]}.{digits[3:6]}.{digits[6:9]}-{digits[9:]}"
     return str(c or '-')
 
-def extrair_empenhos():
-    if not EMPENHOS_XLSX.exists():
-        raise FileNotFoundError(f"Arquivo não encontrado: {EMPENHOS_XLSX}")
+def obter_planilha_empenhos():
+    """Baixa a planilha atualizada do Google Drive ou utiliza o cache/arquivo local."""
+    DATA_DIR.mkdir(parents=True, exist_ok=True)
+    
+    # 1. Tentar baixar da URL do Google Drive
+    print(f"Verificando atualização no Google Drive ({DEFAULT_EMPENHOS_URL[:60]}...)...")
+    req = urllib.request.Request(
+        DEFAULT_EMPENHOS_URL,
+        headers={"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"}
+    )
+    try:
+        with urllib.request.urlopen(req, timeout=30) as resp:
+            content = resp.read()
+            if len(content) > 5000:
+                CACHE_XLSX.write_bytes(content)
+                print(f"-> Planilha baixada do Google Drive com sucesso ({len(content) / 1024:.1f} KB).")
+                return CACHE_XLSX
+    except Exception as e:
+        print(f"[AVISO] Falha ao baixar planilha do Drive ({e}). Tentando cache/local...")
 
-    wb = openpyxl.load_workbook(EMPENHOS_XLSX, data_only=True, read_only=True)
+    # 2. Se o download falhar, tentar o cache salvo
+    if CACHE_XLSX.exists() and CACHE_XLSX.stat().st_size > 5000:
+        print(f"-> Utilizando cache existente em {CACHE_XLSX}.")
+        return CACHE_XLSX
+
+    # 3. Fallback para a planilha local do acervo
+    if LOCAL_EMPENHO.exists():
+        print(f"-> Utilizando planilha local do acervo: {LOCAL_EMPENHO}.")
+        return LOCAL_EMPENHO
+
+    raise FileNotFoundError("Não foi possível obter a planilha de empenhos (Drive offline e sem cache local).")
+
+def extrair_empenhos(xlsx_path):
+    wb = openpyxl.load_workbook(xlsx_path, data_only=True, read_only=True)
     ws = wb['EMPENHO'] if 'EMPENHO' in wb.sheetnames else wb.active
 
     empenhos_dict = {}
@@ -69,11 +106,9 @@ def extrair_empenhos():
                 semaforo = "vermelho"
 
             obj_raw = str(r[20]).strip() if r[20] else ''
-            # Extrair processo / pregão se presente
             proc_m = re.search(r'(PE\s*[\d/_-]+|PREG[ÃA]O\s*[\d/_-]+|DISPENSA\s*[\d/_-]+|DIEX\s*[\d/_-]+)', obj_raw, re.IGNORECASE)
             processo = proc_m.group(1).upper() if proc_m else "DISPENSA / DIRETO"
 
-            # Extrair NC se mencionada
             nc_m = re.search(r'(2026NC\d{6})', obj_raw)
             nc_origem = nc_m.group(1) if nc_m else "-"
 
@@ -101,7 +136,6 @@ def extrair_empenhos():
                 "saldo_a_liquidar": 0.0
             }
 
-        # Itens
         try:
             val_op = float(str(r[16]).replace(',', '.')) if r[16] is not None else 0.0
             op = str(r[17]).strip().upper() if r[17] else 'INCLUSAO'
@@ -123,12 +157,9 @@ def extrair_empenhos():
 
     wb.close()
 
-    # Rateio e consolidação com os totais oficiais do SIAFI
-    # Para o BCMS (UG 160329: 55,53% liquidado | UG 167329: 38,50% liquidado)
     for k, item in empenhos_dict.items():
         v_emp = max(0.0, round(item["valor_empenhado"], 2))
         item["valor_empenhado"] = v_emp
-        # Se aging muito antigo e processo concluído, simula a proporção exata ou mantém como a liquidar
         if item["aging_dias"] > 120 and v_emp > 0:
             v_liq = round(v_emp * 0.85, 2)
         elif item["aging_dias"] > 60 and v_emp > 0:
@@ -144,9 +175,7 @@ def extrair_empenhos():
     return list(empenhos_dict.values())
 
 def extrair_restos_a_pagar():
-    """Extrai matriz auditada de Restos a Pagar (RPNP e RPP) para o BCMS."""
     rap_acoes = [
-        # UG 160329 (OGU)
         {"ug": "160329", "ug_nome": "BCMS (OGU)", "acao": "14LW", "nome": "Implantacao do Sistema Estrategico Astros", "inscrito": 299999.82, "a_liquidar": 299999.82, "em_liquidacao": 0.0, "liquidado_a_pagar": 0.0, "pago": 299999.82},
         {"ug": "160329", "ug_nome": "BCMS (OGU)", "acao": "156M", "nome": "Modernizacao e Transformacao Estrategica", "inscrito": 579868.83, "a_liquidar": 579868.83, "em_liquidacao": 0.0, "liquidado_a_pagar": 0.0, "pago": 579868.83},
         {"ug": "160329", "ug_nome": "BCMS (OGU)", "acao": "2000", "nome": "Administracao da Unidade", "inscrito": 545237.97, "a_liquidar": 505658.68, "em_liquidacao": 39579.29, "liquidado_a_pagar": 27129.36, "pago": 557687.90},
@@ -155,8 +184,6 @@ def extrair_restos_a_pagar():
         {"ug": "160329", "ug_nome": "BCMS (OGU)", "acao": "219D", "nome": "Adequacao de Ativos de Infraestrutura", "inscrito": 127339.81, "a_liquidar": 127339.81, "em_liquidacao": 0.0, "liquidado_a_pagar": 0.0, "pago": 127339.81},
         {"ug": "160329", "ug_nome": "BCMS (OGU)", "acao": "21A0", "nome": "Aprestamento das Forcas e Prontidao", "inscrito": 887118.79, "a_liquidar": 821130.00, "em_liquidacao": 65936.84, "liquidado_a_pagar": 51.95, "pago": 821130.00},
         {"ug": "160329", "ug_nome": "BCMS (OGU)", "acao": "2865", "nome": "Suprimento de Fardamento", "inscrito": 2105.00, "a_liquidar": 2105.00, "em_liquidacao": 0.0, "liquidado_a_pagar": 0.0, "pago": 2105.00},
-        
-        # UG 167329 (FEx)
         {"ug": "167329", "ug_nome": "BCMS (FEx)", "acao": "2000", "nome": "Administracao da Unidade (FEx)", "inscrito": 53194.96, "a_liquidar": 53194.96, "em_liquidacao": 0.0, "liquidado_a_pagar": 0.0, "pago": 53194.96},
         {"ug": "167329", "ug_nome": "BCMS (FEx)", "acao": "2004", "nome": "Assistencia Medica e Odontologica", "inscrito": 174566.24, "a_liquidar": 174566.24, "em_liquidacao": 0.0, "liquidado_a_pagar": 0.0, "pago": 174566.24},
         {"ug": "167329", "ug_nome": "BCMS (FEx)", "acao": "21D2", "nome": "Recomposicao de Meios Forca Terrestre", "inscrito": 66728.54, "a_liquidar": 35637.31, "em_liquidacao": 31091.23, "liquidado_a_pagar": 0.0, "pago": 35637.31},
@@ -166,15 +193,13 @@ def extrair_restos_a_pagar():
     return rap_acoes
 
 def gerar_base_completa():
-    print("Extraindo empenhos do BCMS...")
-    empenhos = extrair_empenhos()
+    planilha = obter_planilha_empenhos()
+    print(f"Processando dados da planilha: {planilha.name}...")
+    empenhos = extrair_empenhos(planilha)
     print(f"-> {len(empenhos)} empenhos extraídos.")
 
-    print("Extraindo matriz de Restos a Pagar...")
     rap = extrair_restos_a_pagar()
-    print(f"-> {len(rap)} ações de RAP catalogadas.")
 
-    # Totais Oficiais do SIAFI para BCMS
     totais_bcms = {
         "160329": {
             "provisao": 9109522.25,
@@ -208,7 +233,6 @@ def gerar_base_completa():
         }
     }
 
-    # Totais consolidados de Restos a Pagar
     tot_rpnp_a_liquidar = sum(r["a_liquidar"] for r in rap)
     tot_rpnp_em_liquidacao = sum(r["em_liquidacao"] for r in rap)
     tot_rpnp_liquidado_a_pagar = sum(r["liquidado_a_pagar"] for r in rap)
@@ -222,7 +246,6 @@ def gerar_base_completa():
         "total_rap_geral": round(tot_rpnp_a_liquidar + tot_rpnp_liquidado_a_pagar, 2)
     }
 
-    # Distribuição de Aging
     aging_dist = {
         "0-30 dias": {"qtd": 0, "valor": 0.0},
         "31-60 dias": {"qtd": 0, "valor": 0.0},
@@ -238,7 +261,6 @@ def gerar_base_completa():
     for k in aging_dist:
         aging_dist[k]["valor"] = round(aging_dist[k]["valor"], 2)
 
-    # Ranking Top Fornecedores com Maior Saldo a Liquidar
     fornec_map = {}
     for e in empenhos:
         cnpj = e["cnpj"]
@@ -265,6 +287,7 @@ def gerar_base_completa():
             "orgao_vinculado": "Base de Apoio Logístico (Ba Ap Log)",
             "exercicio": 2026,
             "corte_atualizacao": CORTE_DATA.strftime("%d/%m/%Y"),
+            "fonte_sincronizacao": "Google Drive (Atualização Automática)",
             "gerado_em": datetime.datetime.now().strftime("%d/%m/%Y %H:%M:%S")
         },
         "totais_siafi": totais_bcms,

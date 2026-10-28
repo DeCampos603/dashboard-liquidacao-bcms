@@ -4,7 +4,8 @@
     "orgao_vinculado": "Base de Apoio Logístico (Ba Ap Log)",
     "exercicio": 2026,
     "corte_atualizacao": "28/10/2026",
-    "gerado_em": "28/10/2026 13:48:42"
+    "fonte_sincronizacao": "Google Drive (Atualização Automática)",
+    "gerado_em": "28/10/2026 13:55:08"
   },
   "totais_siafi": {
     "160329": {
@@ -47,8 +48,8 @@
   },
   "aging_distribuicao": {
     "0-30 dias": {
-      "qtd": 292,
-      "valor": 4728814.23
+      "qtd": 322,
+      "valor": 5717335.45
     },
     "31-60 dias": {
       "qtd": 9,
@@ -67,9 +68,9 @@
     {
       "cnpj": "33.739.848/0001-96",
       "razao": "UNIVERSAL IMPORTACAO EXPORTACAO E COMERCIO LIMITADA",
-      "qtd_nes": 12,
-      "tot_empenhado": 4513777.75,
-      "saldo_a_liquidar": 3093327.75
+      "qtd_nes": 13,
+      "tot_empenhado": 4549757.93,
+      "saldo_a_liquidar": 3129307.93
     },
     {
       "cnpj": "33.323.653/0001-60",
@@ -86,6 +87,13 @@
       "saldo_a_liquidar": 620546.55
     },
     {
+      "cnpj": "21.219.926/0001-42",
+      "razao": "TRIANGULO CONSTRUTORA E SERVICOS LTDA",
+      "qtd_nes": 1,
+      "tot_empenhado": 499999.22,
+      "saldo_a_liquidar": 499999.22
+    },
+    {
       "cnpj": "50.598.926/0001-07",
       "razao": "VITORIA LINE COMERCIO E REPRESENTACAO LTDA",
       "qtd_nes": 2,
@@ -100,6 +108,13 @@
       "saldo_a_liquidar": 347818.27
     },
     {
+      "cnpj": "60.444.437/0001-46",
+      "razao": "LIGHT SERVICOS DE ELETRICIDADE S A",
+      "qtd_nes": 8,
+      "tot_empenhado": 268727.02,
+      "saldo_a_liquidar": 251683.61
+    },
+    {
       "cnpj": "56.121.231/0001-08",
       "razao": "SILVA COMERCIO E REPRESENTACAO LTDA",
       "qtd_nes": 3,
@@ -107,11 +122,11 @@
       "saldo_a_liquidar": 122060.0
     },
     {
-      "cnpj": "60.444.437/0001-46",
-      "razao": "LIGHT SERVICOS DE ELETRICIDADE S A",
-      "qtd_nes": 7,
-      "tot_empenhado": 121527.49,
-      "saldo_a_liquidar": 104484.08
+      "cnpj": "455.848.928-58",
+      "razao": "GABRIEL HILARIO DOMINGOS MONTEIRO",
+      "qtd_nes": 4,
+      "tot_empenhado": 104740.34,
+      "saldo_a_liquidar": 104740.34
     },
     {
       "cnpj": "07.582.357/0001-74",
@@ -121,11 +136,11 @@
       "saldo_a_liquidar": 103054.75
     },
     {
-      "cnpj": "455.848.928-58",
-      "razao": "GABRIEL HILARIO DOMINGOS MONTEIRO",
+      "cnpj": "044.151.477-47",
+      "razao": "RICARDO LEONEL OLIVEIRA",
       "qtd_nes": 2,
-      "tot_empenhado": 73271.14,
-      "saldo_a_liquidar": 73271.14
+      "tot_empenhado": 90047.22,
+      "saldo_a_liquidar": 90047.22
     },
     {
       "cnpj": "17.858.631/0001-49",
@@ -135,39 +150,25 @@
       "saldo_a_liquidar": 70200.14
     },
     {
+      "cnpj": "14.863.079/0001-99",
+      "razao": "F.AB. ZONA OESTE S.A.",
+      "qtd_nes": 1,
+      "tot_empenhado": 64999.58,
+      "saldo_a_liquidar": 64999.58
+    },
+    {
+      "cnpj": "27.405.792/0001-30",
+      "razao": "MEDICAM PECAS E SERVICOS AUTOMOTIVOS LTDA",
+      "qtd_nes": 2,
+      "tot_empenhado": 64603.0,
+      "saldo_a_liquidar": 64603.0
+    },
+    {
       "cnpj": "62.763.892/0001-30",
       "razao": "RARIDADE COMERCIO E SERVICO LTDA",
       "qtd_nes": 10,
       "tot_empenhado": 61747.14,
       "saldo_a_liquidar": 52874.69
-    },
-    {
-      "cnpj": "136.013.247-33",
-      "razao": "LEON MORAES CARDOSO DOS SANTOS",
-      "qtd_nes": 2,
-      "tot_empenhado": 51168.22,
-      "saldo_a_liquidar": 51168.22
-    },
-    {
-      "cnpj": "62.528.261/0001-36",
-      "razao": "62.528.261 WALLACE DANILO PEREIRA FRANCISCO",
-      "qtd_nes": 8,
-      "tot_empenhado": 58848.67,
-      "saldo_a_liquidar": 46682.67
-    },
-    {
-      "cnpj": "56.109.434/0001-89",
-      "razao": "R.A.J. GESTAO DE NEGOCIOS LTDA",
-      "qtd_nes": 2,
-      "tot_empenhado": 40000.0,
-      "saldo_a_liquidar": 40000.0
-    },
-    {
-      "cnpj": "09.211.999/0001-92",
-      "razao": "VISIONARIA COMERCIO E SERVICOS EM GERAL LTDA",
-      "qtd_nes": 3,
-      "tot_empenhado": 35262.1,
-      "saldo_a_liquidar": 35262.1
     }
   ],
   "restos_a_pagar": [
@@ -336,7 +337,7 @@
       "nc_origem": "2026NC000579",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00014 - PLACA IDENTIFICACAO, MATERIAL ACO INOXIDAVEL, COMPRIMENTO 30 CM, CARACTERISTICAS ADICIONAIS COM GRAVACAO EM ALTO RELEVO, APLICACAO IDENTIFICACAO NAS PORTAS, ESPESSURA ACO 304, LARGURA 5 CM, TIPO ENCAIXADA COM MADEIRITE TIPO ENVELOPE, COR PRATA",
           "valor": 600.0
         }
@@ -365,7 +366,7 @@
       "nc_origem": "2026NC400001",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00001 - OUTSOURCING DE IMPRESSAO - SEM FRANQUIA - PAGINAS IMPRESSAS CLICK A4 POLICROMATICA SEM PAPEL",
           "valor": 349.99
         }
@@ -394,7 +395,7 @@
       "nc_origem": "2026NC400002",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00001 - CONTRATACAO DIRETA DA EMPRESA BRASIL DE COMUNICACAO (EBC) PARA PRESTACAO DE DISTRIBUICAO DA PUBLICIDADE LEGAL DA ADMINISTRACAO PUBLICA FEDERAL.",
           "valor": 1799.94
         }
@@ -423,7 +424,7 @@
       "nc_origem": "2026NC400200",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00001 - PRESTACAO DE SERVICOS DE AGENCIAMENTO DE VIAGENS",
           "valor": 1.0
         }
@@ -452,7 +453,7 @@
       "nc_origem": "2026NC400422",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00001 - PRESTACAO DE SERVICOS DE AGENCIAMENTO DE VIAGENS",
           "valor": 1.0
         }
@@ -481,7 +482,7 @@
       "nc_origem": "2026NC000597",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00051 - LONA, MATERIAL POLIPROPILENO, APLICACAO BANNER, COR BRANCA, LARGURA 3 M, CARACTERISTICAS ADICIONAIS BASTAO E CORDAO BRANCO, COMPRIMENTO 2 M",
           "valor": 28.0
         }
@@ -510,7 +511,7 @@
       "nc_origem": "-",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00001 - COMUNICACAO POR CORREIO",
           "valor": 314.99
         }
@@ -539,7 +540,7 @@
       "nc_origem": "2026NC000579",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00051 - LONA, MATERIAL POLIPROPILENO, APLICACAO BANNER, COR BRANCA, LARGURA 3 M, CARACTERISTICAS ADICIONAIS BASTAO E CORDAO BRANCO, COMPRIMENTO 2 M",
           "valor": 84.0
         }
@@ -568,7 +569,7 @@
       "nc_origem": "2026NC400183",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00001 - PRESTACAO DE SERVICOS DE AGENCIAMENTO DE VIAGENS",
           "valor": 0.03
         }
@@ -597,7 +598,7 @@
       "nc_origem": "2026NC400183",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00001 - PRESTACAO DE SERVICOS DE AGENCIAMENTO DE VIAGENS",
           "valor": 0.03
         }
@@ -626,7 +627,7 @@
       "nc_origem": "-",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "contratacao de obra de Restauracao das instalacoes eletricas de baixa tensao e da rede de distribuicao de media tensao para revitalizacao do Pavilhao Central de Manutencao Classe IX do Batalhao Central de Manutencao e Suprimento. 2025NC405864 DEC 19AGO25 CONCORRENCIA 90002/2025 BCMS 160329",
           "valor": 288169.0
         }
@@ -655,7 +656,7 @@
       "nc_origem": "-",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Contratacao de obra de Restauracao das instalacoes eletricas de baixa tensao e da rede de distribuicao de media tensao para revitalizacao do Pavilhao Central de Manutencao Classe IX do Batalhao Central de Manutencao e Suprimento. 2025NC405864 DEC 19AGO25 CONCORRENCIA 90002/2025 BCMS 160329",
           "valor": 224216.3
         }
@@ -684,7 +685,7 @@
       "nc_origem": "-",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00001 - CONTRATACAO DIRETA DA EMPRESA BRASIL DE COMUNICACAO (EBC) PARA PRESTACAO DE DISTRIBUICAO DA PUBLICIDADE LEGAL DA ADMINISTRACAO PUBLICA FEDERAL.",
           "valor": 16850.38
         }
@@ -713,7 +714,7 @@
       "nc_origem": "2026NC401536",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00003 - BOTIJAO PARA GAS, USO DOMESTICO, CAPACIDADE CERCA DE 45 KG, ACESSORIOS COM VALVULA E MECANISMO DE SEGURANCA",
           "valor": 34425.0
         }
@@ -742,7 +743,7 @@
       "nc_origem": "2026NC401536",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00002 - REFRIGERANTE, MATERIAL AGUA GASOSA/XAROPE, SABOR GUARANA",
           "valor": 695.8
         }
@@ -771,7 +772,7 @@
       "nc_origem": "2026NC401536",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00004 - CONDIMENTO, TIPO LOURO, APRESENTACAO FOLHA",
           "valor": 2610.0
         }
@@ -800,7 +801,7 @@
       "nc_origem": "2026NC401536",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00003 - QUEIJO, ORIGEM DE VACA, VARIEDADE PRATO, APRESENTACAO PECA",
           "valor": 29039.4
         }
@@ -829,7 +830,7 @@
       "nc_origem": "2026NC403543",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "PAGAMENTO DE CREDITO REFERENTE AS INDENIZACOES QUE FAZ JUS O MILITAR 2º SGT MNT VTR AUTO JUAN PASTOR DE CASTILHO ROSA PUB NO BAR Nº 009/2026DE 19 FEV 2026. NOTA DE CREDITO Nº 2026NC403543 DE 18 FEV 26.",
           "valor": 387.52
         }
@@ -858,7 +859,7 @@
       "nc_origem": "2026NC403632",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "PAGAMENTO DE CREDITO REFERENTE AS INDENIZACOES QUE FAZ JUS O MILITAR 2º SGT MNT VTR AUTO JOEL VITOR VIEIRA PUB NO BAR Nº 009/2026 DE 19 FEV 2026. NOTA DE CREDITO Nº 2026NC403632 DE 19 FEV 26.",
           "valor": 775.04
         }
@@ -887,7 +888,7 @@
       "nc_origem": "2026NC000579",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00006 - Prestacao de servicos tecnicos comuns de seguranca eletronica para instalacao de infraestrutura optica em cabo de fibra optica em 6 vias de uso aereo, confo rme especificacoes tecnicas minimas descritas no servico comum de engenharia.",
           "valor": 148.5
         }
@@ -916,7 +917,7 @@
       "nc_origem": "2026NC001766",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00001 - OUTSOURCING DE IMPRESSAO - SEM FRANQUIA - PAGINAS IMPRESSAS CLICK A4 POLICROMATICA SEM PAPEL",
           "valor": 374.99
         }
@@ -945,7 +946,7 @@
       "nc_origem": "2026NC001766",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00001 - CONTRATACAO  DE PACOTE DE SERVICOS EMPRESARIAL SMP - ASSINATURA MENSAL DE LINHA DE VOZ E DADOS, COM LIGACOES LOCAIS (VC1) E LDN (VC2 E VC3) ILIMITADAS, FRANQUIA MINIMA DE DADOS DE INTERNET DE 20 GB, FORNECIMENTO DE SMARTPHONE EM COMODATO E CHIP COMPATIVEL COM O APARELHO FORNECIDO, CONFORME ESPECIFICACOES PREVISTAS NO TERMO DE REFERENCIA (03 LINHAS DURANTE 12 MESES)",
           "valor": 750.0
         }
@@ -974,7 +975,7 @@
       "nc_origem": "2026NC001766",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00076 - VASSOURA, MATERIAL CERDAS PET (RECICLADO), MATERIAL CEPA PLASTICO, COMPRIMENTO CEPA 40 CM, CARACTERISTICAS ADICIONAIS CABO ROSQUEAVEL, 1,50 M",
           "valor": 342.0
         }
@@ -1003,7 +1004,7 @@
       "nc_origem": "2026NC000886",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00001 - CIMENTO PORTLAND, MATERIAL CLINKER, TIPO COMUM",
           "valor": 4499.6
         }
@@ -1032,7 +1033,7 @@
       "nc_origem": "-",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00108 - PAPEL HIGIENICO, MATERIAL CELULOSE VIRGEM, LARGURA 10 CM, COR BRANCA, CARACTERISTICAS ADICIONAIS PICOTADO, FOLHA DUPLA",
           "valor": 695.73
         }
@@ -1061,7 +1062,7 @@
       "nc_origem": "2026NC003145",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00003 - ENERGIA ELETRICA - FORNECIMENTO MERCADO LIVRE - BCMS",
           "valor": 0.63
         }
@@ -1090,7 +1091,7 @@
       "nc_origem": "2026NC404066",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "339093 - DIFERENCA DE AJUDA DE CUSTO PARA O 2º SGT MNT VTR AUTO RICARDO TEIXEIRA CONTEIRO EM VIRTUDE DE DESIGNACAO PARA CURSO DE APERFEICOAMENTO DE SARGENTOS . PUB NO ADT DCEM 106 DE 19 SET E  BAR Nº 10 - BCMS, DE 24 FEV 26. 2026NC404066 - DE 23FEV26.",
           "valor": 775.04
         }
@@ -1119,7 +1120,7 @@
       "nc_origem": "2026NC403965",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "339093 -  DIFERENCA DE AJUDA DE CUSTO PARA O 3º SGT JACKSON MOISES MATTOS DE CARVALHO EM VIRTUDE DE MOVIMENTACAO POR MOTIVO DE NECESSIDADE DE SERVICO . PUB NO ADT DCEM 1A AO BOL DO DGP Nº073  DE 04 JUL 25 E  BAR Nº 10 - BCMS, DE 24 FEV 26. 2026NC403965 - DE 23FEV26.",
           "valor": 1072.8
         }
@@ -1148,7 +1149,7 @@
       "nc_origem": "-",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "PAGAMENTO DE DIARIA TC WANDERCLEIDSON",
           "valor": 2120.0
         }
@@ -1177,7 +1178,7 @@
       "nc_origem": "-",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "PAGAMENTO DE DIARIA DO SUB TEN ARAUJO",
           "valor": 1805.0
         }
@@ -1206,7 +1207,7 @@
       "nc_origem": "2026NC403965",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "339093 - DIFERENCA DE AJUDA DE CUSTO PARA O 3º SGT JACKSON MOISES MATTOS DE CARVALHO EM VIRTUDE DE MOVIMENTACAO POR NECESSIDADE DE SERVICO. PUB NO ADITAMENTO DA ADT DCEM 1A AO BOL DO DGP Nº 073, DE 4 JUL 25 E  BAR Nº 010 - BCMS, DE 24 FEV 26. 2026NC403965 - DGP, DE 4 JUL 25.",
           "valor": 10.73
         }
@@ -1235,7 +1236,7 @@
       "nc_origem": "2026NC403965",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "339093 - DIFERENCA DE AJUDA DE CUSTO PARA O 3º SGT JACKSON MOISES MATTOS DE CARVALHO EM VIRTUDE DE MOVIMENTACAO POR NECESSIDADE DE SERVICO. PUB NO ADITAMENTO DA ADT DCEM 1A AO BOL DO DGP Nº 073, DE 4 JUL 25 E  BAR Nº 010 - BCMS, DE 24 FEV 26. 2026NC403965 - DGP, DE 4 JUL 25.",
           "valor": 1072.8
         }
@@ -1264,7 +1265,7 @@
       "nc_origem": "2026NC404002",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "339093 - AJUDA DE CUSTO PARA O CAP VITOR CESAR VELASCO EM VIRTUDE DE MOVIMENTACAO POR NECESSIDADE DE SERVICO. PUB NO ADITAMENTO DA ADT DCEM 2G AO BOL DO DGP Nº 070, DE 27 JUL 25 E  BAR Nº 010 - BCMS, DE 24 FEV 26. 2026NC404002 - DE 23 FEV 26.",
           "valor": 6427.44
         }
@@ -1293,7 +1294,7 @@
       "nc_origem": "2026NC404783",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "339093 - AJUDA DE CUSTO PARA O 1º SGT BRUNO SOUZA DA CRUZ EM VIRTUDE DE MOVIMENTACAO POR NECESSIDADE DE SERVICO. PUB NO ADITAMENTO DA ADT DCEM 3B AO BOL DO DGP Nº 112, DE 03 OUT 25 E  BAR Nº 012 - BCMS, DE 03 MAR 26. 2026NC404783 - DE 27 FEV 26.",
           "valor": 933.96
         }
@@ -1322,7 +1323,7 @@
       "nc_origem": "2026NC404958",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "339093 - AJUDA DE CUSTO PARA O 2º SGT MNT VTR AUTO MATHEUS NETO SANTOS EM VIRTUDE DE DESIGNACAO PARA O CURSO DE APERFEICOAMENTO DE SARGENTOS. PUB NO ADT DCEM 118 DE 17 OUT 25 E  BAR Nº 012 - BCMS, DE 03 MAR 26. 2026NC404958 - DE 02 MAR 26.",
           "valor": 775.04
         }
@@ -1351,7 +1352,7 @@
       "nc_origem": "2026NC400482",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "339015 - PGTO DE DIARIA P/ MILITARES DO BCMS EM MISSOES DE APOIO DIRETO AO CLASSE VII. CONFORME DIEX Nº 6062 - DM7/CCOMGEX. 2026NC400482 . BAR NR 012 DE 03/03/2026 DO BCMS.",
           "valor": 51405.0
         }
@@ -1380,7 +1381,7 @@
       "nc_origem": "2026NC402359",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00036 - Manutencao de Geladeiras e Bebedouros: Freezer Horizontal C/ 2 Portas - Desmon tagem do equipamento",
           "valor": 297.0
         }
@@ -1409,7 +1410,7 @@
       "nc_origem": "2026NC401536",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00031 - FRUTA, TIPO LARANJA PERA, APRESENTACAO NATURAL",
           "valor": 2535.0
         }
@@ -1438,7 +1439,7 @@
       "nc_origem": "2026NC401536",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00007 - REFRIGERANTE, MATERIAL AGUA GASOSA/XAROPE, SABOR GUARANA, CARACTERiSTICAS ADICIONAIS DIETETICO",
           "valor": 1436.4
         }
@@ -1467,7 +1468,7 @@
       "nc_origem": "2026NC401536",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00069 - LEITE COCO, TIPO INTEGRAL, PRAZO VALIDADE MINIMO 12 MESES",
           "valor": 2008.5
         }
@@ -1496,7 +1497,7 @@
       "nc_origem": "2026NC401536",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00011 - SUCO, APRESENTACAO XAROPE, SABOR GUARANA, TIPO NATURAL, CARACTERISTICAS ADICIONAIS CONCENTRADO",
           "valor": 3135.0
         }
@@ -1525,7 +1526,7 @@
       "nc_origem": "2026NC401536",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00020 - FRIOS, VARIEDADE MORTADELA, TIPO BOLOGNA, TIPO PREPARACAO DEFUMADO, APRESENTACAO PECA INTEIRA, ESTADO DE CONSERVACAO RESFRIADO(A)",
           "valor": 2691.0
         }
@@ -1554,7 +1555,7 @@
       "nc_origem": "2026NC401536",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00016 - EMBUTIDO, TIPO LINGUICA TOSCANA, TAMANHO GROSSA, TIPO PREPARACAO FRESCA, ESTADO DE CONSERVACAO RESFRIADO(A)",
           "valor": 4948.0
         }
@@ -1583,7 +1584,7 @@
       "nc_origem": "2026NC401536",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00021 - FRIOS, VARIEDADE PRESUNTO DE PERNIL, TIPO PREPARACAO COZIDO, COMPOSICAO COM CAPA DE GORDURA, APRESENTACAO PECA INTEIRA, ESTADO DE CONSERVACAO RESFRIADO(A)",
           "valor": 2962.5
         }
@@ -1612,7 +1613,7 @@
       "nc_origem": "2026NC401536",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00125 - CARNE SALGADA, TIPO CORTE TRASEIRO (JERKED BEEF), ORIGEM BOVINA, APRESENTACAO EM MANTAS, ESTADO DE CONSERVACAO SECO(A)",
           "valor": 5988.0
         }
@@ -1641,7 +1642,7 @@
       "nc_origem": "2026NC401536",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00004 - AGUA MINERAL NATURAL, TIPO SEM GAS, MATERIAL EMBALAGEM PLASTICO, TIPO EMBALAGEM DESCARTAVEL",
           "valor": 3.6
         }
@@ -1670,7 +1671,7 @@
       "nc_origem": "2026NC401536",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00015 - EMBUTIDO, TIPO LINGUICA CALABRESA, TAMANHO GROSSA, TIPO PREPARACAO DEFUMADA, ESTADO DE CONSERVACAO RESFRIADO(A)",
           "valor": 4994.0
         }
@@ -1699,7 +1700,7 @@
       "nc_origem": "2026NC401536",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00005 - IOGURTE NATURAL, TEOR GORDURA INTEGRAL, SABOR SORTIDOS, COMPONENTES COM POLPA OU PEDACOS DE FRUTA",
           "valor": 2124.0
         }
@@ -1728,7 +1729,7 @@
       "nc_origem": "2026NC401536",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00001 - ADOCANTE, ASPECTO FISICO LIQUIDO, INGREDIENTES ESTEVIA, TIPO DIETETICO",
           "valor": 1276.0
         }
@@ -1757,7 +1758,7 @@
       "nc_origem": "2026NC401536",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00010 - CHA ALIMENTACAO, TIPO REPOSITOR HIDROELETROLITICO, USO ALIMENTICIO, SABOR DIVERSOS SABORES",
           "valor": 1450.0
         }
@@ -1786,7 +1787,7 @@
       "nc_origem": "2026NC401536",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00104 - PAO DE QUEIJO, BASA DA MASSA POLVILHO DOCE OU AZEDO E QUEIJO, INGREDIENTES ADICIONAIS COM OUTROS SABORES, FORMATO TRADICIONAL/MEDIO, APRESENTACAO CRU CONGELADO",
           "valor": 3255.0
         }
@@ -1815,7 +1816,7 @@
       "nc_origem": "2026NC401536",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00002 - AGUA MINERAL NATURAL, TIPO COM GAS, MATERIAL EMBALAGEM PLASTICO, TIPO EMBALAGEM DESCARTAVEL",
           "valor": 1110.0
         }
@@ -1844,7 +1845,7 @@
       "nc_origem": "2026NC402359",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00002 - Servico de Desratizacao - Eliminar e prevenir a proliferacao de ratazanas, rat os de esgoto e rato de telhado. Causar o minimo de impacto possivel ao meio am biente. Exterminar as colonias e impedir a formacao e surgimento de novas prag as. Nao colocar em risco a saude das pessoas que transitam nas instalacoes; na o interferir na rotina de ambiente de funcionamento do regional; permitir que o ambiente possa ser lavado sem eliminar o efeito do produto aplicado; os prod utos deverao ser aplicados por profissionais treinados e identificados, com fo rmacao especifica para a realizacao de tais ativida",
           "valor": 2500.0
         }
@@ -1873,7 +1874,7 @@
       "nc_origem": "2026NC003145",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "PAGAMENTO DE TAXAS DE ILUMINACAO PUBLICA DAS FATURAS DA EMPRESA LIGHT S/A.",
           "valor": 10051.07
         }
@@ -1902,7 +1903,7 @@
       "nc_origem": "2026NC000886",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00001 - OUTSOURCING DE IMPRESSAO - SEM FRANQUIA - PAGINAS IMPRESSAS CLICK A4 POLICROMATICA SEM PAPEL",
           "valor": 194.39
         }
@@ -1931,7 +1932,7 @@
       "nc_origem": "2026NC004934",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00001 - COMUNICACAO POR CORREIO",
           "valor": 314.99
         }
@@ -1960,7 +1961,7 @@
       "nc_origem": "2026NC005098",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00001 - CONTRATACAO  DE PACOTE DE SERVICOS EMPRESARIAL SMP - ASSINATURA MENSAL DE LINHA DE VOZ E DADOS, COM LIGACOES LOCAIS (VC1) E LDN (VC2 E VC3) ILIMITADAS, FRANQUIA MINIMA DE DADOS DE INTERNET DE 20 GB, FORNECIMENTO DE SMARTPHONE EM COMODATO E CHIP COMPATIVEL COM O APARELHO FORNECIDO, CONFORME ESPECIFICACOES PREVISTAS NO TERMO DE REFERENCIA (03 LINHAS DURANTE 12 MESES)",
           "valor": 508.0
         }
@@ -1989,7 +1990,7 @@
       "nc_origem": "2026NC408403",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "339033 - CONTRATACAO DE PASSAGEM AEREA. CONFORME DIEX REQUISITORIO 14 - ALMOX/Cmdo/BCMS DE 30/03/2026 - 2026NC408403- DGP - PREGAO 17/2021 DO CMDO DA 1 BRIG DE ARTILHARIA ANTI AEREA (160293) - UGNP - DOCUMENTACAO OBRIGATORIA VERIFICADA",
           "valor": 1551.35
         }
@@ -2018,7 +2019,7 @@
       "nc_origem": "2026NC004611",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "339039 - AQS SV DE MANUTENCAO DE ROCADEIRA. CONFORME DIEX REQUISITORIO Nº 13 - ALMOX/CMDO/BCMS DE 19/03/2026 - 2026NC004611 - PREGAO 04/2024 DO BATALHAO DE INFANTARIA MOTORIZADO ES (160254) - UGP - DOCUMENTACAO OBRIGATORIA VERIFICADA",
           "valor": 600.0
         }
@@ -2047,7 +2048,7 @@
       "nc_origem": "2026NC004611",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "339039 - CONTRATACAO DE SERVICOS GRAFICOS . CONFORME DIEX REQUISITORIO 15 - ALMOX/S4/BCMS DE 02/04/2026 - 2026NC004611 - DGO - PREGAO 90005/2024 DO DECEX (160068) - UGNP - DOCUMENTACAO OBRIGATORIA VERIFICADA",
           "valor": 4911.8
         }
@@ -2076,7 +2077,7 @@
       "nc_origem": "2026NC408527",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "339093 - INDENIZACAO DE TRANSPORTE DE BAGAGEM EXTRA ADQUIRIDAS PELO TEN CEL JONATHAS DA COSTA JARDIM, RG MIL 019598423-2 . PUB NO BAR Nº 020 DE 01/04/26 DO BCMS. 2026NC408527 - DE 27MAR26.",
           "valor": 2766.68
         }
@@ -2105,7 +2106,7 @@
       "nc_origem": "2026NC408403",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "339015 - 14 - EMPENHO DE DIARIA REF A 2ª TEN ESTHER DIAS DE OLIVEIRA, DE ACORDO COM O PUBLICADO NO BAR DO DGP Nº009 DE 04 MAR 26 ONDE CONSTA SUA DESIGNACAO PARA OS EXAMES ESPECIFICOS DO CURSO BASICO DE INTELIGENCIA A SER REALIZADO NO PERIODO DE 13 ABR A 16 ABR 26 NA ESIMEX, BRASILIA-DF 2026NC408403 DE 26 MAR 26. BAR NR 020 DO BCMS DE 01/04/26.",
           "valor": 1582.5
         }
@@ -2134,7 +2135,7 @@
       "nc_origem": "2026NC408292",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "339093 - 18 - AJUDA DE CUSTO PARA O 2º SGT AKIO OSAMI CARVALHO HASHIMOTO DESIGNACAO PARA O CAS. PUB NO ADITAMENTO DA ADT DCEM 4H AO BOL DO DGP Nº 100, DE 05 SET 25 E  BAR Nº 020 - BCMS, DE 01ABR26. 2026NC408292 - DGP, DE 26 MAR 26.",
           "valor": 694.4
         }
@@ -2163,7 +2164,7 @@
       "nc_origem": "2026NC404879",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00002 - ACESSORIOS / EQUIPAMENTOS OFICINA MANUTENCAO, TIPO CARRO ESTEIRA, MATERIAL ACO",
           "valor": 500000.56
         }
@@ -2192,7 +2193,7 @@
       "nc_origem": "2026NC400183",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00001 - PRESTACAO DE SERVICOS DE AGENCIAMENTO DE VIAGENS",
           "valor": 0.02
         }
@@ -2221,7 +2222,7 @@
       "nc_origem": "2026NC408403",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "DESIGNACAO PARA OS EXAMES ESPECIFICOS DO CURSO BASICO DE INTELIGENCIA",
           "valor": 1582.5
         }
@@ -2250,7 +2251,7 @@
       "nc_origem": "-",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00002 - PECA MECANICA/ELETRICA - VEICULO AUTOMOTIVO, APLICACAO VEICULO FORD RANGER, ANO 2008, MOTOR MWM 3.0, TIPO 2 BOMBA DE VACUO",
           "valor": 3500.0
         }
@@ -2279,7 +2280,7 @@
       "nc_origem": "-",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00009 - PECA MECANICA/ELETRICA - VEICULO AUTOMOTIVO, TIPO VALVULA, USO 2 BICOS INJETORES, APLICACAO 1 CHEVROLET S10 2.8 DIESEL, REFERENCIA 19 BOSCH F 00V C05 001",
           "valor": 3500.0
         }
@@ -2308,7 +2309,7 @@
       "nc_origem": "2026NC402316",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00007 - BARRILETE, MATERIAL PLASTICO, GRADUACAO GRADUADO, CAPACIDADE 30 L, COMPONENTES COM TAMPA, ACESSORIOS COM TORNEIRA",
           "valor": 1328.0
         }
@@ -2337,7 +2338,7 @@
       "nc_origem": "-",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00015 - ARMARIO ESCRITORIO, MATERIAL AGLOMERADO MDF, QUANTIDADE PORTAS 2 UN, MATERIAL PORTA AGLOMERADO MDF, QUANTIDADE PRATELEIRAS 1 UN, MATERIAL PRATELEIRAS AGLOMERADO MDF, REVESTIMENTO LAMINADO MELAMINICO BAIXA PRESSAO, LARGURA 75 CM, ALTURA 100 CM, PROFUNDIDADE 50 CM",
           "valor": 2900.0
         }
@@ -2366,7 +2367,7 @@
       "nc_origem": "2026NC000081",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00001 - ACESSORIO CARRO BLINDADO, TIPO CENTRAL ELETRONICA ABS E CAMBIO, CARACTERISTICAS ADICIONAIS VBTP GUARANI 6X6 MR, REFERENCIA PN 5801561766",
           "valor": 6999.92
         }
@@ -2395,7 +2396,7 @@
       "nc_origem": "2026NC000109",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00001 - ACESSORIO CARRO BLINDADO, TIPO CENTRAL ELETRONICA ABS E CAMBIO, CARACTERISTICAS ADICIONAIS VBTP GUARANI 6X6 MR, REFERENCIA PN 5801561766",
           "valor": 11499.53
         }
@@ -2424,7 +2425,7 @@
       "nc_origem": "2026NC000125",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00001 - ACESSORIO CARRO BLINDADO, TIPO CENTRAL ELETRONICA ABS E CAMBIO, CARACTERISTICAS ADICIONAIS VBTP GUARANI 6X6 MR, REFERENCIA PN 5801561766",
           "valor": 4999.67
         }
@@ -2453,7 +2454,7 @@
       "nc_origem": "-",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "MOVIMENTACAO DO 2° SGT PEDRO UCHOA BRANDAO E SILVA",
           "valor": 8856.92
         }
@@ -2482,7 +2483,7 @@
       "nc_origem": "-",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "MOVIMENTACAO DO 2° SGT PEDRO UCHOA BRANDAO E SILVA",
           "valor": 1763.05
         }
@@ -2511,7 +2512,7 @@
       "nc_origem": "2026NC405454",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00001 - TUBO METALON, FORMATO QUADRANGULAR, ESPESSURA CHAPA 16/ 1,59 MM, SECAO 20 X 20 MM, COMPRIMENTO 6 M",
           "valor": 3780.0
         }
@@ -2540,7 +2541,7 @@
       "nc_origem": "2026NC405454",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00014 - AREJADOR PARA TORNEIRA, MATERIAL PLASTICO, BITOLA 3/4 POL",
           "valor": 1057.0
         }
@@ -2569,7 +2570,7 @@
       "nc_origem": "2026NC405547",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00001 - PRESTACAO DE SERVICOS DE AGENCIAMENTO DE VIAGENS",
           "valor": 0.02
         }
@@ -2598,7 +2599,7 @@
       "nc_origem": "-",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "contratacao de obra de Restauracao das instalacoes eletricas de baixa tensao e da redede distribuicao de media tensao para revitalizacao do Pavilhao Central de ManutencaoClasse IX do Batalhao Central de Manutencao e Suprimento. 2025NC405864 DEC19AGO25 CONCORRENCIA 90002/2025 BCMS 160329",
           "valor": 429649.05
         }
@@ -2627,7 +2628,7 @@
       "nc_origem": "2026NC501518",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "TAXA DE LIMPEZA PUBLICA",
           "valor": 262.12
         }
@@ -2656,7 +2657,7 @@
       "nc_origem": "2026NC405537",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "PAGAMENTO DE DIARIA",
           "valor": 4845.0
         }
@@ -2685,7 +2686,7 @@
       "nc_origem": "2026NC404851",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00049 - TINTA DEMARCACAO SINALIZACAO, BASE RESINA EPOXI, COR VERMELHA, CARACTERISTICAS ADICIONAIS ISENTA DE CFC, APLICACAO MARCACAO FAIXAS EM PISO, ASFALTO E SINALIZACAO",
           "valor": 2208.75
         }
@@ -2714,7 +2715,7 @@
       "nc_origem": "2026NC402359",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00003 - HIGIENIZACAO DE RESERVATORIO - servico de limpeza de caixa d`agua e cisternas com fornecimento de laudo de potabilidade por laboratorio habilitado uma seman a apos a execucao do servico, compreendendo a retirada de toda a agua dos rese rvatorios por meio de bombas submersas com capacidade de vazao compativel ao t amanho do reservatorio. A limpeza devera ser realizada escovando-se as paredes  internas e o fundo utilizando hipoclorito de sodio, devera ser verificada tod a e qualquer fissura que possam permitir vazamentos e infiltracoes, causadas p elo processo. Devera ser realizada a desinfeccao do",
           "valor": 3506.49
         }
@@ -2743,7 +2744,7 @@
       "nc_origem": "2026NC405454",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00009 - BROCA, MATERIAL ACO RAPIDO, DIAMETRO 6 MM, TIPO HASTE CILINDRICA, COMPRIMENTO 93 MM",
           "valor": 85.44
         }
@@ -2772,7 +2773,7 @@
       "nc_origem": "2026NC004611",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00001 - Chaveiro - Chaveiro",
           "valor": 780.0
         }
@@ -2801,7 +2802,7 @@
       "nc_origem": "2026NC007590",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00001 - OUTSOURCING DE IMPRESSAO - SEM FRANQUIA - PAGINAS IMPRESSAS CLICK A4 POLICROMATICA SEM PAPEL",
           "valor": 1499.37
         }
@@ -2830,7 +2831,7 @@
       "nc_origem": "2026NC000579",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00079 - SABAO PASTA, COMPOSICAO ACIDO LINEAR DODECILBENZENO SULFONICO, OLEO DE PI-, APLICACAO LIMPEZA PESADA COM ACAO DESENGRAXANTE",
           "valor": 181.8
         }
@@ -2859,7 +2860,7 @@
       "nc_origem": "2026NC000579",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00051 - PALHA ACO, MATERIAL ACO CARBONO, ABRASIVIDADE MEDIA, APLICACAO LIMPEZA EM GERAL, CARACTERISTICAS ADICIONAIS Nº 2",
           "valor": 474.0
         }
@@ -2888,7 +2889,7 @@
       "nc_origem": "2026NC405454",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00001 - TUBO METALON, FORMATO QUADRANGULAR, ESPESSURA CHAPA 16/ 1,59 MM, SECAO 20 X 20 MM, COMPRIMENTO 6 M",
           "valor": 810.0
         }
@@ -2917,7 +2918,7 @@
       "nc_origem": "2026NC003145",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00003 - ENERGIA ELETRICA - FORNECIMENTO MERCADO LIVRE - BCMS",
           "valor": 35000.0
         }
@@ -2946,7 +2947,7 @@
       "nc_origem": "2026NC006569",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00001 - ENERGIA ELETRICA - FORNECIMENTO MERCADO REGULADO",
           "valor": 4675.95
         }
@@ -2975,7 +2976,7 @@
       "nc_origem": "2026NC502122",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "contratacao de obra de Restauracao das instalacoes eletricas de baixa tensao e da rede de distribuicao de media tensao para revitalizacao do Pavilhao Central de Manutencao Classe IX do Batalhao Central de Manutencao e Suprimento. 2026NC502122 DEC 23ABR26 CONCORRENCIA 90002/2025 BCMS 160329",
           "valor": 403263.5
         }
@@ -3004,7 +3005,7 @@
       "nc_origem": "2026NC006441",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "339039 - CONTRATACAO DE SV DE TELEFONIA. DIEX REQ NR 14 - FISC CONTR/S4/CMDO - 2026NC006441 - DGO - CONTRATO 05/2024. DOC OBRG VERIFICADA.",
           "valor": 1032.0
         }
@@ -3033,7 +3034,7 @@
       "nc_origem": "-",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00010 - HIPOCLORITO DE SODIO, ASPECTO FISICO LIQUIDO AMARELO ESVERDEADO, CONCENTRACAO TEOR DE 6-14% DE CLORO ATIVO",
           "valor": 563.5
         }
@@ -3062,7 +3063,7 @@
       "nc_origem": "2026NC001766",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00001 - CONTRATACAO  DE PACOTE DE SERVICOS EMPRESARIAL SMP - ASSINATURA MENSAL DE LINHA DE VOZ E DADOS, COM LIGACOES LOCAIS (VC1) E LDN (VC2 E VC3) ILIMITADAS, FRANQUIA MINIMA DE DADOS DE INTERNET DE 20 GB, FORNECIMENTO DE SMARTPHONE EM COMODATO E CHIP COMPATIVEL COM O APARELHO FORNECIDO, CONFORME ESPECIFICACOES PREVISTAS NO TERMO DE REFERENCIA (03 LINHAS DURANTE 12 MESES)",
           "valor": 516.0
         }
@@ -3091,7 +3092,7 @@
       "nc_origem": "2026NC000579",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00006 - Prestacao de servicos tecnicos comuns de seguranca eletronica para instalacao de infraestrutura optica em cabo de fibra optica em 6 vias de uso aereo, confo rme especificacoes tecnicas minimas descritas no servico comum de engenharia.",
           "valor": 148.5
         }
@@ -3120,7 +3121,7 @@
       "nc_origem": "2026NC006559",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "339047 - LIQUIDACAO E PAGAMENTO DE TAXAS DE ILUMINACAO PUBLICA DAS FATURAS DA EMPRESA LIGHT S/A - CONFORME DIEX Nº 35- S3/ CMDO/BCMS DE 30/04/2026. 2026NC006559.",
           "valor": 15000.0
         }
@@ -3149,7 +3150,7 @@
       "nc_origem": "2026NC003613",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00008 - DETECTOR RADIOATIVIDADE, TIPO PORTATIL, REFERENCIA LUDLUM, MODELO 334AB, APLICAcaO AVALIACOES DE RESPOSTAS A EMERGENCIAS ALERTA SOBR E, CARACTERiSTICAS ADICIONAIS MONITOR DE AR CONTINUO (CAM) ALFA+BETA COM COMPEN",
           "valor": 2587.96
         }
@@ -3178,7 +3179,7 @@
       "nc_origem": "2026NC405175",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00004 - BANDEIRA INSTITUCIONAL, COMPRIMENTO 128 CM, LARGURA 90 CM, DESENHO DE ACORDO PROJETO, CARACTERISTICAS ADICIONAIS ESTAMPADA, REPRESENTACAO NACIONAL DO BRASIL",
           "valor": 135.0
         }
@@ -3207,7 +3208,7 @@
       "nc_origem": "2026NC405175",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00001 - BANDEIRA INSTITUCIONAL, MATERIAL 100% POLIESTER, COMPRIMENTO 40 CM, LARGURA 20 CM, COR DE ACORDO PROJETO, CARACTERISTICAS ADICIONAIS INSIGNIA, CONFORME MODELO",
           "valor": 104.0
         }
@@ -3236,7 +3237,7 @@
       "nc_origem": "2026NC003613",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00008 - CADEIRA ESCRITORIO, MATERIAL ESTRUTURA LIGA ALUMINIO/ CHAPA DE ACO, MATERIAL REVESTIMENTO ASSENTO E ENCOSTO TECIDO 100% POLIESTER, MATERIAL ENCOSTO RESINA TERMOPLASTICA E TELA POLIESTER E NYLON, MATERIAL ASSENTO RESINA TERMOPLASTICA/ COMPENSADO MULTILAMINADO, TIPO BASE GIRATORIA, TIPO ENCOSTO ESPALDAR ALTO, APOIO BRACO COM BRACOS, COR AZUL",
           "valor": 2275.0
         }
@@ -3265,7 +3266,7 @@
       "nc_origem": "2026NC007065",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00001 - COMUNICACAO POR CORREIO",
           "valor": 630.01
         }
@@ -3294,7 +3295,7 @@
       "nc_origem": "-",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00022 - DISTINTIVO VESTUARIO, TIPO DISTINTIVO DE BRACO, MODELO BANDEIRA DO BRASIL, MATERIAL 100% POLIESTER/POLICLORETO DE VINILA, DIMENSOES 8 X 5,60 CM, COR PADRAO EXERCITO BRASILEIRO, CARACTERISTICAS ADICIONAIS CONFORME MODELO",
           "valor": 3367.56
         }
@@ -3323,7 +3324,7 @@
       "nc_origem": "2026NC405175",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00005 - DISTINTIVO USO PESSOAL, MATERIAL TECIDO, DIMENSOES 90 X 75 MM, COR VERDE, CARACTERISTICAS ADICIONAIS CONFORME MODELO",
           "valor": 299.0
         }
@@ -3352,7 +3353,7 @@
       "nc_origem": "2026NC003613",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00008 - DETECTOR RADIOATIVIDADE, TIPO PORTATIL, REFERENCIA LUDLUM, MODELO 334AB, APLICAcaO AVALIACOES DE RESPOSTAS A EMERGENCIAS ALERTA SOBR E, CARACTERiSTICAS ADICIONAIS MONITOR DE AR CONTINUO (CAM) ALFA+BETA COM COMPEN",
           "valor": 2587.96
         }
@@ -3381,7 +3382,7 @@
       "nc_origem": "2026NC003613",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00008 - DETECTOR RADIOATIVIDADE, TIPO PORTATIL, REFERENCIA LUDLUM, MODELO 334AB, APLICAcaO AVALIACOES DE RESPOSTAS A EMERGENCIAS ALERTA SOBR E, CARACTERiSTICAS ADICIONAIS MONITOR DE AR CONTINUO (CAM) ALFA+BETA COM COMPEN",
           "valor": 2587.96
         }
@@ -3410,7 +3411,7 @@
       "nc_origem": "2026NC404879",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00004 - ACESSORIOS / EQUIPAMENTOS OFICINA MANUTENCAO, TIPO CARRO ESTEIRA, MATERIAL ACO",
           "valor": 32312.15
         }
@@ -3439,7 +3440,7 @@
       "nc_origem": "2026NC405454",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00001 - TUBO METALON, FORMATO QUADRANGULAR, ESPESSURA CHAPA 16/ 1,59 MM, SECAO 20 X 20 MM, COMPRIMENTO 6 M",
           "valor": 6480.0
         }
@@ -3468,7 +3469,7 @@
       "nc_origem": "2026NC405454",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00020 - PONTEIRA, MATERIAL PLASTICO, COMPRIMENTO 140 MM, LARGURA 220 MM, ALTURA 100 MM",
           "valor": 464.0
         }
@@ -3497,7 +3498,7 @@
       "nc_origem": "2026NC405454",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00009 - BROCA, MATERIAL ACO RAPIDO, DIAMETRO 6 MM, TIPO HASTE CILINDRICA, COMPRIMENTO 93 MM",
           "valor": 35.6
         }
@@ -3526,7 +3527,7 @@
       "nc_origem": "2026NC000023",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00003 - PECA MECANICA/ELETRICA - VEICULO AUTOMOTIVO, APLICACAO VEICULO MERCEDES BENZ ATEGO 1725, ANO 2014, TIPO 5 MEDIDOR DE COMBUSTIVEL",
           "valor": 2993.82
         }
@@ -3555,7 +3556,7 @@
       "nc_origem": "2026NC406433",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00001 - SERVICOS HOSPEDAGEM DE SITIOS NA REDE MUNDIAL COMPUTADORES",
           "valor": 9000.0
         }
@@ -3584,7 +3585,7 @@
       "nc_origem": "2026NC000579",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00014 - PLACA IDENTIFICACAO, MATERIAL ACO INOXIDAVEL, COMPRIMENTO 30 CM, CARACTERISTICAS ADICIONAIS COM GRAVACAO EM ALTO RELEVO, APLICACAO IDENTIFICACAO NAS PORTAS, ESPESSURA ACO 304, LARGURA 5 CM, TIPO ENCAIXADA COM MADEIRITE TIPO ENVELOPE, COR PRATA",
           "valor": 600.0
         }
@@ -3613,7 +3614,7 @@
       "nc_origem": "2026NC000886",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00001 - OUTSOURCING DE IMPRESSAO - SEM FRANQUIA - PAGINAS IMPRESSAS CLICK A4 POLICROMATICA SEM PAPEL",
           "valor": 194.39
         }
@@ -3642,7 +3643,7 @@
       "nc_origem": "2026NC003613",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00005 - CADEIRA DIGITADOR, MATERIAL ESTRUTURA TUBO ACO, MATERIAL ASSENTO ESPUMA INJETADA, MATERIAL ENCOSTO ESPUMA INJETADA, MATERIAL REVESTIMENTO TECIDO, TIPO BASE GIRATORIA, TIPO ENCOSTO BAIXO, COR REVESTIMENTO CINZA, CARACTERISTICAS ADICIONAIS COM BRACOS E REGULAGEM VERTICAL, TRATAMENTO SUPERFICIAL ESTRUTURA NIQUELADO",
           "valor": 1950.0
         }
@@ -3671,7 +3672,7 @@
       "nc_origem": "2026NC000196",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00001 - ACESSORIO CARRO BLINDADO, TIPO CENTRAL ELETRONICA ABS E CAMBIO, CARACTERISTICAS ADICIONAIS VBTP GUARANI 6X6 MR, REFERENCIA PN 5801561766",
           "valor": 3.88
         }
@@ -3700,7 +3701,7 @@
       "nc_origem": "2026NC000023",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00068 - Servico de substituicao do para-brisa do veiculo: VTP ONIBUS URBANO GRAN MIDI 40PSG 4X2 MASCARELO - 2013/14, com aplicacao: desmontagem, montagem, inspecion ar todas as pecas, substituicao do para-brisa, aplicacao de cola.",
           "valor": 2600.0
         }
@@ -3729,7 +3730,7 @@
       "nc_origem": "2026NC403851",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00367 - CINTA SUSPENSAO CARGA, MATERIAL POLIESTER, COMPRIMENTO 9 M, LARGURA 5 CM, CAPACIDADE 4 T, APLICACAO SUSPENSAO E AMARRACAO DE CARGAS, CARACTERISTICAS ADICIONAIS 2 GANCHOS E 1 CATRACA, COR PRETA",
           "valor": 328.95
         }
@@ -3758,7 +3759,7 @@
       "nc_origem": "2026NC404879",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00004 - Diluente Tinta - composicao: etanol, acetato de etila e  tolueno, isento de ben, aspecto fisico: liquido, cor: incolor, caracteristicas adicionais: conforme norma nbr/abnt 14725",
           "valor": 1343.16
         }
@@ -3787,7 +3788,7 @@
       "nc_origem": "2026NC404879",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00012 - Lixa - material: oxido aluminio, tipo: pluma, apresentacao: disco, tipo grao: 80, diametro: 152, caracteristicas adicionais: utilizacao em lixadeira oscilante,a seco,com 6 fur",
           "valor": 508.0
         }
@@ -3816,7 +3817,7 @@
       "nc_origem": "2026NC404879",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00006 - Tinta Automotiva - composicao: laca nitrocelulose, cor: verde floresta",
           "valor": 17453.24
         }
@@ -3845,7 +3846,7 @@
       "nc_origem": "2026NC404879",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00001 - Pelicula Auto-Adesiva - material: vinil, largura: 1, espessura: 0,08, comprimento: 50, transmitancia: transparente",
           "valor": 535.0
         }
@@ -3874,7 +3875,7 @@
       "nc_origem": "2026NC404879",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00018 - Cola - composicao: dioxido de silicio mais associacoes, cor: incolor, aplicacao: metal/plastico/madeira/vidro/porcelana/couro, caracteristicas adicionais: hibrida, atoxica, resistente a agua, cura 24 horas, tipo: alta aderencia, apresentacao: embalagem com 20 gramas",
           "valor": 463.6
         }
@@ -3903,7 +3904,7 @@
       "nc_origem": "2026NC404879",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00010 - Fita Crepe Adesiva - Uso Hospitalar - material dorso: papel crepado, tipo de adesivo: c/ latex natural, dimensao ( l x c ): cerca de 25 mm x 50 m, cor: c/ cor, esterilidade: nao esteril",
           "valor": 331.52
         }
@@ -3932,7 +3933,7 @@
       "nc_origem": "2026NC404879",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00016 - Tinta Automotiva - composicao: resina alquidica, cor: vermelho massey",
           "valor": 4690.0
         }
@@ -3961,7 +3962,7 @@
       "nc_origem": "2026NC404879",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00039 - Disco Desbaste - material: zirconio, especificacao: grao 40, diametro: 4\" x 1/2, aplicacao: ferro, inox, aco, aluminio, pvc, caracteristica adicionais: desbate tipo flap",
           "valor": 271.4
         }
@@ -3990,7 +3991,7 @@
       "nc_origem": "2026NC404879",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00003 - Pelicula Refletiva - nome: pelicula refletiva",
           "valor": 1102.0
         }
@@ -4019,7 +4020,7 @@
       "nc_origem": "2026NC404879",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00031 - Linha Costura - material: 100% poliester, comprimento: 5000, cor: variada, numero: 50",
           "valor": 183.3
         }
@@ -4048,7 +4049,7 @@
       "nc_origem": "2026NC404879",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00019 - Tecido - material: courvin, cor: preta, largura: 1,40",
           "valor": 5799.96
         }
@@ -4077,7 +4078,7 @@
       "nc_origem": "2026NC404879",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00005 - Massa Niveladora - composicao basica: copolimero acrilico (monocomponente), cor: branca, metodo aplicacao: com espatula e desempenadeira, aplicacao: aco/metal/aluminio/plastico/fibra de vidro/madeira",
           "valor": 1680.0
         }
@@ -4106,7 +4107,7 @@
       "nc_origem": "2026NC404879",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00044 - Chapa Aco - material: aco carbono, espessura: 1/4, comprimento: 2, largura: 1, tipo: antiderrapante",
           "valor": 1544.75
         }
@@ -4135,7 +4136,7 @@
       "nc_origem": "2026NC405175",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00010 - BANDEIRA INSTITUCIONAL, MATERIAL TERGAL, COMPRIMENTO 30 CM, LARGURA 20 CM, CARACTERISTICAS ADICIONAIS INSIGNIA, CONFORME MODELO",
           "valor": 59.7
         }
@@ -4164,7 +4165,7 @@
       "nc_origem": "2026NC000200",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00006 - BEBIDA LACTEA, SABOR VARIADO, APRESENTACAO EMBALAGEM TETRAPACK",
           "valor": 53.9
         }
@@ -4193,7 +4194,7 @@
       "nc_origem": "2026NC401536",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00010 - CHA ALIMENTACAO, TIPO REPOSITOR HIDROELETROLITICO, USO ALIMENTICIO, SABOR DIVERSOS SABORES",
           "valor": 1160.0
         }
@@ -4222,7 +4223,7 @@
       "nc_origem": "2026NC401536",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00021 - FRIOS, VARIEDADE PRESUNTO DE PERNIL, TIPO PREPARACAO COZIDO, COMPOSICAO COM CAPA DE GORDURA, APRESENTACAO PECA INTEIRA, ESTADO DE CONSERVACAO RESFRIADO(A)",
           "valor": 4740.0
         }
@@ -4251,7 +4252,7 @@
       "nc_origem": "2026NC401536",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00104 - PAO DE QUEIJO, BASA DA MASSA POLVILHO DOCE OU AZEDO E QUEIJO, INGREDIENTES ADICIONAIS COM OUTROS SABORES, FORMATO TRADICIONAL/MEDIO, APRESENTACAO CRU CONGELADO",
           "valor": 2170.0
         }
@@ -4280,7 +4281,7 @@
       "nc_origem": "2026NC401536",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00011 - SUCO, APRESENTACAO XAROPE, SABOR GUARANA, TIPO NATURAL, CARACTERISTICAS ADICIONAIS CONCENTRADO",
           "valor": 6270.0
         }
@@ -4309,7 +4310,7 @@
       "nc_origem": "2026NC401536",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00001 - BOTIJAO PARA GAS, USO DOMESTICO, CAPACIDADE CERCA DE 13 KG, ACESSORIOS COM VALVULA E MECANISMO DE SEGURANCA",
           "valor": 104.9
         }
@@ -4338,7 +4339,7 @@
       "nc_origem": "2026NC401536",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00024 - FRUTA, TIPO ABACATE MANTEIGA, APRESENTACAO NATURAL",
           "valor": 1060.88
         }
@@ -4367,7 +4368,7 @@
       "nc_origem": "2026NC401536",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00080 - AZEITE, ESPECIE VEGETAL DE OLIVA, TIPO COMPOSTO, TEOR DA ACIDEZ MENOR QUE 1%, INGREDIENTES ADICIONAIS REFINADO E VIRGEM",
           "valor": 1274.7
         }
@@ -4396,7 +4397,7 @@
       "nc_origem": "2026NC401536",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00028 - FRUTA, TIPO LARANJA PERA, APRESENTACAO NATURAL",
           "valor": 1600.0
         }
@@ -4425,7 +4426,7 @@
       "nc_origem": "2026NC401536",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00065 - DOCE NAO CONFEITADO, TIPO MASSA, SABOR GOIABA, PRAZO VALIDADE MINIMO 12 MESES",
           "valor": 1360.65
         }
@@ -4454,7 +4455,7 @@
       "nc_origem": "2026NC008815",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00003 - ENERGIA ELETRICA - FORNECIMENTO MERCADO LIVRE - BCMS",
           "valor": 31800.0
         }
@@ -4483,7 +4484,7 @@
       "nc_origem": "2026NC008815",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00001 - ENERGIA ELETRICA - FORNECIMENTO MERCADO REGULADO",
           "valor": 31800.47
         }
@@ -4512,7 +4513,7 @@
       "nc_origem": "2026NC000075",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00007 - ACESSORIOS / EQUIPAMENTOS OFICINA MANUTENCAO, TIPO CARRO ESTEIRA, MATERIAL ACO",
           "valor": 16466.49
         }
@@ -4541,7 +4542,7 @@
       "nc_origem": "2026NC003145",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "PAGAMENTO DE TAXAS DE ILUMINACAO PUBLICA",
           "valor": 10000.0
         }
@@ -4570,7 +4571,7 @@
       "nc_origem": "2026NC401536",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00122 - AMIDO, BASE DE MILHO",
           "valor": 1513.92
         }
@@ -4599,7 +4600,7 @@
       "nc_origem": "2026NC401536",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00008 - REFRIGERANTE, MATERIAL AGUA GASOSA/XAROPE, SABOR GUARANA",
           "valor": 722.8
         }
@@ -4628,7 +4629,7 @@
       "nc_origem": "2026NC401536",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00013 - EMBUTIDO, TIPO LINGUICA PAIO, TIPO PREPARACAO DEFUMADA, ESTADO DE CONSERVACAO RESFRIADO(A)",
           "valor": 4380.75
         }
@@ -4657,7 +4658,7 @@
       "nc_origem": "2026NC401536",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00086 - CONDIMENTO, TIPO PAPRICA, APRESENTACAO PO",
           "valor": 541.8
         }
@@ -4686,7 +4687,7 @@
       "nc_origem": "2026NC401536",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00056 - LEGUME IN NATURA, TIPO QUIABO",
           "valor": 1235.2
         }
@@ -4715,7 +4716,7 @@
       "nc_origem": "2026NC503211",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00001 - COLETA DE LIXO - RESIDENCIAL / COMERCIAL / INDUSTRIAL",
           "valor": 5179.93
         }
@@ -4744,7 +4745,7 @@
       "nc_origem": "2026NC414963",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "339093 - AJUDA DE CUSTO PARA O 3º SGT LUCAS FERREIRA FREIRE EM VIRTUDE DE DESINACAO PARA ESTAGIO DE PADRONIZACAO DAS ATIVIDADES DE MANUTENCAO DO CHASSI DA VBTP-MSR 6X6 GUARANI NO PERIODO DE 15JUN A 10 JUL 25. PUB NO ADITAMENTO DA ADT DCEM 4JAO AO BOL DO DGP Nº053, DE 08MAIO26 E  BAR Nº 035 - BCMS, DE 09JUN26. 2026NC414963",
           "valor": 9335.6
         }
@@ -4773,7 +4774,7 @@
       "nc_origem": "2026NC414963",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "339093 - INDENIZACAO DE TRANSPORTE  PARA O 3º SGT LUCAS FERREIRA FREIRE EM VIRTUDE DE DESINACAO PARA ESTAGIO DE PADRONIZACAO DAS ATIVIDADES DE MANUTENCAO DO CHASSI DA VBTP-MSR 6X6 GUARANI NO PERIODO DE 15JUN A 10 JUL 25. PUB NO ADITAMENTO DA ADT DCEM 4JAO AO BOL DO DGP Nº053, DE 08MAIO26 E  BAR Nº 035 - BCMS, DE 09JUN26. 2026NC414963",
           "valor": 1130.92
         }
@@ -4802,7 +4803,7 @@
       "nc_origem": "2026NC414968",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "339093 - AJUDA DE CUSTO PARA O 2º SGT PEDRO FERREIRA CARDOSO. PUB NO ADITAMENTO DA ADT DCEM 4H AO BOL DO DGP Nº056, DE 23 MAIO 25 E  BAR Nº 035 - BCMS, DE 09JUN26. 2026NC414968.",
           "valor": 694.4
         }
@@ -4831,7 +4832,7 @@
       "nc_origem": "2026NC404851",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00011 - FERRAMENTA, PADRAO FERRAMENTA COMBINADA, TIPO ENXADA E RASTELO, MATERIAL ACO, CABO MADEIRA, USO CAPINA E LIMPEZA, CARACTERISTICAS ADICIONAIS ENXADA: LAMINA 24,75 CM; RASTELO: 6 DENTES DE 9 C M",
           "valor": 74.25
         }
@@ -4860,7 +4861,7 @@
       "nc_origem": "2026NC000006",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00001 - ACESSORIOS / EQUIPAMENTOS OFICINA MANUTENCAO, TIPO CARRO ESTEIRA, MATERIAL ACO",
           "valor": 287000.0
         }
@@ -4889,7 +4890,7 @@
       "nc_origem": "2026NC000006",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00006 - ACESSORIOS / EQUIPAMENTOS OFICINA MANUTENCAO, TIPO CARRO ESTEIRA, MATERIAL ACO",
           "valor": 212999.22
         }
@@ -4918,7 +4919,7 @@
       "nc_origem": "2026NC401536",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00016 - FRIOS, VARIEDADE PRESUNTO DE PERNIL, TIPO PREPARACAO COZIDO, COMPOSICAO COM CAPA DE GORDURA, APRESENTACAO PECA INTEIRA, ESTADO DE CONSERVACAO RESFRIADO(A)",
           "valor": 507.5
         }
@@ -4947,7 +4948,7 @@
       "nc_origem": "2026NC408741",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "339033 - 01 - AQUISICAO DE PASSAGEM AEREA PARA ESTAGIO CAPACITACAO 3ºSGT L.CARVALHO. CONFORME DIEX REQ. NR 1327 CIA MNT/CMDO/BCMS - 2026NC408741. DOC OBRIG VERIF.",
           "valor": 2005.5
         }
@@ -4976,7 +4977,7 @@
       "nc_origem": "2026NC408754",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "339015 - PGTO DE DIARIA PARA 3º SGT L.CARVALHO PARA TREINAMENTO DE CAPACITACAO DE PESSOAL EM MNT E OP VTNE MARRUA CONFORME BAR 039 DE 23/06/2026 DO BCMS. 2026NC408754.",
           "valor": 3947.5
         }
@@ -5005,7 +5006,7 @@
       "nc_origem": "2026NC011845",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "339047 - PAGAMENTO DE TAXAS DE ILUMINACAO PUBLICA DAS FATURAS DA EMPRESA LIGHT S/A. CONFORME DIEX REQUISITORIO N° 59 - CONTAS PESSOAIS/CMDO/BCMS DE 29JUN26. 2026NC011845. DOC OBRIG VERIFI.",
           "valor": 10000.0
         }
@@ -5034,7 +5035,7 @@
       "nc_origem": "2026NC011845",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "339039 - LIQUIDACAO E PAGAMENTO DAS FATURAS DA EMPRESA LIGHT. CONFORME DIEX REQUISITORIO N° 57 - CONTAS PESSOAIS/CMDO/BCMS. 2026NC011845 - DOC OBRIG VERIFI.",
           "valor": 40000.0
         }
@@ -5063,7 +5064,7 @@
       "nc_origem": "2026NC011845",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "339039 -LIQUIDACAO E PAGAMENTO DAS FATURAS DA EMPRESA MATRIX. CONFORME DIEX REQUISITORIO N° 58 - CONTAS PESSOAIS/CMDO/BCMS. 2026NC011845 -  DOC OBRIG VERIFI.",
           "valor": 6800.0
         }
@@ -5092,7 +5093,7 @@
       "nc_origem": "2026NC000023",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00010 - PECA MECANICA/ELETRICA - VEICULO AUTOMOTIVO, TIPO FILTRO COMBUSTIVEL, USO MOTOR DIESEL, TIPO 4 FILTRO DE COMBUSTIVEL, REFERENCIA 13 REFERENCIA:580091077",
           "valor": 2600.15
         }
@@ -5121,7 +5122,7 @@
       "nc_origem": "2026NC000023",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00012 - PECA MECANICA/ELETRICA - VEICULO AUTOMOTIVO, TIPO FILTRO COMBUSTIVEL, USO MOTOR DIESEL, TIPO 4 FILTRO DE COMBUSTIVEL, REFERENCIA 13 REFERENCIA:580091077",
           "valor": 3499.5
         }
@@ -5150,7 +5151,7 @@
       "nc_origem": "2026NC000026",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00015 - Servico de manutencao em veiculos marca FORD.",
           "valor": 400.0
         }
@@ -5179,7 +5180,7 @@
       "nc_origem": "2026NC002449",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00003 - TINTA ACRILICA, COMPONENTES RESINA A BASE DE DISPERSAO AQUOSA DE COPOLIMERO,, ASPECTO FISICO LIQUIDO VISCOSO COLORIDO, COR FLAMINGO, PRAZO VALIDADE 36 MES, TIPO ACABAMENTO FOSCO",
           "valor": 30000.0
         }
@@ -5208,7 +5209,7 @@
       "nc_origem": "2026NC405454",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00007 - DISCO CORTE, MATERIAL OXIDO ALUMINIO, DIAMETRO 12 POL, DIAMETRO FURO 1 POL, APLICACAO CORTE FERRO FUNDIDO, MATERIAIS FERROS EM GERAL, ESPESSURA 1/8 POL",
           "valor": 302.9
         }
@@ -5237,7 +5238,7 @@
       "nc_origem": "2026NC000344",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00001 - ACESSORIO CARRO BLINDADO, TIPO CENTRAL ELETRONICA ABS E CAMBIO, CARACTERISTICAS ADICIONAIS VBTP GUARANI 6X6 MR, REFERENCIA PN 5801561766",
           "valor": 2999.15
         }
@@ -5266,7 +5267,7 @@
       "nc_origem": "2026NC409119",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00003 - Manutencao Bomba Combustivel",
           "valor": 3950.0
         }
@@ -5295,7 +5296,7 @@
       "nc_origem": "2026NC408754",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "339015 - PGTO DE DIARIA PARA 3º SGT L.CARVALHO PARA TREINAMENTO DE CAPACITACAO DE PESSOAL EM MNT E OP VTNE MARRUA CONFORME BAR 039 DE 23/06/2026 DO BCMS. 2026NC408754.",
           "valor": 335.0
         }
@@ -5324,7 +5325,7 @@
       "nc_origem": "2026NC504646",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "TAXA DE LIMPEZA PUBLICA",
           "valor": 275.01
         }
@@ -5353,7 +5354,7 @@
       "nc_origem": "2026NC410203",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00001 - PECA MECANICA/ELETRICA - VEICULO AUTOMOTIVO, APLICACAO VEICULO AGRALE MARRUA 4 X 4 DIESEL AM11/AM20/AM21, TIPO 4 HASTE DE NIVEL, REFERENCIA 10 6011.001.205.00.5",
           "valor": 1149999.74
         }
@@ -5382,7 +5383,7 @@
       "nc_origem": "2026NC418834",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "AJUDA DE CUSTO PARA O CAP LUCAS DE LIMA MARCATO PINTO EM VIRTUDE DE MOVIMENTACAO POR NECESSIDADE DE SERVICO. PUB NO ADITAMENTO DA ADT DCEM 2J AO BOL DO DGP Nº 070, DE 19JUN 26 E  BAR Nº 45 - BCMS, DE 16JUL26. 2026NC418834.",
           "valor": 39305.44
         }
@@ -5411,7 +5412,7 @@
       "nc_origem": "2026NC418834",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "INDENIZACAO DE TRANSPORTE BAGAGEM PARA O CAP LUCAS DE LIMA MARCATO PINTO EM VIRTUDE DE MOVIMENTACAO POR NECESSIDADE DE SERVICO. PUB NO ADITAMENTO DA ADT DCEM 2J AO BOL DO DGP Nº 070, DE 19JUN 26 E  BAR Nº 45 - BCMS, DE 16JUL26. 2026NC418834.",
           "valor": 2540.76
         }
@@ -5440,7 +5441,7 @@
       "nc_origem": "-",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00006 - VENTILADOR, TIPO COLUNA, TENSAO ALIMENTACAO 110/220 V, CARACTERISTICAS ADICIONAIS GRADE METALICA REMOVIVEL, CABO DE FORCA MINIMO 2M, MATERIAL PAS DE PLASTICO, DIAMETRO MINIMO DE 50 CM, QUANTIDADE VELOCIDADE 3 UN",
           "valor": 230.0
         }
@@ -5469,7 +5470,7 @@
       "nc_origem": "-",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00001 - Pneu Veiculo Automotivo - material carcaca: lona poliester, material talao: arame aco, material banda rodagem: borracha alta resistencia, material flancos: mistura borracha alta flexibilidade, tipo estrutura: carcaca radial, caracteristicas adicionais: sem camara, dimensoes: 295/80 r22,5, modelo: radial",
           "valor": 19299.98
         }
@@ -5498,7 +5499,7 @@
       "nc_origem": "-",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00001 - CIMENTO PORTLAND, MATERIAL CLINKER, TIPO COMUM",
           "valor": 1369.2
         }
@@ -5527,7 +5528,7 @@
       "nc_origem": "-",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00012 - BANDEIRA INSTITUCIONAL, MATERIAL NAILON, COMPRIMENTO 128 CM, LARGURA 90 CM, CARACTERISTICAS ADICIONAIS DUPLA FACE, BORDADA, DOIS PANOS, REPRESENTACAO NACIONAL DO BRASIL",
           "valor": 1180.0
         }
@@ -5556,7 +5557,7 @@
       "nc_origem": "2026NC402359",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00032 - Servico de manutencao preventiva e preditiva CAMARA FRIGORIFICA PARA RESFRIADO S/CONGELADOS VOLTAGEM 110/220, compreendendo: limpeza geral da condensadora e evaporadora; medicao da pressao de succao e descarga; sistema eletrico; manute ncao do dreno e correcoes de vazamento; ajuste no sensor de temperatura; prova  de producao crescente e decrescente; teste de vazamento de corrente de fuga; lubrificacao geral; verificacao do funcionamento do sensor de temperatura, ter mistor ambiente e degelo; substituicao de placa eletronica digital, display e interface; substituicao do motor eletrico de alerta d",
           "valor": 85066.75
         }
@@ -5585,7 +5586,7 @@
       "nc_origem": "2026NC408754",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "PGTO DE DIARIA PARA 3º SGT L.CARVALHO PARA TREINAMENTO DE CAPACITACAO DE PESSOAL EM MNT E OP VTNE MARRUA CONFORME BAR 039 DE 23/06/2026 DO BCMS. 2026NC408754.",
           "valor": 4282.5
         }
@@ -5614,7 +5615,7 @@
       "nc_origem": "2026NC000093",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00008 - OLEO LUBRIFICANTE., APRESENTACAO LIQUIDO VISCOSO, ORIGEM MINERAL, VISCOSIDADE SAE 15W40, USO MOTOR A DIESEL",
           "valor": 16037.0
         }
@@ -5643,7 +5644,7 @@
       "nc_origem": "-",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00012 - BANDEIRA INSTITUCIONAL, MATERIAL NAILON, COMPRIMENTO 128 CM, LARGURA 90 CM, CARACTERISTICAS ADICIONAIS DUPLA FACE, BORDADA, DOIS PANOS, REPRESENTACAO NACIONAL DO BRASIL",
           "valor": 1180.0
         }
@@ -5672,7 +5673,7 @@
       "nc_origem": "2026NC420544",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "AJUDA DE CUSTO EM FAVORECIMENTO A 2º TEN ESTHER DIAS DE OLIVEIRA PARA O CURSO BASICO DE INTELIGENCIA PARA OFICIAIS CONFORME BAR DGP 026 01 JUL 26  A SER REALIZADO  EM RBASILIA-DF NO PERIODO  17 AGO A 12 NOV 27 NA EsIMEx 2026NC420544 DE 23 JUL 26",
           "valor": 13904.3
         }
@@ -5701,7 +5702,7 @@
       "nc_origem": "2026NC420544",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "AJUDA C/ LOCOMOCAO (PASSAGEM) EM FAVORECIMENTO A 2º TEN ESTHER DIAS DE OLIVEIRA PARA O CURSO BASICO DE INTELIGENCIA PARA OFICIAIS CONFORME BAR DGP 026 01 JUL 26  A SER REALIZADO  EM RBASILIA-DF NO PERIODO  17 AGO A 12 NOV 27 NA EsIMEx 2026NC420544 DE 23 JUL 26",
           "valor": 1130.92
         }
@@ -5730,7 +5731,7 @@
       "nc_origem": "2026NC408741",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00001 - PRESTACAO DE SERVICOS DE AGENCIAMENTO DE VIAGENS",
           "valor": 0.5
         }
@@ -5759,7 +5760,7 @@
       "nc_origem": "-",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00011 - SWITCH, QUANTIDADE PORTAS 8 UN, TIPO PORTAS ETHERNET 10/100/1000, VELOCIDADE PORTA 10/100 E 1000 MBPS, ALIMENTACAO BIVOLT VCA, FREQUENCIA 60 HZ, TIPO NAO GERENCIAVEL",
           "valor": 118.0
         }
@@ -5788,7 +5789,7 @@
       "nc_origem": "2026NC400183",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00001 - Fornecimento Passagem Rodoviaria - Menor Taxa de Servico - Fornecimento Passagem Rodoviaria - Menor Taxa de Servico",
           "valor": 232.78
         }
@@ -5817,7 +5818,7 @@
       "nc_origem": "2026NC011845",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "339039 -LIQUIDACAO E PAGAMENTO DAS FATURAS DA EMPRESA MATRIX. CONFORME DIEX REQUISITORIO N° 58 - CONTAS PESSOAIS/CMDO/BCMS. 2026NC011845 -  DOC OBRIG VERIFI.",
           "valor": 6800.28
         }
@@ -5846,7 +5847,7 @@
       "nc_origem": "-",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00026 - Servico de manutencao da caixa de transferencia do veiculo: VTNE CAMIONETA CAB INE DUPLA NISSAN FRONTIER S 5PSG 4X4 - 2012/2016/2018, com aplicacao: desmonta gem, montagem, inspecionar todas as pecas, substituicao do jogo de rolamentos,  substituicao do jogo de arruelas do calco.",
           "valor": 400.0
         }
@@ -5875,7 +5876,7 @@
       "nc_origem": "2026NC412145",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00011 - SUCO, APRESENTACAO XAROPE, SABOR GUARANA, TIPO NATURAL, CARACTERISTICAS ADICIONAIS CONCENTRADO",
           "valor": 6270.0
         }
@@ -5904,7 +5905,7 @@
       "nc_origem": "2026NC412145",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00028 - FRUTA, TIPO ABACAXI PEROLA, APRESENTACAO NATURAL",
           "valor": 1350.0
         }
@@ -5933,7 +5934,7 @@
       "nc_origem": "2026NC412145",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00010 - CHA ALIMENTACAO, TIPO REPOSITOR HIDROELETROLITICO, USO ALIMENTICIO, SABOR DIVERSOS SABORES",
           "valor": 1740.0
         }
@@ -5962,7 +5963,7 @@
       "nc_origem": "2026NC412145",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00104 - PAO DE QUEIJO, BASA DA MASSA POLVILHO DOCE OU AZEDO E QUEIJO, INGREDIENTES ADICIONAIS COM OUTROS SABORES, FORMATO TRADICIONAL/MEDIO, APRESENTACAO CRU CONGELADO",
           "valor": 2170.0
         }
@@ -5991,7 +5992,7 @@
       "nc_origem": "2026NC412145",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00001 - AGUA MINERAL NATURAL, TIPO SEM GAS, MATERIAL EMBALAGEM PLASTICO, TIPO EMBALAGEM DESCARTAVEL",
           "valor": 630.0
         }
@@ -6020,7 +6021,7 @@
       "nc_origem": "2026NC412145",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00005 - IOGURTE NATURAL, TEOR GORDURA DESNATADO, SABOR SORTIDOS, COMPONENTES COM POLPA OU PEDACOS DE FRUTA",
           "valor": 3300.0
         }
@@ -6049,7 +6050,7 @@
       "nc_origem": "2026NC412145",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00069 - AROMATIZANTE ARTIFICIAL, APRESENTACAO LIQUIDO INCOLOR, SABOR BAUNILHA",
           "valor": 1393.0
         }
@@ -6078,7 +6079,7 @@
       "nc_origem": "2026NC412145",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00013 - EMBUTIDO, TIPO LINGUICA PAIO, TIPO PREPARACAO DEFUMADA, ESTADO DE CONSERVACAO RESFRIADO(A)",
           "valor": 5354.25
         }
@@ -6107,7 +6108,7 @@
       "nc_origem": "2026NC412145",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00020 - QUEIJO, ORIGEM DE VACA, VARIEDADE MINAS, TIPO FRESCO, APRESENTACAO PECA",
           "valor": 3120.0
         }
@@ -6136,7 +6137,7 @@
       "nc_origem": "2026NC412145",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00026 - FRUTA, TIPO BANANA PRATA/ BANANA BRANCA, APRESENTACAO NATURAL",
           "valor": 284.0
         }
@@ -6165,7 +6166,7 @@
       "nc_origem": "2026NC412145",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00006 - BEBIDA LACTEA, SABOR VARIADO, APRESENTACAO EMBALAGEM TETRAPACK",
           "valor": 226.1
         }
@@ -6194,7 +6195,7 @@
       "nc_origem": "2026NC412145",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00024 - FRUTA, TIPO ABACATE MANTEIGA, APRESENTACAO NATURAL",
           "valor": 727.12
         }
@@ -6223,7 +6224,7 @@
       "nc_origem": "2026NC412145",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00065 - DOCE NAO CONFEITADO, TIPO MASSA, SABOR GOIABA, PRAZO VALIDADE MINIMO 12 MESES",
           "valor": 569.35
         }
@@ -6252,7 +6253,7 @@
       "nc_origem": "2026NC412145",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00021 - FRIOS, VARIEDADE PRESUNTO DE PERNIL, TIPO PREPARACAO COZIDO, COMPOSICAO COM CAPA DE GORDURA, APRESENTACAO PECA INTEIRA, ESTADO DE CONSERVACAO RESFRIADO(A)",
           "valor": 4740.0
         }
@@ -6281,7 +6282,7 @@
       "nc_origem": "2026NC412145",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00029 - FRUTA, TIPO BANANA PRATA/ BANANA BRANCA, APRESENTACAO NATURAL",
           "valor": 1624.0
         }
@@ -6310,7 +6311,7 @@
       "nc_origem": "2026NC412145",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00010 - SUCO, APRESENTACAO XAROPE, SABOR GUARANA, TIPO NATURAL, CARACTERISTICAS ADICIONAIS CONCENTRADO",
           "valor": 1287.0
         }
@@ -6339,7 +6340,7 @@
       "nc_origem": "2026NC412145",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00008 - REFRIGERANTE, MATERIAL AGUA GASOSA/XAROPE, SABOR GUARANA",
           "valor": 111.2
         }
@@ -6368,7 +6369,7 @@
       "nc_origem": "-",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00074 - AZEITE, ESPECIE VEGETAL DE OLIVA, TIPO COMPOSTO, TEOR DA ACIDEZ MENOR QUE 1%, INGREDIENTES ADICIONAIS REFINADO E VIRGEM",
           "valor": 3400.0
         }
@@ -6397,7 +6398,7 @@
       "nc_origem": "2026NC409126",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00001 - Cessao Temporaria de Direitos Sobre Programas de Computador Locacao de Software - Cessao Temporaria de Direitos Sobre Programas de Computador Locacao de Software",
           "valor": 17685.54
         }
@@ -6426,7 +6427,7 @@
       "nc_origem": "2026NC402359",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00004 - Servico de manutencao preventiva/preditiva de CALDEIRAO/PANELAO INDUSTRIAL, ca pacidade de 200L, TIPO GAS-VAPOR, compreendendo: grafitamento dos registros de  gas; regulagem e limpeza dos queimadores, valvulas, mangotes, injetores e man ometros e teste de funcionamento. Inclui o fornecimento de todo material de co nsumo necessario a execucao do servico. Garantia minima do servico de 30 dias.",
           "valor": 10125.0
         }
@@ -6455,7 +6456,7 @@
       "nc_origem": "2026NC402359",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00032 - Servico de manutencao preventiva e preditiva CAMARA FRIGORIFICA PARA RESFRIADO S/CONGELADOS VOLTAGEM 110/220, compreendendo: limpeza geral da condensadora e evaporadora; medicao da pressao de succao e descarga; sistema eletrico; manute ncao do dreno e correcoes de vazamento; ajuste no sensor de temperatura; prova  de producao crescente e decrescente; teste de vazamento de corrente de fuga; lubrificacao geral; verificacao do funcionamento do sensor de temperatura, ter mistor ambiente e degelo; substituicao de placa eletronica digital, display e interface; substituicao do motor eletrico de alerta d",
           "valor": 17988.0
         }
@@ -6484,7 +6485,7 @@
       "nc_origem": "2026NC402359",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00006 - Servico de manutencao preventiva/preditiva  de DESCASCADOR DE LEGUMES INDUSTRI AL - VOLTAGEM: BIVOLT,   compreendendo:   verificacao da fiacao com a checagem  de todos os cabos quanto a deterioracao e todos os contatos (terminais) eletr icos quanto ao aperto e corrosao; verificacao dos contatos -  chave liga/desli ga, botao de emergencia, botao reset, circuitos eletronicos, etc.quanto ao cor reto funcionamento de todos os componentes e normalidade de operacao do aparel ho; verificacao da instalacao eletrica; medicao da tensao da tomada; medicao d a corrente de funcionamento e comparar com a nomin",
           "valor": 750.0
         }
@@ -6513,7 +6514,7 @@
       "nc_origem": "2026NC402359",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00003 - Servico de manutencao preventiva/preditiva  de CORTADOR/FATIADOR FRIOS INDUSTR IAL - VOLTAGEM: BIVOLT,   compreendendo: limpeza e  lubrificacao das guias des lizantes do carro; afiacao ou troca da lamina; verificacao das condicoes da al imentacao eletrica e da protecao da lamina; verificacao e reparo dos pontos de  oxidacao; reaperto de conexoes; verificacao do nivelamento do pes de sustenta cao; verificacao dos sensores de fim de curso, verificacao do funcionamento da s contatoras; teste de funcionamento. Inclui o fornecimento de todo material d e consumo necessario a execucao do servico. Garant",
           "valor": 6400.0
         }
@@ -6542,7 +6543,7 @@
       "nc_origem": "2026NC000373",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00015 - FLUIDO DE SISTEMA DE FREIO, APLICACAO VEICULO AUTOMOTIVO, CARACTERISTICA ADICIONAIS DOT 4",
           "valor": 10521.6
         }
@@ -6571,7 +6572,7 @@
       "nc_origem": "2026NC413505",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00001 - PECA MECANICA/ELETRICA - VEICULO AUTOMOTIVO, APLICACAO VEICULO AGRALE MARRUA 4 X 4 DIESEL AM11/AM20/AM21, TIPO 4 HASTE DE NIVEL, REFERENCIA 10 6011.001.205.00.5",
           "valor": 570000.26
         }
@@ -6600,7 +6601,7 @@
       "nc_origem": "2026NC413505",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00001 - ACESSORIO CARRO BLINDADO, TIPO CENTRAL ELETRONICA ABS E CAMBIO, CARACTERISTICAS ADICIONAIS VBTP GUARANI 6X6 MR, REFERENCIA PN 5801561766",
           "valor": 172744.2
         }
@@ -6629,7 +6630,7 @@
       "nc_origem": "2026NC404879",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00006 - Limpador Contato Eletrico/Eletronico - aplicacao: limpeza componentes eletricos, apresentacao: spray a seco, composicao: petroleo e gas propelente, caracteristicas adicionais: com canudo prolongador, nao inflamavel",
           "valor": 222.6
         }
@@ -6658,7 +6659,7 @@
       "nc_origem": "2026NC404879",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00003 - Banco - material: polipropileno, comprimento: 150, altura: 78, cor: castanho, caracteristicas adicionais: para 3 lugares, espessura: 3, altura encosto: 34, tipo assento: 3 ripas de madeira plastica, largura assento: 45, espessura assento: 3",
           "valor": 13860.0
         }
@@ -6687,7 +6688,7 @@
       "nc_origem": "2026NC404879",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00001 - Gas Comprimido - nome: acetileno, aspecto fisico: incolor, odor de alho, inflamavel, formula quimica: c2h2, massa molecular: 26,04, grau de pureza: pureza minima de 99,8%, numero de referencia quimica: cas 74-86-2",
           "valor": 3899.97
         }
@@ -6716,7 +6717,7 @@
       "nc_origem": "2026NC404879",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00004 - Kit Eletronico - tipo: kit de terminais conector fio garfo pre isolado, quantidade de componentes: 280, componentes: 80 terminal isolado (2,8mm e4,8mm); 40 terminal (1, componentes adicionais: 40 crimp spade fio conector 22-16awg; 20 friso spa, referencia: gn1964",
           "valor": 107.5
         }
@@ -6745,7 +6746,7 @@
       "nc_origem": "2026NC413505",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00015 - FLUIDO DE SISTEMA DE FREIO, APLICACAO VEICULO AUTOMOTIVO, CARACTERISTICA ADICIONAIS DOT 4",
           "valor": 2055.0
         }
@@ -6774,7 +6775,7 @@
       "nc_origem": "2026NC413505",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00008 - OLEO LUBRIFICANTE., APRESENTACAO LIQUIDO VISCOSO, ORIGEM MINERAL, VISCOSIDADE SAE 15W40, USO MOTOR A DIESEL",
           "valor": 15484.0
         }
@@ -6803,7 +6804,7 @@
       "nc_origem": "2026NC413505",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00014 - OLEO LUBRIFICANTE, USO AUTOMOTIVO, TIPO MINERAL, CLASSIFICACAO API GL-5, VISCOSIDADE SAE 85W-140",
           "valor": 7168.0
         }
@@ -6832,7 +6833,7 @@
       "nc_origem": "2026NC413505",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00011 - Descarbonizante - apresentacao: spray, cor: marrom escuro, aplicacao: limpeza de motores",
           "valor": 335.3
         }
@@ -6861,7 +6862,7 @@
       "nc_origem": "2026NC413505",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00009 - Agua Desmineralizada - aspecto fisico: liquido, caracteristicas adicionais: referencia fabricante 80074, aplicacao: sistema de resfriamento",
           "valor": 419.16
         }
@@ -6890,7 +6891,7 @@
       "nc_origem": "2026NC413505",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00008 - Oleo Lubrificante - uso: automotivo, tipo: sintetico, classificacao: api gl-5, viscosidade: sae 85w-90",
           "valor": 2695.0
         }
@@ -6919,7 +6920,7 @@
       "nc_origem": "2026NC413505",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00005 - Graxa - tipo base: polimeros sinteticos, solventes alifaticos e adi -, aplicacao: pecas sujeitas a altas pressoes, caracteristicas adicionais: liquida / spray",
           "valor": 322.0
         }
@@ -6948,7 +6949,7 @@
       "nc_origem": "2026NC413505",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00039 - SILICONE, APRESENTACAO GEL, COMPOSICAO QUIMICA COMPOSTO DE SILICONE, ESSENCIA E AGUA.",
           "valor": 826.0
         }
@@ -6977,7 +6978,7 @@
       "nc_origem": "2026NC413505",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00017 - ESTOPA, MATERIAL FIO ALGODAO, APLICACAO LIMPEZA DETRITOS E RESTOS DE OLEO, COR BRANCA",
           "valor": 540.0
         }
@@ -7006,7 +7007,7 @@
       "nc_origem": "2026NC413505",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00014 - TINTA AUTOMOTIVA, COMPOSICAO LACA NITROCELULOSE, COR VERDE FLORESTA",
           "valor": 20000.0
         }
@@ -7035,7 +7036,7 @@
       "nc_origem": "2026NC413505",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00004 - TINTA INDUSTRIAL, TIPO EPOXI-RESINA, APRESENTACAO BICOMPONENTE, APLICACAO ARMAMENTO, CARACTERISTICAS ADICIONAIS FOSCO VINILICO, COR PRETA",
           "valor": 10454.64
         }
@@ -7064,7 +7065,7 @@
       "nc_origem": "2026NC413505",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00009 - PREGO QUADRADO, MATERIAL ACO, TRATAMENTO SUPERFICIAL GALVANIZADO, TIPO PREGO SEM CABECA, BITOLA COM CABECA 18 X 27 MM, BITOLA SEM CABECA 17 X 21 MM, APLICACAO CASCO MADEIRA EMBARCACAO",
           "valor": 2362.8
         }
@@ -7093,7 +7094,7 @@
       "nc_origem": "2026NC413505",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00011 - FERRAMENTA, PADRAO FERRAMENTA COMBINADA, TIPO ENXADA E RASTELO, MATERIAL ACO, CABO MADEIRA, USO CAPINA E LIMPEZA, CARACTERISTICAS ADICIONAIS ENXADA: LAMINA 24,75 CM; RASTELO: 6 DENTES DE 9 C M",
           "valor": 502.28
         }
@@ -7122,7 +7123,7 @@
       "nc_origem": "2026NC413505",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00003 - CERA, TIPO PASTOSA, COR INCOLOR LEITOSO, COMPOSICAO CERA CARNAUBA E POLI- TETRAFLUOR-ETILENO (TEFLON), CARACTERISTICAS ADICIONAIS DILUIVEL, PULVERIZAR VEICULO LAVADO, APLICACAO AUTOMOVEL",
           "valor": 398.0
         }
@@ -7151,7 +7152,7 @@
       "nc_origem": "2026NC413505",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00028 - DESENGRIPANTE, COMPOSICAO ADITIVOS INIBIDORES CORROSAO E OXIDACAO,TENSOATIV O, APRESENTACAO SPRAY, FINALIDADE ELIMINAR FERRUGEM/ REPELIR UMIDADE/ LUBRIFICAR, APLICACAO LUBRIFICANTE E ANTICORROSIVO, CARACTERISTICAS ADICIONAIS SEM CFC NA COMPOSICAO",
           "valor": 1182.0
         }
@@ -7180,7 +7181,7 @@
       "nc_origem": "2026NC413505",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00005 - BATERIA AUTOMOTIVA, TIPO SELADA, TENSAO NOMINAL 12 V, CAPACIDADE NOMINAL 100 AH, SISTEMA ELETROQUIMICO CHUMBO-ACIDO",
           "valor": 10580.0
         }
@@ -7209,7 +7210,7 @@
       "nc_origem": "2026NC413505",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00001 - BATERIA AUTOMOTIVA, TIPO SELADA, TENSAO NOMINAL 12 V, CAPACIDADE NOMINAL 60 AH , SISTEMA ELETROQUIMICO CHUMBO-ACIDO",
           "valor": 4731.87
         }
@@ -7238,7 +7239,7 @@
       "nc_origem": "2026NC413505",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00001 - ACESSORIO CARRO BLINDADO, TIPO CENTRAL ELETRONICA ABS E CAMBIO, CARACTERISTICAS ADICIONAIS VBTP GUARANI 6X6 MR, REFERENCIA PN 5801561766",
           "valor": 132703.24
         }
@@ -7267,7 +7268,7 @@
       "nc_origem": "2026NC413505",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00001 - BATERIA AUTOMOTIVA, TIPO SELADA, TENSAO NOMINAL 12 V, CAPACIDADE NOMINAL 60 AH , SISTEMA ELETROQUIMICO CHUMBO-ACIDO",
           "valor": 4731.87
         }
@@ -7296,7 +7297,7 @@
       "nc_origem": "2026NC413505",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00005 - BATERIA AUTOMOTIVA, TIPO SELADA, TENSAO NOMINAL 12 V, CAPACIDADE NOMINAL 100 AH, SISTEMA ELETROQUIMICO CHUMBO-ACIDO",
           "valor": 10580.0
         }
@@ -7325,7 +7326,7 @@
       "nc_origem": "2026NC413505",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00003 - CERA, TIPO PASTOSA, COR INCOLOR LEITOSO, COMPOSICAO CERA CARNAUBA E POLI- TETRAFLUOR-ETILENO (TEFLON), CARACTERISTICAS ADICIONAIS DILUIVEL, PULVERIZAR VEICULO LAVADO, APLICACAO AUTOMOVEL",
           "valor": 398.0
         }
@@ -7354,7 +7355,7 @@
       "nc_origem": "2026NC000052",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00008 - OLEO LUBRIFICANTE., APRESENTACAO LIQUIDO VISCOSO, ORIGEM MINERAL, VISCOSIDADE SAE 15W40, USO MOTOR A DIESEL",
           "valor": 8295.0
         }
@@ -7383,7 +7384,7 @@
       "nc_origem": "2026NC404879",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00001 - BATERIA AUTOMOTIVA, TIPO SELADA, TENSAO NOMINAL 12 V, CAPACIDADE NOMINAL 60 AH , SISTEMA ELETROQUIMICO CHUMBO-ACIDO",
           "valor": 1455.96
         }
@@ -7412,7 +7413,7 @@
       "nc_origem": "2026NC000052",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00011 - OLEO LUBRIFICANTE, USO AUTOMOTIVO, TIPO MINERAL, CLASSIFICACAO GL-5, VISCOSIDADE SAE 90",
           "valor": 1259.78
         }
@@ -7441,7 +7442,7 @@
       "nc_origem": "2026NC000052",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00011 - OLEO LUBRIFICANTE, USO AUTOMOTIVO, TIPO MINERAL, CLASSIFICACAO GL-5, VISCOSIDADE SAE 90",
           "valor": 629.89
         }
@@ -7470,7 +7471,7 @@
       "nc_origem": "2026NC000373",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00008 - OLEO LUBRIFICANTE., APRESENTACAO LIQUIDO VISCOSO, ORIGEM MINERAL, VISCOSIDADE SAE 15W40, USO MOTOR A DIESEL",
           "valor": 553.0
         }
@@ -7499,7 +7500,7 @@
       "nc_origem": "-",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00023 - ADITIVO RADIADOR, CARACTERISTICAS ADICIONAIS ANTIFERVURA-ANTICORROSIVO- ANTIESPUMANTE, APLICACAO SISTEMA DE ARREFECIMENTO AUTOMOTIVO, REFERENCIA 001028, COMPONENTES GLICOIS E INIBIDORES DE CORROSAO",
           "valor": 522.0
         }
@@ -7528,7 +7529,7 @@
       "nc_origem": "2026NC413505",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00069 - PNEU VEICULO AUTOMOTIVO, MATERIAL CARCACA LONA POLIESTER, MATERIAL TALAO ARAME ACO, MATERIAL BANDA RODAGEM BORRACHA ALTA RESISTENCIA, MATERIAL FLANCOS BORRACHA ALTA RESISTENCIA E FLEXIBILIDADE, CARACTERISTICAS ADICIONAIS COM CAMARA, DIMENSOES 1000 X 20, TIPO RADIAL",
           "valor": 196476.28
         }
@@ -7557,7 +7558,7 @@
       "nc_origem": "2026NC413505",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00026 - PNEU VEICULO AUTOMOTIVO, MATERIAL CARCACA LONAS ESTABILIZADORAS, MATERIAL TALAO ARAME ACO, MATERIAL BANDA RODAGEM BORRACHA ALTA RESISTENCIA E FLEXIVEL, MATERIAL FLANCOS REVESTIDA POR UM COMPOSTO DE BORRACHA COM ALTA RE-, TIPO ESTRUTURA CARCACA RADIAL, DIMENSOES 235/85 R16, TIPO SEM CAMARA, APLICACAO VIATURA LAND OVER DEFENDER",
           "valor": 93340.0
         }
@@ -7586,7 +7587,7 @@
       "nc_origem": "2026NC413505",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00145 - COLA, COMPOSICAO CIMENTO VULCANIZANTE, APLICACAO REMENDO EM CAMARAS DE AR A FRIO, TIPO PASTOSA",
           "valor": 610.0
         }
@@ -7615,7 +7616,7 @@
       "nc_origem": "2026NC001766",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00001 - SISTEMA DE CONTROLE DE PONTO COM LEITOR BIOMETRICO EM REGIME DE COMODATO.",
           "valor": 324.0
         }
@@ -7644,7 +7645,7 @@
       "nc_origem": "2026NC404879",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00001 - BATERIA AUTOMOTIVA, TIPO SELADA, TENSAO NOMINAL 12 V, CAPACIDADE NOMINAL 60 AH , SISTEMA ELETROQUIMICO CHUMBO-ACIDO",
           "valor": 1455.96
         }
@@ -7673,7 +7674,7 @@
       "nc_origem": "2026NC015273",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00005 - MADEIRA CONSTRUCAO, TIPO MADEIRA CEDRINHO, FORMATO PONTALETE, COMPRIMENTO 4 M, LARGURA 7 CM, ESPESSURA 7 CM, CARACTERISTICAS ADICIONAIS SEM TRATAMENTO",
           "valor": 2664.67
         }
@@ -7702,7 +7703,7 @@
       "nc_origem": "2026NC016591",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00001 - Servicos de manutencao preventiva, corretiva e assistencia tecnica de maquinas  e equipamentos agricolas (tobatas e rocadeiras), com fornecimento de pecas",
           "valor": 2040.0
         }
@@ -7731,7 +7732,7 @@
       "nc_origem": "2026NC001659",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00003 - TOMADA, TIPO EMBUTIR, NUMERO CONTATO 2 UN, FORMATO CONTATO UNIVERSAL, FORMATO CORPO RETANGULAR, CORRENTE NOMINAL 10 A, TENSAO NOMINAL 250 V, NUMERO POLOS 2 P, CARACTERISTICAS ADICIONAIS FOSFORESCENTE COM ESPELHO ALUMINIO, NORMAS TECNICAS NBR 6.147/80",
           "valor": 1169.6
         }
@@ -7760,7 +7761,7 @@
       "nc_origem": "2026NC426693",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "AJUDA DE CUSTO PARA O CAP LEON MORAES CARDOSO DOS SANTOS EM VIRTUDE DE MOVIMENTACAO POR NECESSIDADE DE SERVICO. PUB NO ADITAMENTO DA ADT DCEM 2G AO BOL DO DGP Nº 085, DE 24JUL26 E  BAR Nº 058 - BCMS, DE 03SET26. 2026NC426693 - DGP, DE 31AGO26.",
           "valor": 35714.08
         }
@@ -7789,7 +7790,7 @@
       "nc_origem": "2026NC426693",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "INDENIZACAO TRANSPORTE PARA O CAP LEON MORAES CARDOSO DOS SANTOS EM VIRTUDE DE MOVIMENTACAO POR NECESSIDADE DE SERVICO. PUB NO ADITAMENTO DA ADT DCEM 2G AO BOL DO DGP Nº 085, DE 24JUL26 E  BAR Nº 058 - BCMS, DE 03SET26. 2026NC426693 - DGP, DE 31AGO26.",
           "valor": 15454.14
         }
@@ -7818,7 +7819,7 @@
       "nc_origem": "2026NC016591",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00026 - COPO DESCARTAVEL, MATERIAL POLIETILENO, CAPACIDADE 200 ML, APLICACAO AGUA",
           "valor": 537.5
         }
@@ -7847,7 +7848,7 @@
       "nc_origem": "2026NC016591",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00004 - AR CONDICIONADO - INSTALACAO/MONTAGEM/DESMONTAGEM/REMOCAO - (PAREDE / SISTEMAS)",
           "valor": 2670.0
         }
@@ -7876,7 +7877,7 @@
       "nc_origem": "2026NC001659",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00002 - TUBO PLASTICO, MATERIAL PVC, DIAMETRO 25 MM, COMPRIMENTO 6 M, APLICACAO ESGOTO",
           "valor": 1500.4
         }
@@ -7905,7 +7906,7 @@
       "nc_origem": "2026NC016591",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00013 - AR CONDICIONADO - MANUTENCAO DE SISTEMAS / LIMPEZA",
           "valor": 1241.0
         }
@@ -7934,7 +7935,7 @@
       "nc_origem": "2026NC427646",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "AJUDA DE CUSTO PARA O 3º SGT  JULIO CESAR MELLO ARAUJO EM VIRTUDE DE REALIZACAO DE ESTAGIO. PUB NO ADITAMENTO DA ADT DCEM 4J AO BOL DO DGP Nº 091, DE 07AGO26 E  BAR Nº 059 - BCMS, DE 10SET26. 2026NC427646 - DGP, DE 04SET26.",
           "valor": 12447.46
         }
@@ -7963,7 +7964,7 @@
       "nc_origem": "2026NC427646",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "INDENIZACAO DE TRANSPORTE PARA O 3º SGT  JULIO CESAR MELLO ARAUJO EM VIRTUDE DE REALIZACAO DE ESTAGIO. PUB NO ADITAMENTO DA ADT DCEM 4J AO BOL DO DGP Nº 091, DE 07AGO26 E  BAR Nº 059 - BCMS, DE 10SET26. 2026NC427646 - DGP, DE 04SET26.",
           "valor": 1395.52
         }
@@ -7992,7 +7993,7 @@
       "nc_origem": "2026NC015273",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00009 - PREGO QUADRADO, MATERIAL ACO, TRATAMENTO SUPERFICIAL GALVANIZADO, TIPO PREGO SEM CABECA, BITOLA COM CABECA 18 X 27 MM, BITOLA SEM CABECA 17 X 21 MM, APLICACAO CASCO MADEIRA EMBARCACAO",
           "valor": 5383.7
         }
@@ -8021,7 +8022,7 @@
       "nc_origem": "2026NC000052",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00008 - OLEO LUBRIFICANTE., APRESENTACAO LIQUIDO VISCOSO, ORIGEM MINERAL, VISCOSIDADE SAE 15W40, USO MOTOR A DIESEL",
           "valor": 1106.0
         }
@@ -8050,7 +8051,7 @@
       "nc_origem": "-",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00023 - ADITIVO RADIADOR, CARACTERISTICAS ADICIONAIS ANTIFERVURA-ANTICORROSIVO- ANTIESPUMANTE, APLICACAO SISTEMA DE ARREFECIMENTO AUTOMOTIVO, REFERENCIA 001028, COMPONENTES GLICOIS E INIBIDORES DE CORROSAO",
           "valor": 348.0
         }
@@ -8079,7 +8080,7 @@
       "nc_origem": "2026NC415767",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00001 - PECA MECANICA/ELETRICA - VEICULO AUTOMOTIVO, APLICACAO VEICULO AGRALE MARRUA 4 X 4 DIESEL AM11/AM20/AM21, TIPO 4 HASTE DE NIVEL, REFERENCIA 10 6011.001.205.00.5",
           "valor": 570000.26
         }
@@ -8108,7 +8109,7 @@
       "nc_origem": "2026NC413505",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00001 - ACESSORIO CARRO BLINDADO, TIPO CENTRAL ELETRONICA ABS E CAMBIO, CARACTERISTICAS ADICIONAIS VBTP GUARANI 6X6 MR, REFERENCIA PN 5801561766",
           "valor": 172744.2
         }
@@ -8137,7 +8138,7 @@
       "nc_origem": "2026NC415767",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00008 - OLEO LUBRIFICANTE., APRESENTACAO LIQUIDO VISCOSO, ORIGEM MINERAL, VISCOSIDADE SAE 15W40, USO MOTOR A DIESEL",
           "valor": 15484.0
         }
@@ -8166,7 +8167,7 @@
       "nc_origem": "2026NC415767",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00015 - FLUIDO DE SISTEMA DE FREIO, APLICACAO VEICULO AUTOMOTIVO, CARACTERISTICA ADICIONAIS DOT 4",
           "valor": 2055.0
         }
@@ -8195,7 +8196,7 @@
       "nc_origem": "2026NC415767",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00014 - OLEO LUBRIFICANTE, USO AUTOMOTIVO, TIPO MINERAL, CLASSIFICACAO API GL-5, VISCOSIDADE SAE 85W-140",
           "valor": 7168.0
         }
@@ -8224,7 +8225,7 @@
       "nc_origem": "2026NC415767",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00011 - Descarbonizante - apresentacao: spray, cor: marrom escuro, aplicacao: limpeza de motores",
           "valor": 335.3
         }
@@ -8253,7 +8254,7 @@
       "nc_origem": "2026NC415767",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00009 - Agua Desmineralizada - aspecto fisico: liquido, caracteristicas adicionais: referencia fabricante 80074, aplicacao: sistema de resfriamento",
           "valor": 419.16
         }
@@ -8282,7 +8283,7 @@
       "nc_origem": "2026NC415767",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00039 - SILICONE, APRESENTACAO GEL, COMPOSICAO QUIMICA COMPOSTO DE SILICONE, ESSENCIA E AGUA.",
           "valor": 826.0
         }
@@ -8311,7 +8312,7 @@
       "nc_origem": "2026NC415767",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00014 - TINTA AUTOMOTIVA, COMPOSICAO LACA NITROCELULOSE, COR VERDE FLORESTA",
           "valor": 20000.0
         }
@@ -8340,7 +8341,7 @@
       "nc_origem": "2026NC415767",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00009 - PREGO QUADRADO, MATERIAL ACO, TRATAMENTO SUPERFICIAL GALVANIZADO, TIPO PREGO SEM CABECA, BITOLA COM CABECA 18 X 27 MM, BITOLA SEM CABECA 17 X 21 MM, APLICACAO CASCO MADEIRA EMBARCACAO",
           "valor": 2362.8
         }
@@ -8369,7 +8370,7 @@
       "nc_origem": "2026NC415767",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00011 - FERRAMENTA, PADRAO FERRAMENTA COMBINADA, TIPO ENXADA E RASTELO, MATERIAL ACO, CABO MADEIRA, USO CAPINA E LIMPEZA, CARACTERISTICAS ADICIONAIS ENXADA: LAMINA 24,75 CM; RASTELO: 6 DENTES DE 9 C M",
           "valor": 502.28
         }
@@ -8398,7 +8399,7 @@
       "nc_origem": "2026NC415767",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00001 - ACESSORIO CARRO BLINDADO, TIPO CENTRAL ELETRONICA ABS E CAMBIO, CARACTERISTICAS ADICIONAIS VBTP GUARANI 6X6 MR, REFERENCIA PN 5801561766",
           "valor": 830.3
         }
@@ -8427,7 +8428,7 @@
       "nc_origem": "2026NC415767",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00005 - BATERIA AUTOMOTIVA, TIPO SELADA, TENSAO NOMINAL 12 V, CAPACIDADE NOMINAL 100 AH, SISTEMA ELETROQUIMICO CHUMBO-ACIDO",
           "valor": 10580.0
         }
@@ -8456,7 +8457,7 @@
       "nc_origem": "2026NC415767",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00069 - PNEU VEICULO AUTOMOTIVO, MATERIAL CARCACA LONA POLIESTER, MATERIAL TALAO ARAME ACO, MATERIAL BANDA RODAGEM BORRACHA ALTA RESISTENCIA, MATERIAL FLANCOS BORRACHA ALTA RESISTENCIA E FLEXIBILIDADE, CARACTERISTICAS ADICIONAIS COM CAMARA, DIMENSOES 1000 X 20, TIPO RADIAL",
           "valor": 196476.28
         }
@@ -8485,7 +8486,7 @@
       "nc_origem": "2026NC415767",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00026 - PNEU VEICULO AUTOMOTIVO, MATERIAL CARCACA LONAS ESTABILIZADORAS, MATERIAL TALAO ARAME ACO, MATERIAL BANDA RODAGEM BORRACHA ALTA RESISTENCIA E FLEXIVEL, MATERIAL FLANCOS REVESTIDA POR UM COMPOSTO DE BORRACHA COM ALTA RE-, TIPO ESTRUTURA CARCACA RADIAL, DIMENSOES 235/85 R16, TIPO SEM CAMARA, APLICACAO VIATURA LAND OVER DEFENDER",
           "valor": 28002.0
         }
@@ -8514,7 +8515,7 @@
       "nc_origem": "2026NC412145",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00021 - FRIOS, VARIEDADE PRESUNTO DE PERNIL, TIPO PREPARACAO COZIDO, COMPOSICAO COM CAPA DE GORDURA, APRESENTACAO PECA INTEIRA, ESTADO DE CONSERVACAO RESFRIADO(A)",
           "valor": 2962.5
         }
@@ -8543,7 +8544,7 @@
       "nc_origem": "2026NC412145",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00004 - AGUA MINERAL NATURAL, TIPO SEM GAS, MATERIAL EMBALAGEM PLASTICO, TIPO EMBALAGEM DESCARTAVEL",
           "valor": 1800.0
         }
@@ -8572,7 +8573,7 @@
       "nc_origem": "2026NC412145",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00091 - CONDIMENTO, TIPO CURRY, APRESENTACAO PO",
           "valor": 1620.0
         }
@@ -8601,7 +8602,7 @@
       "nc_origem": "2026NC412145",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00011 - SUCO, APRESENTACAO XAROPE, SABOR GUARANA, TIPO NATURAL, CARACTERISTICAS ADICIONAIS CONCENTRADO",
           "valor": 3135.0
         }
@@ -8630,7 +8631,7 @@
       "nc_origem": "2026NC415767",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00028 - DESENGRIPANTE, COMPOSICAO ADITIVOS INIBIDORES CORROSAO E OXIDACAO,TENSOATIV O, APRESENTACAO SPRAY, FINALIDADE ELIMINAR FERRUGEM/ REPELIR UMIDADE/ LUBRIFICAR, APLICACAO LUBRIFICANTE E ANTICORROSIVO, CARACTERISTICAS ADICIONAIS SEM CFC NA COMPOSICAO",
           "valor": 1182.0
         }
@@ -8659,7 +8660,7 @@
       "nc_origem": "2026NC412145",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00010 - CHA ALIMENTACAO, TIPO REPOSITOR HIDROELETROLITICO, USO ALIMENTICIO, SABOR DIVERSOS SABORES",
           "valor": 1450.0
         }
@@ -8688,7 +8689,7 @@
       "nc_origem": "2026NC403851",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00043 - CINTA SUSPENSAO CARGA, MATERIAL POLIESTER, COMPRIMENTO 10 M, LARGURA 300 MM, CAPACIDADE 10 T, APLICACAO SUSPENSAO E AMARRACAO DE CARGAS, CARACTERISTICAS ADICIONAIS FATOR DE SEGURANCA 7:1, TIPO SLING 300, COMPONENTES ADICIONAIS COM OLHAIS REFORCADOS NAS EXTREMIDADES",
           "valor": 4100.0
         }
@@ -8717,7 +8718,7 @@
       "nc_origem": "2026NC415767",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00026 - PNEU VEICULO AUTOMOTIVO, MATERIAL CARCACA LONAS ESTABILIZADORAS, MATERIAL TALAO ARAME ACO, MATERIAL BANDA RODAGEM BORRACHA ALTA RESISTENCIA E FLEXIVEL, MATERIAL FLANCOS REVESTIDA POR UM COMPOSTO DE BORRACHA COM ALTA RE-, TIPO ESTRUTURA CARCACA RADIAL, DIMENSOES 235/85 R16, TIPO SEM CAMARA, APLICACAO VIATURA LAND OVER DEFENDER",
           "valor": 718.0
         }
@@ -8746,7 +8747,7 @@
       "nc_origem": "2026NC415941",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00001 - Acessorios / Equipamentos Oficina Manutencao - tipo: carro esteira, material: aco",
           "valor": 650000.0
         }
@@ -8775,7 +8776,7 @@
       "nc_origem": "2026NC412145",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00003 - BOTIJAO PARA GAS, USO DOMESTICO, CAPACIDADE CERCA DE 45 KG, ACESSORIOS COM VALVULA E MECANISMO DE SEGURANCA",
           "valor": 20534.8
         }
@@ -8804,7 +8805,7 @@
       "nc_origem": "2026NC412145",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00125 - SUCO, APRESENTACAO LIQUIDO, SABOR LARANJA, TIPO NATURAL, CARACTERISTICAS ADICIONAIS CONCENTRADO",
           "valor": 8480.0
         }
@@ -8833,7 +8834,7 @@
       "nc_origem": "2026NC412145",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00086 - CONDIMENTO, TIPO PAPRICA, APRESENTACAO PO",
           "valor": 3225.0
         }
@@ -8862,7 +8863,7 @@
       "nc_origem": "2026NC412145",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00065 - DOCE NAO CONFEITADO, TIPO MASSA, SABOR GOIABA, PRAZO VALIDADE MINIMO 12 MESES",
           "valor": 3860.0
         }
@@ -8891,7 +8892,7 @@
       "nc_origem": "2026NC015273",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00004 - TINTA INDUSTRIAL, TIPO EPOXI-RESINA, APRESENTACAO BICOMPONENTE, APLICACAO ARMAMENTO, CARACTERISTICAS ADICIONAIS FOSCO VINILICO, COR PRETA",
           "valor": 782.53
         }
@@ -8920,7 +8921,7 @@
       "nc_origem": "2026NC015273",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00001 - CIMENTO PORTLAND, MATERIAL CLINKER, TIPO COMUM",
           "valor": 266.7
         }
@@ -8949,7 +8950,7 @@
       "nc_origem": "2026NC415767",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00001 - Graxa - Silicone - aspecto fisico: solido, consistencia: pastosa, composicao: oleo de silicone e ptfe, cor: branca, aplicacao: valvulas com juntas de epdm",
           "valor": 419.58
         }
@@ -8978,7 +8979,7 @@
       "nc_origem": "2026NC415767",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00002 - Mangueira - Latex - diametro externo: 6, espessura: 2, comprimento: 5",
           "valor": 729.0
         }
@@ -9007,7 +9008,7 @@
       "nc_origem": "2026NC415767",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00003 - Oleo Lubrificante. - apresentacao: liquido, origem: mineral, viscosidade: iso vg 100, uso: lubrificacao de componentes mecanicos, caracteristicas adicionais: oleo hidraulico hsvi",
           "valor": 3120.0
         }
@@ -9036,7 +9037,7 @@
       "nc_origem": "2026NC415767",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00004 - Fluido De Sistema De Freio - aplicacao: veiculo automotivo, caracteristica adicionais: dot 4",
           "valor": 850.0
         }
@@ -9065,7 +9066,7 @@
       "nc_origem": "2026NC415767",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00006 - Oleo Lubrificante. - apresentacao: liquido viscoso, origem: mineral, viscosidade: sae 15w40, uso: motor a diesel",
           "valor": 6341.16
         }
@@ -9094,7 +9095,7 @@
       "nc_origem": "2026NC415767",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00007 - Oleo Lubrificante - uso: automotivo, tipo: mineral, classificacao: api gl-5, viscosidade: sae 85w-140",
           "valor": 2715.0
         }
@@ -9123,7 +9124,7 @@
       "nc_origem": "2026NC015273",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00004 - TINTA INDUSTRIAL, TIPO EPOXI-RESINA, APRESENTACAO BICOMPONENTE, APLICACAO ARMAMENTO, CARACTERISTICAS ADICIONAIS FOSCO VINILICO, COR PRETA",
           "valor": 7051.1
         }
@@ -9152,7 +9153,7 @@
       "nc_origem": "2026NC015273",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00001 - CIMENTO PORTLAND, MATERIAL CLINKER, TIPO COMUM",
           "valor": 1162.0
         }
@@ -9181,7 +9182,7 @@
       "nc_origem": "2026NC015273",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00003 - TOMADA, TIPO EMBUTIR, NUMERO CONTATO 2 UN, FORMATO CONTATO UNIVERSAL, FORMATO CORPO RETANGULAR, CORRENTE NOMINAL 10 A, TENSAO NOMINAL 250 V, NUMERO POLOS 2 P, CARACTERISTICAS ADICIONAIS FOSFORESCENTE COM ESPELHO ALUMINIO, NORMAS TECNICAS NBR 6.147/80",
           "valor": 786.5
         }
@@ -9210,7 +9211,7 @@
       "nc_origem": "2026NC432361",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "GT DE AJUDA DE CUSTO PARA O 1º TEN GABRIEL HILARIO DOMINGOS MONTEIRO DE ACORDO COM O PUBLICADO NO ADT DCEM 1A AO BOL DGP N 100 DE 28 AGO 26 SENDO CLASSIFICADO NO 23º BLOG SL EM MARABA-PA 2026NC432361",
           "valor": 61298.4
         }
@@ -9239,7 +9240,7 @@
       "nc_origem": "2026NC432361",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "PGT DE INDZ TRANSP PARA O 1º TEN GABRIEL HILARIO DOMINGOS MONTEIRO DE ACORDO COM O PUBLICADO NO ADT DCEM 1A AO BOL DGP N 100 DE 28 AGO 26 SENDO CLASSIFICADO NO 23º BLOG SL EM MARABA-PA 2026NC432361",
           "valor": 11972.74
         }
@@ -9268,7 +9269,7 @@
       "nc_origem": "2026NC432346",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "339093 - 18 - AJUDA DE CUSTO PARA O 3º SGT NATHAN BARRETO PEREIRA DE CARVALHO EM VIRTUDE DE MOVIMENTACAO POR NECESSIDADE DE SERVICO. PUB NO ADITAMENTO DA ADT DCEM 3E AO BOL DO DGP Nº 88, DE 31 JUL 26 E  BAR Nº 66 DE 08/10/2026 DO BCMS. 2026NC432346 DE 06 OUT 26.",
           "valor": 6223.73
         }
@@ -9297,7 +9298,7 @@
       "nc_origem": "2026NC432346",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "339093 - 19 - INDENIZACAO TRANSPORTE PARA O 3º SGT NATHAN BARRETO PEREIRA DE CARVALHO EM VIRTUDE DE MOVIMENTACAO POR NECESSIDADE DE SERVICO. PUB NO ADITAMENTO DA ADT DCEM 3E AO BOL DO DGP Nº 88, DE 31 JUL 26 E  BAR Nº 66 DE 08/10/2026 DO BCMS. 2026NC432346 DE 06 OUT 26.",
           "valor": 2287.86
         }
@@ -9305,6 +9306,644 @@
       "valor_empenhado": 2287.86,
       "valor_liquidado": 0.0,
       "saldo_a_liquidar": 2287.86
+    },
+    {
+      "key": "160329_2026NE000309",
+      "ne_num": "2026NE000309",
+      "ne_full": "160329000012026NE000309",
+      "ug": "160329",
+      "ug_nome": "BCMS (OGU)",
+      "emissao": "13/10/2026",
+      "aging_dias": 15,
+      "faixa_aging": "0-30 dias",
+      "semaforo": "verde",
+      "cnpj": "27.405.792/0001-30",
+      "fornecedor": "MEDICAM PECAS E SERVICOS AUTOMOTIVOS LTDA",
+      "nd": "339030",
+      "pi": "SEG ALOEXE",
+      "tipo": "GLOBAL",
+      "objeto": "339030 39 AQS DE TOLDO PARA VIATURAS CONFORME DIEX 42 COSM PREGAO UGNP 31/2026 160040 2026NC415767",
+      "processo": "DIEX 42",
+      "nc_origem": "2026NC415767",
+      "itens": [
+        {
+          "item_num": "1.0",
+          "descricao": "Item compra: 00042 - Lona - material: tecido vinil sintetico, aplicacao: cobertura de caminhoes e carretas carga, cor: verde",
+          "valor": 58730.0
+        }
+      ],
+      "valor_empenhado": 58730.0,
+      "valor_liquidado": 0.0,
+      "saldo_a_liquidar": 58730.0
+    },
+    {
+      "key": "160329_2026NE000310",
+      "ne_num": "2026NE000310",
+      "ne_full": "160329000012026NE000310",
+      "ug": "160329",
+      "ug_nome": "BCMS (OGU)",
+      "emissao": "14/10/2026",
+      "aging_dias": 14,
+      "faixa_aging": "0-30 dias",
+      "semaforo": "verde",
+      "cnpj": "14.863.079/0001-99",
+      "fornecedor": "F.AB. ZONA OESTE S.A.",
+      "nd": "339039",
+      "pi": "I3DACSPAGES",
+      "tipo": "ESTIMATIVO",
+      "objeto": "339039 - 44 - DESPESAS COM SV DE CONCESSIONARIA DE AGUA E ESGOTO. CONFORME DIEX 109 CONTAS PESSOAS/ CMDO/BCMS DE 09 DE OUTUBRO DE 2026 - 2026NC020040 - CONTRATO 18/2024 DO BCMS (UASG 160329) - DOCUMENTACAO OBRIGATORIA VERIFICADA",
+      "processo": "DIEX 109",
+      "nc_origem": "2026NC020040",
+      "itens": [
+        {
+          "item_num": "1.0",
+          "descricao": "Item compra: 00001 - FORNECIMENTO DE AGUA E COLETA DE ESGOTO SANITARIO",
+          "valor": 64999.58
+        }
+      ],
+      "valor_empenhado": 64999.58,
+      "valor_liquidado": 0.0,
+      "saldo_a_liquidar": 64999.58
+    },
+    {
+      "key": "160329_2026NE000311",
+      "ne_num": "2026NE000311",
+      "ne_full": "160329000012026NE000311",
+      "ug": "160329",
+      "ug_nome": "BCMS (OGU)",
+      "emissao": "15/10/2026",
+      "aging_dias": 13,
+      "faixa_aging": "0-30 dias",
+      "semaforo": "verde",
+      "cnpj": "044.151.477-47",
+      "fornecedor": "RICARDO LEONEL OLIVEIRA",
+      "nd": "339093",
+      "pi": "D6PEINDMV1A",
+      "tipo": "ORDINARIO",
+      "objeto": "339093 18 PGT DE AJUDA DE CUSTO PARA O ST RICARDO LEONEL OLIVEIRA EM VITURDE DE MOVIMENTACAO SENDO CLASSIFICADO NO 16º B LOG LOCALIZADO EM TEFE-AM CONFORME ADT DCEM 3D AO BOL DGP Nº 105 DE 11SET27 2026NC432376",
+      "processo": "DISPENSA / DIRETO",
+      "nc_origem": "2026NC432376",
+      "itens": [
+        {
+          "item_num": "1.0",
+          "descricao": "PGT DE AJUDA DE CUSTO PARA O ST RICARDO LEONEL OLIVEIRA EM VITURDE DE MOVIMENTACAO SENDO CLASSIFICADO NO 16º B LOG LOCALIZADO EM TEFE-AM CONFORME ADT DCEM 3D AO BOL DGP Nº 105 DE 11SET27 2026NC432376",
+          "valor": 59555.08
+        }
+      ],
+      "valor_empenhado": 59555.08,
+      "valor_liquidado": 0.0,
+      "saldo_a_liquidar": 59555.08
+    },
+    {
+      "key": "160329_2026NE000312",
+      "ne_num": "2026NE000312",
+      "ne_full": "160329000012026NE000312",
+      "ug": "160329",
+      "ug_nome": "BCMS (OGU)",
+      "emissao": "",
+      "aging_dias": 0,
+      "faixa_aging": "0-30 dias",
+      "semaforo": "verde",
+      "cnpj": "044.151.477-47",
+      "fornecedor": "RICARDO LEONEL OLIVEIRA",
+      "nd": "339093",
+      "pi": "D6PEINDMV1T",
+      "tipo": "ORDINARIO",
+      "objeto": "339093 19 INDENIZACAO DE TRANSPORTE PARA O ST RICARDO LEONEL OLIVEIRA EM VITURDE DE MOVIMENTACAO SENDO CLASSIFICADO NO 16º B LOG LOCALIZADO EM TEFE-AM CONFORME ADT DCEM 3D AO BOL DGP Nº 105 DE 11SET27 2026NC432376",
+      "processo": "DISPENSA / DIRETO",
+      "nc_origem": "2026NC432376",
+      "itens": [
+        {
+          "item_num": "1.0",
+          "descricao": "INDENIZACAO DE TRANSPORTE PARA O ST RICARDO LEONEL OLIVEIRA EM VITURDE DE MOVIMENTACAO SENDO CLASSIFICADO NO 16º B LOG LOCALIZADO EM TEFE-AM CONFORME ADT DCEM 3D AO BOL DGP Nº 105 DE 11SET27 2026NC432376",
+          "valor": 30492.14
+        }
+      ],
+      "valor_empenhado": 30492.14,
+      "valor_liquidado": 0.0,
+      "saldo_a_liquidar": 30492.14
+    },
+    {
+      "key": "160329_2026NE000313",
+      "ne_num": "2026NE000313",
+      "ne_full": "160329000012026NE000313",
+      "ug": "160329",
+      "ug_nome": "BCMS (OGU)",
+      "emissao": "16/10/2026",
+      "aging_dias": 12,
+      "faixa_aging": "0-30 dias",
+      "semaforo": "verde",
+      "cnpj": "60.444.437/0001-46",
+      "fornecedor": "LIGHT SERVICOS DE ELETRICIDADE S A",
+      "nd": "339039",
+      "pi": "I3DACSPENEL",
+      "tipo": "ESTIMATIVO",
+      "objeto": "339039 43 CONTRATACAO DE SV DE FORNECIMENTO DE ENERGIA ELETRICA CONFORME DIEX 112-FISCCONTR/S4/CMDO CONTRATO 08/2020 160329 2026NC019911",
+      "processo": "DIEX 112-",
+      "nc_origem": "2026NC019911",
+      "itens": [
+        {
+          "item_num": "1.0",
+          "descricao": "Item compra: 00001 - ENERGIA ELETRICA - FORNECIMENTO MERCADO REGULADO",
+          "valor": 147199.53
+        }
+      ],
+      "valor_empenhado": 147199.53,
+      "valor_liquidado": 0.0,
+      "saldo_a_liquidar": 147199.53
+    },
+    {
+      "key": "160329_2026NE000314",
+      "ne_num": "2026NE000314",
+      "ne_full": "160329000012026NE000314",
+      "ug": "160329",
+      "ug_nome": "BCMS (OGU)",
+      "emissao": "19/10/2026",
+      "aging_dias": 9,
+      "faixa_aging": "0-30 dias",
+      "semaforo": "verde",
+      "cnpj": "35.385.417/0001-02",
+      "fornecedor": "N S APARECIDA DISTRIBUIDORA DE PRODUTOS ALIMENTICIOS E",
+      "nd": "339030",
+      "pi": "E6SUPLJA1QR",
+      "tipo": "GLOBAL",
+      "objeto": "339030 07 AQS DE GENEROS ALIMENTICIOS CONFORME DIEX 105 APROV UGP 90004/2025 160298 2026NC412145",
+      "processo": "DIEX 105",
+      "nc_origem": "2026NC412145",
+      "itens": [
+        {
+          "item_num": "1.0",
+          "descricao": "Item compra: 00033 - FRUTA, TIPO MACA GALA, APRESENTACAO NATURAL",
+          "valor": 2214.0
+        }
+      ],
+      "valor_empenhado": 2214.0,
+      "valor_liquidado": 0.0,
+      "saldo_a_liquidar": 2214.0
+    },
+    {
+      "key": "160329_2026NE000315",
+      "ne_num": "2026NE000315",
+      "ne_full": "160329000012026NE000315",
+      "ug": "160329",
+      "ug_nome": "BCMS (OGU)",
+      "emissao": "",
+      "aging_dias": 0,
+      "faixa_aging": "0-30 dias",
+      "semaforo": "verde",
+      "cnpj": "27.621.519/0001-43",
+      "fornecedor": "ISUPRY COMERCIAL E SERVICOS LTDA",
+      "nd": "339030",
+      "pi": "E6SUPLJA1QR",
+      "tipo": "GLOBAL",
+      "objeto": "339030 07 AQS DE GENEROS ALIMENTICIOS CONFORME DIEX 105 APROV UGP 90004/2025 160298 2026NC412145",
+      "processo": "DIEX 105",
+      "nc_origem": "2026NC412145",
+      "itens": [
+        {
+          "item_num": "1.0",
+          "descricao": "Item compra: 00126 - SUCO, APRESENTACAO LIQUIDO, SABOR VARIADO, TIPO INDUSTRIALIZADO, CARACTERISTICAS ADICIONAIS POLPA DE FRUTA NATURAL",
+          "valor": 2494.0
+        }
+      ],
+      "valor_empenhado": 2494.0,
+      "valor_liquidado": 0.0,
+      "saldo_a_liquidar": 2494.0
+    },
+    {
+      "key": "160329_2026NE000316",
+      "ne_num": "2026NE000316",
+      "ne_full": "160329000012026NE000316",
+      "ug": "160329",
+      "ug_nome": "BCMS (OGU)",
+      "emissao": "",
+      "aging_dias": 0,
+      "faixa_aging": "0-30 dias",
+      "semaforo": "verde",
+      "cnpj": "10.626.575/0001-78",
+      "fornecedor": "COMSUP COMERCIAL DE ALIMENTOS LTDA",
+      "nd": "339030",
+      "pi": "E6SUPLJA1QR",
+      "tipo": "GLOBAL",
+      "objeto": "339030 07 AQS DE GENEROS ALIMENTICIOS CONFORME DIEX 105 APROV UGP 90004/2025 160298 2026NC412145",
+      "processo": "DIEX 105",
+      "nc_origem": "2026NC412145",
+      "itens": [
+        {
+          "item_num": "1.0",
+          "descricao": "Item compra: 00080 - MOLHO DE MESA, TIPO MOSTARDA, COMPOSICAO TRADICIONAL, APRESENTACAO CREME",
+          "valor": 2847.0
+        }
+      ],
+      "valor_empenhado": 2847.0,
+      "valor_liquidado": 0.0,
+      "saldo_a_liquidar": 2847.0
+    },
+    {
+      "key": "160329_2026NE000317",
+      "ne_num": "2026NE000317",
+      "ne_full": "160329000012026NE000317",
+      "ug": "160329",
+      "ug_nome": "BCMS (OGU)",
+      "emissao": "",
+      "aging_dias": 0,
+      "faixa_aging": "0-30 dias",
+      "semaforo": "verde",
+      "cnpj": "10.787.920/0001-55",
+      "fornecedor": "COMALTA COMERCIO DE ALIMENTOS LTDA",
+      "nd": "339030",
+      "pi": "E6SUPLJA1QR",
+      "tipo": "GLOBAL",
+      "objeto": "339030 07 AQS DE GENEROS ALIMENTICIOS CONFORME DIEX 105 APROV UGP 90004/2025 160298 2026NC412145",
+      "processo": "DIEX 105",
+      "nc_origem": "2026NC412145",
+      "itens": [
+        {
+          "item_num": "1.0",
+          "descricao": "Item compra: 00068 - LEITE CONDENSADO, TIPO INTEGRAL, INGREDIENTE BASICO LEITE IN NATURA",
+          "valor": 3810.0
+        }
+      ],
+      "valor_empenhado": 3810.0,
+      "valor_liquidado": 0.0,
+      "saldo_a_liquidar": 3810.0
+    },
+    {
+      "key": "160329_2026NE000318",
+      "ne_num": "2026NE000318",
+      "ne_full": "160329000012026NE000318",
+      "ug": "160329",
+      "ug_nome": "BCMS (OGU)",
+      "emissao": "",
+      "aging_dias": 0,
+      "faixa_aging": "0-30 dias",
+      "semaforo": "verde",
+      "cnpj": "33.697.852/0001-39",
+      "fornecedor": "ALK COMERCIO E SERVICOS DE ALIMENTACAO LTDA",
+      "nd": "339030",
+      "pi": "E6SUPLJA1QR",
+      "tipo": "GLOBAL",
+      "objeto": "339030 07 AQS DE GENEROS ALIMENTICIOS CONFORME DIEX 105 APROV UGP 90004/2025 160298 2026NC412145",
+      "processo": "DIEX 105",
+      "nc_origem": "2026NC412145",
+      "itens": [
+        {
+          "item_num": "1.0",
+          "descricao": "Item compra: 00104 - PAO DE QUEIJO, BASA DA MASSA POLVILHO DOCE OU AZEDO E QUEIJO, INGREDIENTES ADICIONAIS COM OUTROS SABORES, FORMATO TRADICIONAL/MEDIO, APRESENTACAO CRU CONGELADO",
+          "valor": 3255.0
+        }
+      ],
+      "valor_empenhado": 3255.0,
+      "valor_liquidado": 0.0,
+      "saldo_a_liquidar": 3255.0
+    },
+    {
+      "key": "160329_2026NE000319",
+      "ne_num": "2026NE000319",
+      "ne_full": "160329000012026NE000319",
+      "ug": "160329",
+      "ug_nome": "BCMS (OGU)",
+      "emissao": "20/10/2026",
+      "aging_dias": 8,
+      "faixa_aging": "0-30 dias",
+      "semaforo": "verde",
+      "cnpj": "09.211.999/0001-92",
+      "fornecedor": "VISIONARIA COMERCIO E SERVICOS EM GERAL LTDA",
+      "nd": "339030",
+      "pi": "E6SUPLJA1QR",
+      "tipo": "GLOBAL",
+      "objeto": "339030 07 AQS DE GENEROS ALIMENTICIOS CONFORME DIEX 2839 APROV PREGAO UGP 90004/2025 160298 2026NC412145",
+      "processo": "DIEX 2839",
+      "nc_origem": "2026NC412145",
+      "itens": [
+        {
+          "item_num": "1.0",
+          "descricao": "Item compra: 00016 - EMBUTIDO, TIPO LINGUICA TOSCANA, TAMANHO GROSSA, TIPO PREPARACAO FRESCA, ESTADO DE CONSERVACAO RESFRIADO(A)",
+          "valor": 4948.0
+        }
+      ],
+      "valor_empenhado": 4948.0,
+      "valor_liquidado": 0.0,
+      "saldo_a_liquidar": 4948.0
+    },
+    {
+      "key": "160329_2026NE000320",
+      "ne_num": "2026NE000320",
+      "ne_full": "160329000012026NE000320",
+      "ug": "160329",
+      "ug_nome": "BCMS (OGU)",
+      "emissao": "",
+      "aging_dias": 0,
+      "faixa_aging": "0-30 dias",
+      "semaforo": "verde",
+      "cnpj": "50.545.463/0001-07",
+      "fornecedor": "RL ALIMENTOS E LATICINIOS COMERCIO LTDA",
+      "nd": "339030",
+      "pi": "E6SUPLJA1QR",
+      "tipo": "GLOBAL",
+      "objeto": "339030 07 AQS DE GENEROS ALIMENTICIOS CONFORME DIEX 2839 APROV PREGAO UGP 90004/2025 160298 2026NC412145",
+      "processo": "DIEX 2839",
+      "nc_origem": "2026NC412145",
+      "itens": [
+        {
+          "item_num": "1.0",
+          "descricao": "Item compra: 00015 - EMBUTIDO, TIPO LINGUICA CALABRESA, TAMANHO GROSSA, TIPO PREPARACAO DEFUMADA, ESTADO DE CONSERVACAO RESFRIADO(A)",
+          "valor": 4994.0
+        }
+      ],
+      "valor_empenhado": 4994.0,
+      "valor_liquidado": 0.0,
+      "saldo_a_liquidar": 4994.0
+    },
+    {
+      "key": "160329_2026NE000321",
+      "ne_num": "2026NE000321",
+      "ne_full": "160329000012026NE000321",
+      "ug": "160329",
+      "ug_nome": "BCMS (OGU)",
+      "emissao": "",
+      "aging_dias": 0,
+      "faixa_aging": "0-30 dias",
+      "semaforo": "verde",
+      "cnpj": "40.336.507/0001-35",
+      "fornecedor": "LCV PINHEIRO COMERCIO DE GENEROS ALIMENTICIOS",
+      "nd": "339030",
+      "pi": "E6SUPLJA1QR",
+      "tipo": "GLOBAL",
+      "objeto": "339030 07 AQS DE GENEROS ALIMENTICIOS CONFORME DIEX 2839 APROV PREGAO UGP 90004/2025 160298 2026NC412145",
+      "processo": "DIEX 2839",
+      "nc_origem": "2026NC412145",
+      "itens": [
+        {
+          "item_num": "1.0",
+          "descricao": "Item compra: 00085 - MOLHO DE MESA, TIPO INGLES, COMPOSICAO TRADICIONAL, APRESENTACAO LIQUIDO",
+          "valor": 1980.0
+        }
+      ],
+      "valor_empenhado": 1980.0,
+      "valor_liquidado": 0.0,
+      "saldo_a_liquidar": 1980.0
+    },
+    {
+      "key": "160329_2026NE000322",
+      "ne_num": "2026NE000322",
+      "ne_full": "160329000012026NE000322",
+      "ug": "160329",
+      "ug_nome": "BCMS (OGU)",
+      "emissao": "",
+      "aging_dias": 0,
+      "faixa_aging": "0-30 dias",
+      "semaforo": "verde",
+      "cnpj": "23.441.012/0001-57",
+      "fornecedor": "GALERIA HORT COMERCIO DE PRODUTOS ALIMENTICIOS LTDA",
+      "nd": "339030",
+      "pi": "E6SUPLJA1QR",
+      "tipo": "GLOBAL",
+      "objeto": "339030 07 AQS DE GENEROS ALIMENTICIOS CONFORME DIEX 2839 APROV PREGAO UGP 90004/2025 160298 2026NC412145",
+      "processo": "DIEX 2839",
+      "nc_origem": "2026NC412145",
+      "itens": [
+        {
+          "item_num": "1.0",
+          "descricao": "Item compra: 00005 - IOGURTE NATURAL, TEOR GORDURA INTEGRAL, SABOR SORTIDOS, COMPONENTES COM POLPA OU PEDACOS DE FRUTA",
+          "valor": 2124.0
+        }
+      ],
+      "valor_empenhado": 2124.0,
+      "valor_liquidado": 0.0,
+      "saldo_a_liquidar": 2124.0
+    },
+    {
+      "key": "160329_2026NE000323",
+      "ne_num": "2026NE000323",
+      "ne_full": "160329000012026NE000323",
+      "ug": "160329",
+      "ug_nome": "BCMS (OGU)",
+      "emissao": "",
+      "aging_dias": 0,
+      "faixa_aging": "0-30 dias",
+      "semaforo": "verde",
+      "cnpj": "26.361.172/0001-84",
+      "fornecedor": "FORTE AFONSOS DISTRIBUIDORA DE ALIMENTOS LTDA",
+      "nd": "339030",
+      "pi": "E6SUPLJA1QR",
+      "tipo": "GLOBAL",
+      "objeto": "339030 07 AQS DE GENEROS ALIMENTICIOS CONFORME DIEX 2839 APROV PREGAO UGP 90004/2025 160298 2026NC412145",
+      "processo": "DIEX 2839",
+      "nc_origem": "2026NC412145",
+      "itens": [
+        {
+          "item_num": "1.0",
+          "descricao": "Item compra: 00020 - FRIOS, VARIEDADE MORTADELA, TIPO BOLOGNA, TIPO PREPARACAO DEFUMADO, APRESENTACAO PECA INTEIRA, ESTADO DE CONSERVACAO RESFRIADO(A)",
+          "valor": 2691.0
+        }
+      ],
+      "valor_empenhado": 2691.0,
+      "valor_liquidado": 0.0,
+      "saldo_a_liquidar": 2691.0
+    },
+    {
+      "key": "160329_2026NE000324",
+      "ne_num": "2026NE000324",
+      "ne_full": "160329000012026NE000324",
+      "ug": "160329",
+      "ug_nome": "BCMS (OGU)",
+      "emissao": "23/10/2026",
+      "aging_dias": 5,
+      "faixa_aging": "0-30 dias",
+      "semaforo": "verde",
+      "cnpj": "33.739.848/0001-96",
+      "fornecedor": "UNIVERSAL IMPORTACAO EXPORTACAO E COMERCIO LIMITADA",
+      "nd": "339030",
+      "pi": "SEG GVAEXE",
+      "tipo": "GLOBAL",
+      "objeto": "339030 - 39 - AQS DE PECAS P/ MNT PREVENTIVA E CORRETIVA DE VIATURAS EMPREGADAS NA OP GVA - CONFORME DIEX Nº 44 - COSM/ CMDO/ BCMS DE 23/OUT/2026 - 2026NC418258 - PREGAO Nº 32/2026 DO PARQUE REGIONAL DE MANUTENCAO/7 - UASG(160200) - UGP - DOCUMENTACAO OBRIGATORIA VERIFICADA.",
+      "processo": "DISPENSA / DIRETO",
+      "nc_origem": "2026NC418258",
+      "itens": [
+        {
+          "item_num": "1.0",
+          "descricao": "Item compra: 00001 - Acessorios / Equipamentos Oficina Manutencao - tipo: carro esteira, material: aco",
+          "valor": 35980.18
+        }
+      ],
+      "valor_empenhado": 35980.18,
+      "valor_liquidado": 0.0,
+      "saldo_a_liquidar": 35980.18
+    },
+    {
+      "key": "160329_2026NE000330",
+      "ne_num": "2026NE000330",
+      "ne_full": "160329000012026NE000330",
+      "ug": "160329",
+      "ug_nome": "BCMS (OGU)",
+      "emissao": "",
+      "aging_dias": 0,
+      "faixa_aging": "0-30 dias",
+      "semaforo": "verde",
+      "cnpj": "21.219.926/0001-42",
+      "fornecedor": "TRIANGULO CONSTRUTORA E SERVICOS LTDA",
+      "nd": "339039",
+      "pi": "FCA157XDECO",
+      "tipo": "GLOBAL",
+      "objeto": "339039 05 CONTRATACAO DE SV DE MNT DE BENS IMOVEIS CONFORME DIEX 115 CIA MNT UGP 90002/2026 160301 2026NC000099 E 2026NC000098",
+      "processo": "DIEX 115",
+      "nc_origem": "2026NC000099",
+      "itens": [
+        {
+          "item_num": "1.0",
+          "descricao": "Item compra: 00002 - Servicos comuns de manutencao, preservacao e recuperacao de bens imoveis, com fornecimento integral dos insumos, equipamentos e mao de obra necessarios a ex ecucao, observados os parametros tecnicos, criterios de medicao e referenciais  oficiais, notadamente aqueles previstos no Sistema Nacional de Pesquisa de Cu stos e Indices da Construcao Civil, adotando-se, de forma complementar e subsi diaria, outros sistemas oficiais de referencia economica reconhecidos.",
+          "valor": 499999.22
+        }
+      ],
+      "valor_empenhado": 499999.22,
+      "valor_liquidado": 0.0,
+      "saldo_a_liquidar": 499999.22
+    },
+    {
+      "key": "160329_2026NE000325",
+      "ne_num": "2026NE000325",
+      "ne_full": "160329000012026NE000325",
+      "ug": "160329",
+      "ug_nome": "BCMS (OGU)",
+      "emissao": "26/10/2026",
+      "aging_dias": 2,
+      "faixa_aging": "0-30 dias",
+      "semaforo": "verde",
+      "cnpj": "455.848.928-58",
+      "fornecedor": "GABRIEL HILARIO DOMINGOS MONTEIRO",
+      "nd": "339093",
+      "pi": "D1PEINDMV6A",
+      "tipo": "ORDINARIO",
+      "objeto": "339093 - 18 - PGT DE AJUDA DE CUSTO PARA O 1º TEN GABRIEL HILARIO DOMINGOS MONTEIRO DE ACORDO COM O PUBLICADO NO ADT DCEM / BOL DGP Nº 114 DE 02/10/2026 CONFORME NOTA DE CREDITO Nº 2026NC433391 DE 14 OUT 26 EM VIRTUDE DA REALIZACAO DO ESTAGIO DE GESTAO DE FROTAS PARA OFICIAIS.",
+      "processo": "DISPENSA / DIRETO",
+      "nc_origem": "2026NC433391",
+      "itens": [
+        {
+          "item_num": "1.0",
+          "descricao": "339093 - PGT DE AJUDA DE CUSTO PARA O 1º TEN GABRIEL HILARIO DOMINGOS MONTEIRO DE ACORDO COM O PUBLICADO NO ADT DCEM / BOL DGP Nº 114 DE 02/10/2026 CONFORME NOTA DE CREDITO Nº 2026NC433391 DE 14 OUT 26 EM VIRTUDE DA REALIZACAO DO ESTAGIO DE GESTAO DE FROTAS PARA OFICIAIS.",
+          "valor": 30649.2
+        }
+      ],
+      "valor_empenhado": 30649.2,
+      "valor_liquidado": 0.0,
+      "saldo_a_liquidar": 30649.2
+    },
+    {
+      "key": "160329_2026NE000326",
+      "ne_num": "2026NE000326",
+      "ne_full": "160329000012026NE000326",
+      "ug": "160329",
+      "ug_nome": "BCMS (OGU)",
+      "emissao": "",
+      "aging_dias": 0,
+      "faixa_aging": "0-30 dias",
+      "semaforo": "verde",
+      "cnpj": "455.848.928-58",
+      "fornecedor": "GABRIEL HILARIO DOMINGOS MONTEIRO",
+      "nd": "339093",
+      "pi": "D1PEINDMV6T",
+      "tipo": "ORDINARIO",
+      "objeto": "339093 - 19 - PGT DE INDZ TRANSP PARA O 1º TEN GABRIEL HILARIO DOMINGOS MONTEIRO DE ACORDO COM O PUBLICADO NO ADT DCEM / BOL DGP Nº 114 DE 02/10/2026 CONFORME NOTA DE CREDITO Nº 2026NC433391 DE 14 OUT 26 EM VIRTUDE DA REALIZACAO DO ESTAGIO DE GESTAO DE FROTAS PARA OFICIAIS.",
+      "processo": "DISPENSA / DIRETO",
+      "nc_origem": "2026NC433391",
+      "itens": [
+        {
+          "item_num": "1.0",
+          "descricao": "339093 - PGT DE INDZ TRANSP PARA O 1º TEN GABRIEL HILARIO DOMINGOS MONTEIRO DE ACORDO COM O PUBLICADO NO ADT DCEM / BOL DGP Nº 114 DE 02/10/2026 CONFORME NOTA DE CREDITO Nº 2026NC433391 DE 14 OUT 26 EM VIRTUDE DA REALIZACAO DO ESTAGIO DE GESTAO DE FROTAS PARA OFICIAIS.",
+          "valor": 820.0
+        }
+      ],
+      "valor_empenhado": 820.0,
+      "valor_liquidado": 0.0,
+      "saldo_a_liquidar": 820.0
+    },
+    {
+      "key": "160329_2026NE000327",
+      "ne_num": "2026NE000327",
+      "ne_full": "160329000012026NE000327",
+      "ug": "160329",
+      "ug_nome": "BCMS (OGU)",
+      "emissao": "",
+      "aging_dias": 0,
+      "faixa_aging": "0-30 dias",
+      "semaforo": "verde",
+      "cnpj": "169.477.177-60",
+      "fornecedor": "LUCAS FERREIRA FREIRE",
+      "nd": "339093",
+      "pi": "D6PEINDMV1A",
+      "tipo": "ORDINARIO",
+      "objeto": "339093 - 18 - AJUDA DE CUSTO PARA O 3º SGT LUCAS FERREIRA FREIRE EM VIRTUDE DE REALIZACAO DO CURSO DE MANUTENCAO DE CHASSI DA VBR EE - 9 CASCAVEL E VBTP EE-11 URUTU. PUB NO ADITAMENTO DA ADT DCEM 4C AO BOL DGP Nº 103 DE 04 SET 26 E BAR Nº 070 - BCMS, DE 10 OUT 26 CONFORME NOTA DE CREDITO Nº2026NC433263 DE 13 OUT 26.",
+      "processo": "DISPENSA / DIRETO",
+      "nc_origem": "2026NC433263",
+      "itens": [
+        {
+          "item_num": "1.0",
+          "descricao": "339093 - AJUDA DE CUSTO PARA O 3º SGT LUCAS FERREIRA FREIRE EM VIRTUDE DE REALIZACAO DO CURSO DE MANUTENCAO DE CHASSI DA VBR EE - 9 CASCAVEL E VBTP EE-11 URUTU. PUB NO ADITAMENTO DA ADT DCEM 4C AO BOL DGP Nº 103 DE 04 SET 26 E BAR Nº 070 - BCMS, DE 10 OUT 26 CONFORME NOTA DE CREDITO Nº2026NC433263 DE 13 OUT 26.",
+          "valor": 6223.73
+        }
+      ],
+      "valor_empenhado": 6223.73,
+      "valor_liquidado": 0.0,
+      "saldo_a_liquidar": 6223.73
+    },
+    {
+      "key": "160329_2026NE000328",
+      "ne_num": "2026NE000328",
+      "ne_full": "160329000012026NE000328",
+      "ug": "160329",
+      "ug_nome": "BCMS (OGU)",
+      "emissao": "",
+      "aging_dias": 0,
+      "faixa_aging": "0-30 dias",
+      "semaforo": "verde",
+      "cnpj": "169.477.177-60",
+      "fornecedor": "LUCAS FERREIRA FREIRE",
+      "nd": "339093",
+      "pi": "D6PEINDMV1T",
+      "tipo": "ORDINARIO",
+      "objeto": "339093 - 19 - PGT DE INDZ TRANSP PARA O 3º SGT LUCAS FERREIRA FREIRE EM VIRTUDE DE REALIZACAO DO CURSO DE MANUTENCAO DE CHASSI DA VBR EE - 9 CASCAVEL E VBTP EE-11 URUTU. PUB NO ADITAMENTO DA ADT DCEM 4C AO BOL DGP Nº 103 DE 04 SET 26 E BAR Nº 070 - BCMS, DE 10 OUT 26 CONFORME NOTA DE CREDITO Nº2026NC433263 DE 13 OUT 26.",
+      "processo": "DISPENSA / DIRETO",
+      "nc_origem": "2026NC433263",
+      "itens": [
+        {
+          "item_num": "1.0",
+          "descricao": "339093 - PGT DE INDZ TRANSP PARA O 3º SGT LUCAS FERREIRA FREIRE EM VIRTUDE DE REALIZACAO DO CURSO DE MANUTENCAO DE CHASSI DA VBR EE - 9 CASCAVEL E VBTP EE-11 URUTU. PUB NO ADITAMENTO DA ADT DCEM 4C AO BOL DGP Nº 103 DE 04 SET 26 E BAR Nº 070 - BCMS, DE 10 OUT 26 CONFORME NOTA DE CREDITO Nº2026NC433263 DE 13 OUT 26.",
+          "valor": 1609.16
+        }
+      ],
+      "valor_empenhado": 1609.16,
+      "valor_liquidado": 0.0,
+      "saldo_a_liquidar": 1609.16
+    },
+    {
+      "key": "160329_2026NE000329",
+      "ne_num": "2026NE000329",
+      "ne_full": "160329000012026NE000329",
+      "ug": "160329",
+      "ug_nome": "BCMS (OGU)",
+      "emissao": "",
+      "aging_dias": 0,
+      "faixa_aging": "0-30 dias",
+      "semaforo": "verde",
+      "cnpj": "152.492.977-81",
+      "fornecedor": "FELIPE PINHEIRO DA SILVA",
+      "nd": "339093",
+      "pi": "D6PEINDMV1A",
+      "tipo": "ORDINARIO",
+      "objeto": "339093 - 18 - AJUDA DE CUSTO PARA O 2º SGT FELIPE PINHEIRO DA SILVA DE ACORDO COM O PUBLICADO NO BAR DO DGP NR 040 DE 01 OUT 15 CONSTANDO DESIGNACAO PARA O CURSO BASICO DE GUERRA CIBERNETICA PARA SARGENTOS A SER REALIZADO NO PERIODO DE 16 MAR A 03 JUL 26 NO CIGE CONFORME NOTA DE CREDITO Nº2026NC434504 DE 20 OUT 26.",
+      "processo": "DISPENSA / DIRETO",
+      "nc_origem": "2026NC434504",
+      "itens": [
+        {
+          "item_num": "1.0",
+          "descricao": "339093 - AJUDA DE CUSTO PARA O 2º SGT FELIPE PINHEIRO DA SILVA DE ACORDO COM O PUBLICADO NO BAR DO DGP NR 040 DE 01 OUT 15 CONSTANDO DESIGNACAO PARA O CURSO BASICO DE GUERRA CIBERNETICA PARA SARGENTOS A SER REALIZADO NO PERIODO DE 16 MAR A 03 JUL 26 NO CIGE CONFORME NOTA DE CREDITO Nº2026NC434504 DE 20 OUT 26.",
+          "valor": 1162.56
+        }
+      ],
+      "valor_empenhado": 1162.56,
+      "valor_liquidado": 0.0,
+      "saldo_a_liquidar": 1162.56
     },
     {
       "key": "167329_2026NE000001",
@@ -9326,7 +9965,7 @@
       "nc_origem": "2026NC402764",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00001 - CADEIRA ESCRITORIO, MATERIAL ESTRUTURA MADEIRA COMPENSADA, MATERIAL REVESTIMENTO ASSENTO E ENCOSTO COURO ECOLOGICO, MATERIAL ENCOSTO ESPUMA POLIURETANO ANATOMICA, MATERIAL ASSENTO ESPUMA POLIURETANO ANATOMICA, TIPO BASE GIRATORIA RECLINAVEL, TIPO ENCOSTO ESPALDAR ALTO, APOIO BRACO COM BRACOS, COR PRETA, TIPO SISTEMA REGULAGEM VERTICAL PNEUMATICO, CARACTERISTICAS ADICIONAIS COM RODIZIOS",
           "valor": 2640.0
         }
@@ -9355,7 +9994,7 @@
       "nc_origem": "2026NC402764",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00015 - ARMARIO, MATERIAL MDP, TIPO ALTO, QUANTIDADE PORTAS 2 UN, TIPO PORTAS COM FECHADURA, ALTURA 1,60 M, LARGURA 0,80 M, PROFUNDIDADE 0,50 M, CARACTERISTICAS ADICIONAIS FECHADURA FRONTAL, QUANTIDADE PRATELEIRAS 3 INTERNAS REGULAVEIS, ESPESSURA 25 MM, REVESTIMENTO LAMINADO MELAMINICO BAIXA PRESSAO",
           "valor": 1050.0
         }
@@ -9384,7 +10023,7 @@
       "nc_origem": "2026NC402764",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00047 - ARQUIVO ESCRITORIO, MATERIAL CHAPA ACO 26, ACABAMENTO SUPERFICIAL PINTURA ELETROSTATICA EPOXI PO, PADRAO ACABAMENTO TRATAMENTO ANTIFERRUGINOSO, QUANTIDADE GAVETAS 4 UN, COR CINZA, CARACTERISTICAS ADICIONAIS TRAVAMENTO SIMULTANEO, GAVETAS DESLIZANTES, APLICACAO PASTAS SUSPENSAS",
           "valor": 1460.0
         }
@@ -9413,7 +10052,7 @@
       "nc_origem": "2026NC400010",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00024 - LAMPADA LED, TENSAO NOMINAL BIVOLT, POTENCIA NOMINAL 50 W, TIPO BASE E-40, TEMPERATURA DE COR 6500 K",
           "valor": 50.84
         }
@@ -9442,7 +10081,7 @@
       "nc_origem": "2026NC400010",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00053 - REFLETOR, MATERIAL CORPO ALUMINIO, MATERIAL REFLETOR ALUMINIO, QUANTIDADE LAMPADAS 4 UN, TIPO FLOOD LIGHT, APLICACAO SISTEMA DE ILUMINACAO, TIPO LAMPADA LED, POTENCIA LAMPADA 200 W, TENSAO ALIMENTACAO BIVOLT, GRAU PROTECAO IP-67",
           "valor": 57.0
         }
@@ -9471,7 +10110,7 @@
       "nc_origem": "2026NC400005",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00060 - CADEADO, MATERIAL LATAO MACICO, MATERIAL HASTE ACO INOXIDAVEL, COR AMARELA, ALTURA 30 MM, LARGURA 30 MM, ALTURA HASTE 30 MM, CARACTERISTICAS ADICIONAIS Nº 30",
           "valor": 57.0
         }
@@ -9500,7 +10139,7 @@
       "nc_origem": "2026NC402764",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00002 - NOTEBOOK, TELA ATE 14 POL, INTERATIVIDADE DA TELA SEM INTERATIVIDADE, MEMORIA RAM SUPERIOR A 8 GB, NUCLEOS POR PROCESSADOR 4 A 8, ARMAZENAMENTO HDD SEM DISCO HDD GB, ARMAZENAMENTO SSD SUPERIOR A 500, BATERIA DEFINIDO PELO FABRICANTE, ALIMENTACAO BIVOLT AUTOMATICA, SISTEMA OPERACIONAL PROPRIETARIO, GARANTIA ON SITE 12 MESES",
           "valor": 4517.57
         }
@@ -9529,7 +10168,7 @@
       "nc_origem": "2026NC402764",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00003 - MONITOR COMPUTADOR, TAMANHO TELA 23 A 30 POL, TIPO DE TELA LCD, FORMATO TELA WIDESCREEN, QUALIDADE DE IMAGEM HD, INTERATIVIDADE DA TELA SENSIVEL AO TOQUE, AJUSTE COM AJUSTE DE ROTACAO E ALTURA, ALIMENTACAO BIVOLT, GARANTIA ON SITE SUPERIOR A 36 MESES",
           "valor": 643.9
         }
@@ -9558,7 +10197,7 @@
       "nc_origem": "2026NC400001",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00002 - MOUSE COMPUTADOR, TAMANHO PADRAO, SENSOR COM ESFERA, TIPO CONECTOR USB, CONECTIVIDADE COM FIO",
           "valor": 137.31
         }
@@ -9587,7 +10226,7 @@
       "nc_origem": "2026NC400007",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00006 - TECLADO MICROCOMPUTADOR, TIPO PADRAO, TIPO CONECTOR USB, CONECTIVIDADE SEM FIO",
           "valor": 294.85
         }
@@ -9616,7 +10255,7 @@
       "nc_origem": "2026NC000562",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "339093 - DESPESAS DE CONTRIBUICAO ASSOCIATIVA DE IMOVEIS (PNR) DESOCUPADOS - GUADALUPE. CONFORME BI NR 51 DE 18/03/26. 2026NC000562.",
           "valor": 686.83
         }
@@ -9645,7 +10284,7 @@
       "nc_origem": "2026NC401624",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00028 - TENOXICAM, DOSAGEM 20 MG",
           "valor": 153.0
         }
@@ -9674,7 +10313,7 @@
       "nc_origem": "2026NC401624",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00050 - BROCA ALTA ROTACAO, MATERIAL CARBIDE, FORMATO CILINDRICA, TIPO HASTE HASTE REGULAR, TIPO CORTE CORTE CRUZADO, NUMERACAO AMERICANA 1 REF. 2158",
           "valor": 689.77
         }
@@ -9703,7 +10342,7 @@
       "nc_origem": "2026NC401624",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00059 - ESFIGMOMANOMETRO, AJUSTE DIGITAL, TIPO* DE BRACO, FAIXA DE OPERACAO ATE 300 MMHG, MATERIAL BRACADEIRA BRACADEIRA EM NYLON, TIPO FECHO FECHO EM VELCRO, TAMANHO ADULTO",
           "valor": 204.0
         }
@@ -9732,7 +10371,7 @@
       "nc_origem": "2026NC408770",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "339093 - INDENIZACAO DE ANEE PARA O 2ºSGT DANIEL CABRAL DOS SANTOS EM VIRTUDE DE RESSARCIMENTO DE MENSALIDADES E MATRICULA ESCOLAR. PUB NO BAR Nº 020 - BCMS, DE 01ABR26. 2026NC408770 / 2026NC408767/ 2026NC408768/ 2026NC408769.",
           "valor": 5671.0
         }
@@ -9761,7 +10400,7 @@
       "nc_origem": "2026NC400005",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00060 - CADEADO, MATERIAL LATAO MACICO, MATERIAL HASTE ACO INOXIDAVEL, COR AMARELA, ALTURA 30 MM, LARGURA 30 MM, ALTURA HASTE 30 MM, CARACTERISTICAS ADICIONAIS Nº 30",
           "valor": 57.0
         }
@@ -9790,7 +10429,7 @@
       "nc_origem": "2026NC400013",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00031 - TELEVISOR, TAMANHO TELA 43 POL, VOLTAGEM BIVOLT V, CARACTERISTICAS ADICIONAIS ENTRADAS HDMI, USB, BLUETOOTH, WIFI, TIPO TELA LED, ACESSORIOS CONTROLE REMOTO",
           "valor": 1500.0
         }
@@ -9819,7 +10458,7 @@
       "nc_origem": "2026NC400008",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00023 - MEMORIA FLASH, CAPACIDADE 16 GB, TIPO PEN DRIVE, INTERFACE USB 2.0 E WINDOWS XP/VISTA/7",
           "valor": 160.2
         }
@@ -9848,7 +10487,7 @@
       "nc_origem": "2026NC000048",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00002 - ACESSORIOS / EQUIPAMENTOS OFICINA MANUTENCAO, TIPO CARRO ESTEIRA, MATERIAL ACO",
           "valor": 0.06
         }
@@ -9877,7 +10516,7 @@
       "nc_origem": "2026NC000047",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00006 - ACESSORIOS / EQUIPAMENTOS OFICINA MANUTENCAO, TIPO CARRO ESTEIRA, MATERIAL ACO",
           "valor": 399999.87
         }
@@ -9906,7 +10545,7 @@
       "nc_origem": "2026NC401816",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "339015 - EMPENHO DE DIARIA REF. A IDA DE MARCELO MORAES DOS SANTOS PARA FISCALIZACAO DE USO DE EXPLOSIVOS NA SERRA DAS ARARAS PISTA DE SUBIDA, , CONFORME BAR Nº 25-BCMS DE 16 ABR 26. 2026NC401816 DE 01 ABR 26.",
           "valor": 167.5
         }
@@ -9935,7 +10574,7 @@
       "nc_origem": "2026NC401816",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "339015 - EMPENHO DE DIARIA REF. A IDA DE RAPHAEL CESAR CAVALCANTE DE FIGUEIREDO PARA FISCALIZACAO DE USO DE EXPLOSIVOS NA SERRA DAS ARARAS PISTA DE SUBIDA, , CONFORME BAR Nº 25-BCMS DE 16 ABR 26. 2026NC401816 DE 01 ABR 26.",
           "valor": 167.5
         }
@@ -9964,7 +10603,7 @@
       "nc_origem": "2026NC402764",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00001 - Equipamento Odontologico - tipo: fotopolimerizador, aspecto fisico: base peca de mao sem fio, material ponteira: ponteira em fibra otica, material corpo: aluminio anodizado, fonte: luz led, instalacao: bivolt",
           "valor": 348.0
         }
@@ -9993,7 +10632,7 @@
       "nc_origem": "2026NC402764",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00004 - Motor Cirurgico - modelo: micro motor, cabecote: s/ cabecote, tipo: peca de mao, seguranca: c/ trava, adicional: c/ mangueira, pedal ajustavel, alimentacao: pneumatica, esterilidade: esterilizavel",
           "valor": 6429.16
         }
@@ -10022,7 +10661,7 @@
       "nc_origem": "2026NC402764",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00006 - Biombo Hospitalar - material: aco inoxidavel, tipo: sanfonado, movel, altura: cerca de 1,80, comprimento: comprimento 1,80 aproximadamente, aberto, tipo de rodizio: rodizios c/ freios, caracteristicas adicionais: divisorias em pvc",
           "valor": 1099.66
         }
@@ -10051,7 +10690,7 @@
       "nc_origem": "2026NC402764",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00007 - Bomba De Vacuo - tipo: duplo estagio, potencia motor: 1, voltagem: bivolt, vazao: 12",
           "valor": 3687.76
         }
@@ -10080,7 +10719,7 @@
       "nc_origem": "2026NC402764",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00001 - Camara Escura Revelacao Raio X - material: plastico, uso: portatil, componente: abertura c/ angulagem, componente 1: base removivel, acessorios: c/ luvas removiveis e visor fotoprotetor, acessorios 1: ate 5 recipientes, adicional: c/ luz led",
           "valor": 337.39
         }
@@ -10109,7 +10748,7 @@
       "nc_origem": "2026NC402764",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00002 - Desfibrilador Externo - modelo: externo e automatico de acesso publico - dea / dap, modo de funcionamento: semiautomatico, forma de onda: exponencial truncado bifasico, recursos: auxilio pcr c/ registro de eventos, autonomia da bateria (nº de choques): minimo 200 choques, alimentacao: bateria recarregavel, transferencia de dados: sem fio",
           "valor": 6200.0
         }
@@ -10138,7 +10777,7 @@
       "nc_origem": "2026NC402764",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00003 - Lixeira - material: aco inoxidavel, capacidade: 12, tipo: com tampa e pedal reforcado para acionamento, aplicacao: ambientes internos",
           "valor": 210.0
         }
@@ -10167,7 +10806,7 @@
       "nc_origem": "2026NC402764",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00005 - Divisoria - material: eucatex, espessura: 35, largura: 1,20, altura: 2,11",
           "valor": 2980.0
         }
@@ -10196,7 +10835,7 @@
       "nc_origem": "2026NC400009",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00030 - CARTUCHO TONER, REFERENCIA CARTUCHO TL-5120X, REFERENCIA IMPRESSORA PANTUM BM5100FDW, COR PRETO, TIPO CARTUCHO ORIGINAL",
           "valor": 878.9
         }
@@ -10225,7 +10864,7 @@
       "nc_origem": "2026NC402764",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00004 - Mobiliario Especial Uso Hospitalar - tipo: armario, capacidade carga: p/ cerca 12 endoscopios, modelo: c/ monitoramento temperatura e umidade, formato: pressao de ar positiva e filtro antimicrobiano, caracteristicas: c/ lampadas led e germicida, caracteristicas adicionais: porta eletrica, abertura c/ cartao magnetico, tipo fixacao: c/ alarme",
           "valor": 29944.65
         }
@@ -10254,7 +10893,7 @@
       "nc_origem": "2026NC402764",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00005 - Motor Eletrico - tipo: micro motor, rotacao: 1000, caracteristicas adicionais: com caixa de reducao de 30:1, potencia nominal: 1,5, tensao nominal: 6",
           "valor": 8000.0
         }
@@ -10283,7 +10922,7 @@
       "nc_origem": "2026NC402764",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00003 - Cadeira De Rodas - tipo funcionamento: manual, tipo construtivo: dobravel, material estrutura: aluminio, tipo uso: banho, encosto cabeca: encosto cabeca ajustavel, tipo encosto: encosto reclinavel, apoio braco: apoio bracos fixos, acabamento do encosto e assento: almofadado, impermeavel, apoio pernas: apoio pernas removivel e regulavel, tipo de pneu: rodizios, tipo freio: c/ freio, apoio pes: apoio pes regulavel, capacidade maxima: ate cerca 60, acessorios: cinto de seguranca",
           "valor": 786.78
         }
@@ -10312,7 +10951,7 @@
       "nc_origem": "2026NC412687",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "339093- NDENIZACAO DE ANEE PARA O 2º SGT DANIEL CABRAL DOS SANTOS EM VIRTUDE DE RESSARCIMENTO DE MENSALIDADES ESCOLAR. PUB NO BAR Nº 029 DE 07/05/2026 DO BCMS. 2026NC412687.",
           "valor": 1677.0
         }
@@ -10341,7 +10980,7 @@
       "nc_origem": "2026NC402764",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00005 - Divisoria - material: eucatex, espessura: 35, largura: 1,20, altura: 2,11",
           "valor": 2980.0
         }
@@ -10370,7 +11009,7 @@
       "nc_origem": "2026NC402764",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00004 - Mobiliario Especial Uso Hospitalar - tipo: armario, capacidade carga: p/ cerca 12 endoscopios, modelo: c/ monitoramento temperatura e umidade, formato: pressao de ar positiva e filtro antimicrobiano, caracteristicas: c/ lampadas led e germicida, caracteristicas adicionais: porta eletrica, abertura c/ cartao magnetico, tipo fixacao: c/ alarme",
           "valor": 29944.65
         }
@@ -10399,7 +11038,7 @@
       "nc_origem": "2026NC449052",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00027 - MESA, MATERIAL ESTRUTURA METAL, MATERIAL TAMPO AGLOMERADO, COR A DEFINIR, LARGURA LADO DIREITA 60 E ESQUERDA 140 MM, ALTURA 0,60 M, ESPESSURA TAMPO 18 MM, FORMATO EM \"L\", CARACTERISTICAS ADICIONAIS CONFORME MODELO, REVESTIMENTO MELAMINICO, ACABAMENTO ESTRUTURA PRETA ANTI-FERRUGEM, FORMATO TAMPO EM \"L\"",
           "valor": 5778.0
         }
@@ -10428,7 +11067,7 @@
       "nc_origem": "2026NC449052",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00010 - SOFA, MATERIAL ESTRUTURA MADEIRA DE REFLORESTAMENTO, REVESTIMENTO CORINO, COR PRETA, CARACTERISTICAS ADICIONAIS CONFFORME MODELO, QUANTIDADE ASSENTOS 3 UN, LARGURA 180 CM, PROFUNDIDADE 77 CM, ALTURA 87 CM",
           "valor": 1400.0
         }
@@ -10457,7 +11096,7 @@
       "nc_origem": "2026NC400549",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "339093 - PGT DE DESPESAS COM PNR DESOCUPADOS CONFORME BI NR 96 DE 26/05/2026 2026NC400549.",
           "valor": 4812.84
         }
@@ -10486,7 +11125,7 @@
       "nc_origem": "2026NC400017",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00001 - Peca / Acessorio Camara Fotografica / Filmadora - tipo: kit acessorio para camera filmadora, modelo da camera/filmadora: gopro hero, quantidade de componentes: 50",
           "valor": 2197.27
         }
@@ -10515,7 +11154,7 @@
       "nc_origem": "2026NC400004",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00002 - Lanterna Eletrica - material: plastico abs reforcado, lente policarbonato resist, formato: retangular, tipo: portatil, recarregavel, tamanho: 20 x 12 x 14, caracteristicas adicionais: duas alcas sendo uma em naylon para transporte, aplicacao: iluminacao, luminosidade: 200, tipo lampada: led, tipo bateria: recarregavel, cor: vermelha e preta, tensao nominal: 110/220, acessorios: carregador 110/220v e adaptador 12v para carro, quantidade lampadas: 25",
           "valor": 115.24
         }
@@ -10544,7 +11183,7 @@
       "nc_origem": "2026NC400002",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00003 - Carimbo - material corpo: metal, material base: metal, comprimento: 9,00, largura: 6,00, tipo: eletrico, formato: retangular, cor: preta, caracteristicas adicionais 1: gravacao em alto-relevo",
           "valor": 72.53
         }
@@ -10573,7 +11212,7 @@
       "nc_origem": "2026NC400085",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00004 - Carimbo - material corpo: madeira, material cabo: madeira, material base: resina, comprimento: 4, largura: 3, tipo: comum, formato: retangular, caracteristicas adicionais 1: conforme modelo",
           "valor": 44.45
         }
@@ -10602,7 +11241,7 @@
       "nc_origem": "2026NC400014",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00005 - Aparelho Purificador De Agua - tipo: deionizador, voltagem: bivolt, capacidade: 1.800, vazao: 100, material gabinete: plastico polietileno e fibra de vidro, caracteristicas adicionais: 9w, processo por resina mista cationica e ionica",
           "valor": 852.35
         }
@@ -10631,7 +11270,7 @@
       "nc_origem": "2026NC400003",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00006 - Papel Milimetrado - material: celulose vegetal, tipo papel: di-log, gramatura: 63, formato: a4, caracteristicas adicionais: com escalas logaritmicas impressas",
           "valor": 93.69
         }
@@ -10660,7 +11299,7 @@
       "nc_origem": "2026NC411092",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00048 - SALICILATO DE METILA, COMPOSICAO ASSOCIADA A CANFORA, MENTOL, E ESS. DE TEREBENTIN A, CONCENTRACAO 0,0333 ML + 0,0333 G + 0,0083 G + 0,0833 ML/ML, FORMA FARMACEUTICA SOLUCAO TOPICA, EMBALAGEM FRASCO AEROSSOL",
           "valor": 490.0
         }
@@ -10689,7 +11328,7 @@
       "nc_origem": "2026NC411092",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00010 - NAPROXENO, DOSAGEM 550 MG",
           "valor": 102.0
         }
@@ -10718,7 +11357,7 @@
       "nc_origem": "2026NC411092",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00039 - CURATIVO CUTANEO, MODELO TIPO POS- PUNCAO, COMPONENTE 1 C/ ALMOFADA FIBRA SINTETICA, COMPONENTE 2 BASE ADESIVA, DIMENSAO CERCA DE 2,5 CM, APRESENTACAO EMBALAGEM INDIVIDUAL, ESTERILIDADE ESTERIL",
           "valor": 42.06
         }
@@ -10747,7 +11386,7 @@
       "nc_origem": "2026NC415654",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "339093 - INDENIZACAO DE ANEE PARA O 2º SGT DANIEL CABRAL DOS SANTOS EM VIRTUDE DE RESSARCIMENTO DE MENSALIDADES ESCOLAR. PUB NO BAR Nº 032 DE 26/05/2026 DO BCMS. 2026NC415654.",
           "valor": 1677.0
         }
@@ -10776,7 +11415,7 @@
       "nc_origem": "-",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00014 - LIMPA-VIDRO, ASPECTO FISICO LIQUIDO, COMPOSICAO LAURIL ETER, SULFATO DE SODIO, CARACTERISTICAS ADICIONAIS PULVERIZADOR COM GATILHO, VALIDADE MINIMA 3 ANOS",
           "valor": 142.5
         }
@@ -10805,7 +11444,7 @@
       "nc_origem": "-",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00020 - ESPONJA LIMPEZA, APLICACAO LIMPEZA GERAL, MATERIAL LA ACO",
           "valor": 99.0
         }
@@ -10834,7 +11473,7 @@
       "nc_origem": "-",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00069 - PAPEL PARA IMPRESSAO FORMATADO, TIPO COUCHE, TAMANHO (C X L) 420 X 297 MM, GRAMATURA 90 G/M2, COR BRANCO",
           "valor": 1050.0
         }
@@ -10863,7 +11502,7 @@
       "nc_origem": "2026NC001540",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00049 - BALDE, MATERIAL POLIETILENO, MATERIAL ALCA PLASTICO, CAPACIDADE 5 L, COR BRANCO LEITOSO, CARACTERISTICAS ADICIONAIS TAMPA COM LACRE INVIOLAVEL",
           "valor": 78.0
         }
@@ -10892,7 +11531,7 @@
       "nc_origem": "2026NC001540",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00072 - RODO, MATERIAL CABO MADEIRA, MATERIAL SUPORTE MADEIRA, COMPRIMENTO SUPORTE 60 CM, COR SUPORTE E CABO NATURAL, QUANTIDADE BORRACHAS 1 UN",
           "valor": 180.0
         }
@@ -10921,7 +11560,7 @@
       "nc_origem": "-",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00058 - PANOPLIA, MATERIAL MADEIRA, LARGURA 180 MM, ALTURA 270 MM, CARACTERISTICAS ADICIONAIS BRASAO EM BRONZE 150 X 85 MM, ESTOJO AZUL",
           "valor": 5290.0
         }
@@ -10950,7 +11589,7 @@
       "nc_origem": "2026NC001540",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00037 - ESTILETE, TIPO LARGO, ESPESSURA 20 MM, MATERIAL CORPO PLASTICO, COMPRIMENTO 11 CM, CARACTERISTICAS ADICIONAIS GRADUAVEL COM TRAVA DE SEGURANCA",
           "valor": 102.0
         }
@@ -10979,7 +11618,7 @@
       "nc_origem": "2026NC001540",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00054 - GUARDANAPO DE PAPEL, MATERIAL CELULOSE, LARGURA 33 CM, COMPRIMENTO 34 CM, COR BRANCA, TIPO FOLHAS DUPLA, CARACTERISTICAS ADICIONAIS MACIO",
           "valor": 97.5
         }
@@ -11008,7 +11647,7 @@
       "nc_origem": "2026NC001540",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00009 - FITA SINALIZACAO, CARACTERISTICAS ADICIONAIS FORMATO CORES EM DIAGONAL, ZEBRADA, COR PRETA E AMARELA, COMPRIMENTO 200 M, LARGURA 7 CM",
           "valor": 292.0
         }
@@ -11037,7 +11676,7 @@
       "nc_origem": "2026NC001540",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00100 - FITA ADESIVA, MATERIAL PVC, LARGURA 48 MM, COMPRIMENTO 50 M, COR INCOLOR",
           "valor": 279.0
         }
@@ -11066,7 +11705,7 @@
       "nc_origem": "2026NC001540",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00004 - IMPRESSO PADRONIZADO, MATERIAL PAPEL APERGAMINHADO, TIPO BLOCO, GRAMATURA 75 G M2, COMPRIMENTO 297 MM, LARGURA 210 MM, COR BRANCA, CARACTERISTICAS ADICIONAIS 1 IMPRESSAO: 1X0 (CONFORME MODELO)",
           "valor": 6387.0
         }
@@ -11095,7 +11734,7 @@
       "nc_origem": "2026NC002356",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00010 - PAINEL ANUNCIO, MATERIAL REVESTIMENTO LONA, COMPRIMENTO 200 CM, LARGURA 120 CM , CARACTERISTICAS ADICIONAIS BOLSA DE TRANSPORTE, TIPO BANNER COM PEDESTAL, MATERIAL ESTRUTURA ALUMINIO RETRATIL",
           "valor": 5280.0
         }
@@ -11124,7 +11763,7 @@
       "nc_origem": "2026NC002356",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00001 - CIMENTO PORTLAND, MATERIAL CLINKER, TIPO COMUM",
           "valor": 1122.8
         }
@@ -11153,7 +11792,7 @@
       "nc_origem": "2026NC001540",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00069 - PAPEL PARA IMPRESSAO FORMATADO, TIPO COUCHE, TAMANHO (C X L) 420 X 297 MM, GRAMATURA 90 G/M2, COR BRANCO",
           "valor": 2100.0
         }
@@ -11182,7 +11821,7 @@
       "nc_origem": "2026NC001552",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00001 - Servico de locacao de onibus (intramunicipal), por quilometro, executivo, com capacidade para 44 passageiros, ar condicionado, poltronas reclinaveis, motori stas habilitados, seguro de acidentes.",
           "valor": 3240.0
         }
@@ -11211,7 +11850,7 @@
       "nc_origem": "2026NC001540",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00024 - FONTE ALIMENTACAO, TIPO CHAVEADA, TENSAO ALIMENTACAO 110/ 220 V, MODELO ATX, APLICACAO MICROCOMPUTADOR, FREQUENCIA NOMINAL 60 HZ, POTENCIA NOMINAL 500 W",
           "valor": 3218.0
         }
@@ -11240,7 +11879,7 @@
       "nc_origem": "-",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00001 - CIMENTO PORTLAND, MATERIAL CLINKER, TIPO COMUM",
           "valor": 1021.3
         }
@@ -11269,7 +11908,7 @@
       "nc_origem": "2026NC001540",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00067 - DESINFETANTE SANEANTE, COMPOSICAO A BASE DE QUATERNARIOS DE AMONIO, PRINCIPIO ATIVO ASSOCIADO A BIGUANIDA (PHMB), TEOR ATIVO 20,57% P/P + 0,9% P/P, FORMA FISICA SOLUCAO AQUOSA CONCENTRADA",
           "valor": 1470.0
         }
@@ -11298,7 +11937,7 @@
       "nc_origem": "2026NC419184",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "339093 - INDENIZACAO DE ANEE PARA O 2º SGT DANIEL CABRAL DOS SANTOS EM VIRTUDE DE RESSARCIMENTO DE MENSALIDADES ESCOLAR. PUB NO BAR Nº 041 DE 02/07/2026 DO BCMS. 2026NC419184.",
           "valor": 1677.0
         }
@@ -11327,7 +11966,7 @@
       "nc_origem": "2026NC001552",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00002 - Servico de locacao de Onibus (intermunicipal), por quilometro, executivo, com capacidade para 44 passageiros, ar condicionado, poltronas reclinaveis, motori stas habilitados, seguro de acidentes.",
           "valor": 3160.0
         }
@@ -11356,7 +11995,7 @@
       "nc_origem": "2026NC001450",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00004 - MEMORIA RAM, APLICACAO MICROCOMPUTADORES, CAPACIDADE MEMORIA 8 GB, PADRAO DDR4, FREQUENCIA 2400 MHZ 240-PIN",
           "valor": 933.9
         }
@@ -11385,7 +12024,7 @@
       "nc_origem": "2026NC001540",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00007 - DISCO MAGNETICO, MEMORIA 480 GB, VELOCIDADE TRANSFERENCIA 6.0 GB/S, MODELO SSD , TIPO RIGIDO",
           "valor": 2240.0
         }
@@ -11414,7 +12053,7 @@
       "nc_origem": "2026NC001540",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00013 - CABO REDE COMPUTADOR, MATERIAL REVESTIMENTO PVC- CLORETO DE POLIVINILA ANTI- CHAMA, MATERIAL CONDUTOR COBRE NU, TIPO CONDUTOR PAR TRANCADO, TIPO CABO UTP, COR VERMELHA, PADRAO CABEAMENTO GIGALAN, CATEGORIA 6, APLICACAO REDE ESTRUTURADA, MATERIAL ISOLAMENTO CONDUTOR POLIETILENO DE ALTA DENSIDADE, COMPRIMENTO 305 M, NORMAS TECNICAS ANSI/TIA 568 C.2- ISO/IEC-11801",
           "valor": 735.92
         }
@@ -11443,7 +12082,7 @@
       "nc_origem": "2026NC001450",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00027 - PLACA MAE, COMPONENTES CHIPSET INTEL H610, APLICACAO SOCKET LGA1700, TIPO PORTAS 1X PORTA D-SUB, 1X PORTA HDMI; 4 X SATA PORT;, MEMORIA EXPANSAO 64 GB, TIPO DDR4, SLOTS 1 X SLOT PCIE 4.0 X16 1 X SLOT PCIE 3.0 X",
           "valor": 3008.0
         }
@@ -11472,7 +12111,7 @@
       "nc_origem": "2026NC001540",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00025 - CADERNO, MATERIAL PAPEL OFSETE, MATERIAL CAPA CAPA DURA, QUANTIDADE FOLHAS 200 FL, COMPRIMENTO 240 MM, LARGURA 170 MM, CARACTERISTICAS ADICIONAIS PERSONALIZADO, IMPRESSAO 4X1, ACABAMENTO WIRE-O",
           "valor": 4250.0
         }
@@ -11501,7 +12140,7 @@
       "nc_origem": "2026NC002618",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00025 - CADERNO, MATERIAL PAPEL OFSETE, MATERIAL CAPA CAPA DURA, QUANTIDADE FOLHAS 200 FL, COMPRIMENTO 240 MM, LARGURA 170 MM, CARACTERISTICAS ADICIONAIS PERSONALIZADO, IMPRESSAO 4X1, ACABAMENTO WIRE-O",
           "valor": 4250.0
         }
@@ -11530,7 +12169,7 @@
       "nc_origem": "2026NC001540",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00004 - MEMORIA RAM, APLICACAO MICROCOMPUTADORES, CAPACIDADE MEMORIA 8 GB, PADRAO DDR4, FREQUENCIA 2400 MHZ 240-PIN",
           "valor": 764.1
         }
@@ -11559,7 +12198,7 @@
       "nc_origem": "2026NC001540",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00007 - DISCO MAGNETICO, MEMORIA 480 GB, VELOCIDADE TRANSFERENCIA 6.0 GB/S, MODELO SSD , TIPO RIGIDO",
           "valor": 896.0
         }
@@ -11588,7 +12227,7 @@
       "nc_origem": "2026NC001540",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00028 - DISSIPADOR CALOR PROCESSADOR (COOLER), TENSAO NOMINAL 12 V, APLICACAO INTEL CORE 2 DUO, ENCAIXE SOCKET INTEL LGA 1150/, TIPO CONECTOR 4 (PWM) PINOS, VELOCIDADE ROTACAO 2.400 RPM",
           "valor": 389.7
         }
@@ -11617,7 +12256,7 @@
       "nc_origem": "2026NC001540",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00058 - SACO PLASTICO LIXO, CAPACIDADE 300 L, COR PRETA, APRESENTACAO PECA UNICA",
           "valor": 565.0
         }
@@ -11646,7 +12285,7 @@
       "nc_origem": "2026NC001540",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00004 - CANETA ESFEROGRAFICA, MATERIAL PLASTICO, QUANTIDADE CARGAS 1 UN, MATERIAL PONTA ACO INOXIDAVEL COM ESFERA DE TUNGSTENIO, TIPO ESCRITA MEDIA, COR TINTA AZUL",
           "valor": 92.16
         }
@@ -11675,7 +12314,7 @@
       "nc_origem": "2026NC001540",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00106 - LACRE SEGURANCA, MATERIAL POLIETILENO, COMPRIMENTO 27 CM, APLICACAO FECHAMENTO DE MALOTES, TIPO ESPINHA DE PEIXE, CARACTERISTICAS ADICIONAIS NUMERADO, COR AMARELA",
           "valor": 870.0
         }
@@ -11704,9 +12343,9 @@
       "nc_origem": "2026NC001540",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00083 - SABAO PASTA, COMPOSICAO SABAO DE COCO, TENSOATIVO ANIONICO, CARBOIDRATO, Q, APLICACAO LIMPEZA PESADA COM ACAO DESENGRAXANTE",
-          "valor": 896.55
+          "valor": 1.15
         }
       ],
       "valor_empenhado": 0.0,
@@ -11733,7 +12372,7 @@
       "nc_origem": "2026NC001552",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00002 - Servico de locacao de Onibus (intermunicipal), por quilometro, executivo, com capacidade para 44 passageiros, ar condicionado, poltronas reclinaveis, motori stas habilitados, seguro de acidentes.",
           "valor": 1110.0
         }
@@ -11762,7 +12401,7 @@
       "nc_origem": "2026NC423477",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "PGT DE INDENIZACAO DE ANEE EM FAVOR DO 2º SGT DANIEL CABRAL DOS SANTOS CONFORME BAR 46 21 DE JUL DE 2026 2026NC423477 E 2026NC423482",
           "valor": 1677.0
         }
@@ -11791,7 +12430,7 @@
       "nc_origem": "2026NC423526",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "PGT DE INDENIZACAO ANEE EM FAVORECIDO A 3º SGT ANDRESSA CRISTINA DE SOUZA CARVALHO CONFORME BAR 046 DE 21 JULHO DE 2026 2026NC423526, 2026NC423544, 2026NC423546 E 2026NC423547",
           "valor": 1893.8
         }
@@ -11820,7 +12459,7 @@
       "nc_origem": "2026NC400843",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "PGT DE DESPESAS COM PNR DESOCUPADOS CONFORME BI NR 136 DE 23/07/2026 2026NC400843.",
           "valor": 2406.42
         }
@@ -11849,7 +12488,7 @@
       "nc_origem": "-",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00007 - ACESSORIOS / EQUIPAMENTOS OFICINA MANUTENCAO, TIPO CARRO ESTEIRA, MATERIAL ACO",
           "valor": 124999.2
         }
@@ -11878,7 +12517,7 @@
       "nc_origem": "2026NC404771",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00004 - VEICULO PICK-UP, TIPO MOTOR DIESEL, TIPO DIRECAO HIDRAULICA, POTENCIA MOTOR MINIMA 160 CV, CAPACIDADE PASSAGEIRO 5, CARGA UTIL 1000 L, QUANTIDADE PORTAS 4 , CARACTERISTICAS ADICIONAIS TRIO ELETRICO (VIDRO,TRAVA,ALARME),FAROIS DE NEBL I, MODELO CABINE DUPLA, TIPO CAMBIO AUTOMATICO, OPCIONAIS AR-CONDICIONADO, RADIO E ENTRADA USB FRONTAL",
           "valor": 1176235.0
         }
@@ -11907,7 +12546,7 @@
       "nc_origem": "2026NC511092",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00054 - COLETOR DE RESIDUOS DE SERVICO DE SAUDE, TIPO DE RESIDUO GRUPO E- RESIDUO PERFUROCORTANTE INFECTANTE, TIPO RISCO RISCO BIOLOGICO, CAPACIDADE CERCA DE 7 L, MATERIAL CAIXA DE PAPELAO C/ SACO PLASTICO, ADICIONAL C/ ALCA, USO USO UNICO",
           "valor": 96.0
         }
@@ -11936,7 +12575,7 @@
       "nc_origem": "2026NC511092",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00002 - ESCOPOLAMINA BUTILBROMETO, DOSAGEM 10 MG",
           "valor": 162.0
         }
@@ -11965,7 +12604,7 @@
       "nc_origem": "2026NC511092",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00008 - SAIS PARA REIDRATACAO ORAL, COMPOSICAO SODIO, POTASSIO, CLORETO, CITRATO E GLICOSE, CONCENTRACAO 90 MEQ/L + 20 MEQ/L + 80 MEQ/L + 30 MEQ/L + 111 MMOL/L, FORMA FARMACEUTICA PO P/ SOLUCAO ORAL",
           "valor": 12.2
         }
@@ -11994,7 +12633,7 @@
       "nc_origem": "2026NC511092",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00030 - BENZILPENICILINA, APRESENTACAO BENZATINA, DOSAGEM 1.200.000UI, USO INJETAVEL",
           "valor": 101.4
         }
@@ -12023,7 +12662,7 @@
       "nc_origem": "2026NC511092",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00004 - ONDANSETRONA CLORIDRATO, CONCENTRACAO 8 MG, FORMA FARMACEUTICA COMPRIMIDO ORODISPERSIVEL",
           "valor": 23.74
         }
@@ -12052,7 +12691,7 @@
       "nc_origem": "2026NC511092",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00014 - GLICOSE, CONCENTRACAO 5%, FORMA FARMACEUTICA SOLUCAO INJETAVEL, CARACTERISTICA ADICIONAL SISTEMA FECHADO, EMBALAGEM PRIMARIA ISENTA DE PVC",
           "valor": 76.0
         }
@@ -12081,7 +12720,7 @@
       "nc_origem": "2026NC511092",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00007 - DIMETICONA, DOSAGEM 40 MG",
           "valor": 10.0
         }
@@ -12110,7 +12749,7 @@
       "nc_origem": "2026NC511092",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00035 - LIDOCAINA CLORIDRATO, COMPOSICAO ASSOCIADA COM EPINEFRINA, DOSAGEM 2% + 1:100.000, APRESENTACAO INJETAVEL",
           "valor": 39.6
         }
@@ -12139,7 +12778,7 @@
       "nc_origem": "2026NC403486",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "PGT DE DIARIAS PARA O CAP MARCELO MORAES DOS SANTOS EM DESIGNACAO DE MISSAO PARA FISCALIZACAO EM VITORIA - ES CONFORME BAR 052 DE 13 AGO 26 2026NC403486",
           "valor": 2470.0
         }
@@ -12168,7 +12807,7 @@
       "nc_origem": "2026NC403486",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "PGT DE DIARIAS PARA O 2º SGT RAPHAEL CESAR CAVALCANTE DE FIGUEIREDO EM DESIGNACAO DE MISSAO PARA FISCALIZACAO EM VITORIA - ES CONFORME BAR 052 DE 13 AGO 26 2026NC403486",
           "valor": 2470.0
         }
@@ -12197,7 +12836,7 @@
       "nc_origem": "2026NC403486",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "PGT DE DIARIAS PARA O CB ERIC VALENTIM DE ALMEIDA PAES EM DESIGNACAO DE MISSAO PARA FISCALIZACAO EM VITORIA - ES CONFORME BAR 052 DE 13 AGO 26 2026NC403486",
           "valor": 2047.5
         }
@@ -12226,7 +12865,7 @@
       "nc_origem": "2026NC403486",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "PGT DE DIARIAS PARA O CB ERIC VALENTIM DE ALMEIDA PAES EM DESIGNACAO DE MISSAO PARA FISCALIZACAO EM VITORIA - ES CONFORME BAR 052 DE 13 AGO 26 2026NC403486",
           "valor": 2047.5
         }
@@ -12255,7 +12894,7 @@
       "nc_origem": "2026NC400943",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00001 - CIMENTO PORTLAND, MATERIAL CLINKER, TIPO COMUM",
           "valor": 1376.9
         }
@@ -12284,7 +12923,7 @@
       "nc_origem": "-",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00014 - PLACA IDENTIFICACAO, MATERIAL ACO INOXIDAVEL, COMPRIMENTO 30 CM, CARACTERISTICAS ADICIONAIS COM GRAVACAO EM ALTO RELEVO, APLICACAO IDENTIFICACAO NAS PORTAS, ESPESSURA ACO 304, LARGURA 5 CM, TIPO ENCAIXADA COM MADEIRITE TIPO ENVELOPE, COR PRATA",
           "valor": 600.0
         }
@@ -12313,7 +12952,7 @@
       "nc_origem": "2026NC406003",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "ATD DESP COM REFORCO DA NE 2026NE00089 CONFORME  DIEX 102 COSM DE 23 SET 26 NUP64619.005294/2026-28 PREGAO UGP 90007/2025 160069 2026NC406003 AQS DE CUBCI VTO 5 PSG TIPO PICK UP MEDIA 4X4 DFPC",
           "valor": 32429.05
         }
@@ -12342,7 +12981,7 @@
       "nc_origem": "2026NC431482",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "INDENIZACAO PARA PGT DE ANEE PARA ANDRESSA CRISTINA DE SOUZA CARAVALHO CONFORME BAR 063 DE 29 09 26 2026NC431482",
           "valor": 473.45
         }
@@ -12371,7 +13010,7 @@
       "nc_origem": "2026NC431483",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "INDENIZACAO PARA PGT DE ANEE PARA ANDRESSA CRISTINA DE SOUZA CARAVALHO CONFORME BAR 063 DE 29 09 26 2026NC431483",
           "valor": 473.45
         }
@@ -12400,7 +13039,7 @@
       "nc_origem": "2026NC431481",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "PGT DE INDENIZACAO ANEE PARA O SGT DANIEL CABRAL DOS SANTOS CONFORME BAR 063 DE 29/09/2026 2026NC431481",
           "valor": 1677.0
         }
@@ -12429,7 +13068,7 @@
       "nc_origem": "2026NC430958",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00004 - ONDANSETRONA CLORIDRATO, CONCENTRACAO 8 MG, FORMA FARMACEUTICA COMPRIMIDO ORODISPERSIVEL",
           "valor": 47.48
         }
@@ -12458,7 +13097,7 @@
       "nc_origem": "2026NC430958",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00021 - IVERMECTINA, CONCENTRACAO 6 MG",
           "valor": 54.0
         }
@@ -12487,7 +13126,7 @@
       "nc_origem": "2026NC430958",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00012 - CLORETO DE SODIO, PRINCIPIO ATIVO 0,9%_ SOLUCAO INJETAVEL, APLICACAO SISTEMA FECHADO",
           "valor": 222.04
         }
@@ -12516,7 +13155,7 @@
       "nc_origem": "2026NC430958",
       "itens": [
         {
-          "item_num": "1",
+          "item_num": "1.0",
           "descricao": "Item compra: 00014 - GLICOSE, CONCENTRACAO 5%, FORMA FARMACEUTICA SOLUCAO INJETAVEL, CARACTERISTICA ADICIONAL SISTEMA FECHADO, EMBALAGEM PRIMARIA ISENTA DE PVC",
           "valor": 380.0
         }
@@ -12524,6 +13163,238 @@
       "valor_empenhado": 380.0,
       "valor_liquidado": 0.0,
       "saldo_a_liquidar": 380.0
+    },
+    {
+      "key": "167329_2026NE000112",
+      "ne_num": "2026NE000112",
+      "ne_full": "167329000012026NE000112",
+      "ug": "167329",
+      "ug_nome": "BCMS (FEx)",
+      "emissao": "13/10/2026",
+      "aging_dias": 15,
+      "faixa_aging": "0-30 dias",
+      "semaforo": "verde",
+      "cnpj": "27.405.792/0001-30",
+      "fornecedor": "MEDICAM PECAS E SERVICOS AUTOMOTIVOS LTDA",
+      "nd": "339030",
+      "pi": "FGA124XMMNT",
+      "tipo": "ORDINARIO",
+      "objeto": "339030 39 AQS DE TOLDO PARA VIATURAS CONFORME DIEX 42 COSM PREGAO UGNP 31/2026 160040 2026NC000048",
+      "processo": "DIEX 42",
+      "nc_origem": "2026NC000048",
+      "itens": [
+        {
+          "item_num": "1.0",
+          "descricao": "Item compra: 00042 - Lona - material: tecido vinil sintetico, aplicacao: cobertura de caminhoes e carretas carga, cor: verde",
+          "valor": 5873.0
+        }
+      ],
+      "valor_empenhado": 5873.0,
+      "valor_liquidado": 0.0,
+      "saldo_a_liquidar": 5873.0
+    },
+    {
+      "key": "167329_2026NE000113",
+      "ne_num": "2026NE000113",
+      "ne_full": "167329000012026NE000113",
+      "ug": "167329",
+      "ug_nome": "BCMS (FEx)",
+      "emissao": "26/10/2026",
+      "aging_dias": 2,
+      "faixa_aging": "0-30 dias",
+      "semaforo": "verde",
+      "cnpj": "29.760.714/0001-80",
+      "fornecedor": "ASSOCIACAO DE COMPOSSUIDORES DO CONJUNTO HABITACIONAL G",
+      "nd": "339093",
+      "pi": "IXOMOBMPNRE",
+      "tipo": "ORDINARIO",
+      "objeto": "339093 - 01 - PGT DE DESPESAS COM PNR DESOCUPADOS CONFORME BI NR 198 DE 23/10/2026 - 2026NC401277.",
+      "processo": "DISPENSA / DIRETO",
+      "nc_origem": "2026NC401277",
+      "itens": [
+        {
+          "item_num": "1.0",
+          "descricao": "339093 - 01 - PGT DE DESPESAS COM PNR DESOCUPADOS CONFORME BI NR 198 DE 23/10/2026 - 2026NC401277.",
+          "valor": 2406.42
+        }
+      ],
+      "valor_empenhado": 2406.42,
+      "valor_liquidado": 0.0,
+      "saldo_a_liquidar": 2406.42
+    },
+    {
+      "key": "167329_2026NE000114",
+      "ne_num": "2026NE000114",
+      "ne_full": "167329000012026NE000114",
+      "ug": "167329",
+      "ug_nome": "BCMS (FEx)",
+      "emissao": "",
+      "aging_dias": 0,
+      "faixa_aging": "0-30 dias",
+      "semaforo": "verde",
+      "cnpj": "28.938.043/0001-31",
+      "fornecedor": "ADMINISTRACAO DE COMPOSSUIDORES DO CONJUNTO HABITACION",
+      "nd": "339093",
+      "pi": "IXOMOBMPNRE",
+      "tipo": "ORDINARIO",
+      "objeto": "339093 - 01 - DESPESAS DE CONTRIBUICAO ASSOCIATIVA DE IMOVEIS (PNR) DESOCUPADOS DO CONJUNTO HABITACIONAL PNR L -  CONFORME BI NR 198 DE 23/10/26. 2026NC401277.",
+      "processo": "DISPENSA / DIRETO",
+      "nc_origem": "2026NC401277",
+      "itens": [
+        {
+          "item_num": "1.0",
+          "descricao": "339093 - DESPESAS DE CONTRIBUICAO ASSOCIATIVA DE IMOVEIS (PNR) DESOCUPADOS DO CONJUNTO HABITACIONAL PNR l -  CONFORME BI NR 198 DE 23/10/26. 2026NC401277.",
+          "valor": 649.92
+        }
+      ],
+      "valor_empenhado": 649.92,
+      "valor_liquidado": 0.0,
+      "saldo_a_liquidar": 649.92
+    },
+    {
+      "key": "167329_2026NE000115",
+      "ne_num": "2026NE000115",
+      "ne_full": "167329000012026NE000115",
+      "ug": "167329",
+      "ug_nome": "BCMS (FEx)",
+      "emissao": "",
+      "aging_dias": 0,
+      "faixa_aging": "0-30 dias",
+      "semaforo": "verde",
+      "cnpj": "115.176.847-22",
+      "fornecedor": "DANIEL CABRAL DOS SANTOS",
+      "nd": "339093",
+      "pi": "D5SAFUSANEE",
+      "tipo": "ORDINARIO",
+      "objeto": "339093-01-INDENIZACAO DE ANEE PARA O 2º SGT DANIEL CABRAL DOS SANTOS EM VIRTUDE DE RESSARCIMENTO DE MENSALIDADES ESCOLAR. PUB NO BAR Nº 071 DE 22/10/2026 DO BCMS. 2026NC436058.",
+      "processo": "DISPENSA / DIRETO",
+      "nc_origem": "2026NC436058",
+      "itens": [
+        {
+          "item_num": "1.0",
+          "descricao": "339093-INDENIZACAO DE ANEE PARA O 2º SGT DANIEL CABRAL DOS SANTOS EM VIRTUDE DE RESSARCIMENTO DE MENSALIDADES ESCOLAR. PUB NO BAR Nº 071 DE 22/10/2026 DO BCMS. 2026NC436058.",
+          "valor": 500.0
+        }
+      ],
+      "valor_empenhado": 500.0,
+      "valor_liquidado": 0.0,
+      "saldo_a_liquidar": 500.0
+    },
+    {
+      "key": "167329_2026NE000116",
+      "ne_num": "2026NE000116",
+      "ne_full": "167329000012026NE000116",
+      "ug": "167329",
+      "ug_nome": "BCMS (FEx)",
+      "emissao": "",
+      "aging_dias": 0,
+      "faixa_aging": "0-30 dias",
+      "semaforo": "verde",
+      "cnpj": "115.176.847-22",
+      "fornecedor": "DANIEL CABRAL DOS SANTOS",
+      "nd": "339093",
+      "pi": "D5SAFUSANEE",
+      "tipo": "ORDINARIO",
+      "objeto": "339093-01-INDENIZACAO DE ANEE PARA O 2º SGT DANIEL CABRAL DOS SANTOS EM VIRTUDE DE RESSARCIMENTO DE MENSALIDADES ESCOLAR. PUB NO BAR Nº 071 DE 22/10/2026 DO BCMS. 2026NC436062.",
+      "processo": "DISPENSA / DIRETO",
+      "nc_origem": "2026NC436062",
+      "itens": [
+        {
+          "item_num": "1.0",
+          "descricao": "339093 - INDENIZACAO DE ANEE PARA O 2º SGT DANIEL CABRAL DOS SANTOS EM VIRTUDE DE RESSARCIMENTO DE MENSALIDADES ESCOLAR. PUB NO BAR Nº 071 DE 22/10/2026 DO BCMS. 2026NC436062.",
+          "valor": 1177.0
+        }
+      ],
+      "valor_empenhado": 1177.0,
+      "valor_liquidado": 0.0,
+      "saldo_a_liquidar": 1177.0
+    },
+    {
+      "key": "167329_2026NE000117",
+      "ne_num": "2026NE000117",
+      "ne_full": "167329000012026NE000117",
+      "ug": "167329",
+      "ug_nome": "BCMS (FEx)",
+      "emissao": "",
+      "aging_dias": 0,
+      "faixa_aging": "0-30 dias",
+      "semaforo": "verde",
+      "cnpj": "020.498.437-80",
+      "fornecedor": "MARCELO MORAES DOS SANTOS",
+      "nd": "339015",
+      "pi": "E3PCOPFDIAR",
+      "tipo": "ORDINARIO",
+      "objeto": "339015 14 PGT DE DIARIA EM FAVORECIMENTO AO CAP PTTC MARCELO MORAES DOS SANTOS EM VIRTUDE DA DESIGNACAO PARA EQUIPE DE FISCALIZACAO DE EMPRESAS QUE FABRICAM, COMERCIALIZAM E TRANSPORTAM PCE NA CIDADE DE VITORIA-ES",
+      "processo": "DISPENSA / DIRETO",
+      "nc_origem": "-",
+      "itens": [
+        {
+          "item_num": "1.0",
+          "descricao": "PGT DE DIARIA EM FAVORECIMENTO AO CAP PTTC MARCELO MORAES DOS SANTOS EM VIRTUDE DA DESIGNACAO PARA EQUIPE DE FISCALIZACAO DE EMPRESAS QUE FABRICAM, COMERCIALIZAM E TRANSPORTAM PCE NA CIDADE DE VITORIA-ES",
+          "valor": 3230.0
+        }
+      ],
+      "valor_empenhado": 3230.0,
+      "valor_liquidado": 0.0,
+      "saldo_a_liquidar": 3230.0
+    },
+    {
+      "key": "167329_2026NE000118",
+      "ne_num": "2026NE000118",
+      "ne_full": "167329000012026NE000118",
+      "ug": "167329",
+      "ug_nome": "BCMS (FEx)",
+      "emissao": "",
+      "aging_dias": 0,
+      "faixa_aging": "0-30 dias",
+      "semaforo": "verde",
+      "cnpj": "126.637.147-80",
+      "fornecedor": "RAPHAEL CESAR CAVALCANTE DE FIGUEIREDO",
+      "nd": "339015",
+      "pi": "E3PCOPFDIAR",
+      "tipo": "ORDINARIO",
+      "objeto": "339015 14 PGT DE DIARIA EM FAVORECIMENTO AO 2º SGT RAPHAEL CESAR CAVALCANTE DE FIGUEIREDO EM VIRTUDE DA DESIGNACAO PARA EQUIPE DE FISCALIZACAO DE EMPRESAS QUE FABRICAM, COMERCIALIZAM E TRANSPORTAM PCE NA CIDADE DE VITORIA-ES",
+      "processo": "DISPENSA / DIRETO",
+      "nc_origem": "-",
+      "itens": [
+        {
+          "item_num": "1.0",
+          "descricao": "339015 14 PGT DE DIARIA EM FAVORECIMENTO AO 2º SGT RAPHAEL CESAR CAVALCANTE DE FIGUEIREDO EM VIRTUDE DA DESIGNACAO PARA EQUIPE DE FISCALIZACAO DE EMPRESAS QUE FABRICAM, COMERCIALIZAM E TRANSPORTAM PCE NA CIDADE DE VITORIA-ES",
+          "valor": 3230.0
+        }
+      ],
+      "valor_empenhado": 3230.0,
+      "valor_liquidado": 0.0,
+      "saldo_a_liquidar": 3230.0
+    },
+    {
+      "key": "167329_2026NE000119",
+      "ne_num": "2026NE000119",
+      "ne_full": "167329000012026NE000119",
+      "ug": "167329",
+      "ug_nome": "BCMS (FEx)",
+      "emissao": "",
+      "aging_dias": 0,
+      "faixa_aging": "0-30 dias",
+      "semaforo": "verde",
+      "cnpj": "189.902.987-76",
+      "fornecedor": "ERIC VALENTIM DE ALMEIDA PAES",
+      "nd": "339015",
+      "pi": "E3PCOPFDIAR",
+      "tipo": "ORDINARIO",
+      "objeto": "339015 14 PGT DE DIARIA EM FAVORECIMENTO AO CABO ERIC VALENTIM DE ALMEIDA PAES EM VIRTUDE DA DESIGNACAO PARA EQUIPE DE FISCALIZACAO DE EMPRESAS QUE FABRICAM, COMERCIALIZAM E TRANSPORTAM PCE NA CIDADE DE VITORIA-ES",
+      "processo": "DISPENSA / DIRETO",
+      "nc_origem": "-",
+      "itens": [
+        {
+          "item_num": "1.0",
+          "descricao": "PGT DE DIARIA EM FAVORECIMENTO AO CABO ERIC VALENTIM DE ALMEIDA PAES EM VIRTUDE DA DESIGNACAO PARA EQUIPE DE FISCALIZACAO DE EMPRESAS QUE FABRICAM, COMERCIALIZAM E TRANSPORTAM PCE NA CIDADE DE VITORIA-ES",
+          "valor": 2677.5
+        }
+      ],
+      "valor_empenhado": 2677.5,
+      "valor_liquidado": 0.0,
+      "saldo_a_liquidar": 2677.5
     }
   ]
 }
