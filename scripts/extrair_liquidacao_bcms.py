@@ -1,307 +1,257 @@
 # -*- coding: utf-8 -*-
 """
-Extrator Oficial de Liquidação & Restos a Pagar do BCMS (SIAFI / Tesouro Gerencial)
+Extrator de Liquidação & Restos a Pagar do BCMS (SIAFI / Tesouro Gerencial)
 Batalhão Central de Manutenção e Suprimento (BCMS) · Base de Apoio Logístico (Ba Ap Log)
-Suporta sincronização automática via Google Drive (URL pública) e fallback local.
+
+REGRA: nenhum valor é estimado. O que a fonte não traz fica explicitamente como
+"sem dado" (None) e o painel exibe essa limitação.
+
+Fontes reais:
+  - EMPENHO (Google Drive, link publicado): NE, valor da NE, itens, contas 622110000/622130100.
+    NÃO traz liquidação por NE (sem as contas 622920101/622920103).
+  - RPNP (cache data/rpnp_cache.xlsx): contas 531110100, 631100000..631400000 por ação.
+  - Totais de liquidação por UG: Dashboard-Credito-BCMS (om_totais_siafi), consolidado SIAFI.
 """
 
-import os
 import sys
 import json
 import re
 import datetime
 import pathlib
 import urllib.request
-import tempfile
 import openpyxl
+
+try:
+    sys.stdout.reconfigure(encoding="utf-8")
+except Exception:
+    pass
 
 SCRIPT_DIR = pathlib.Path(__file__).resolve().parent
 PROJECT_DIR = SCRIPT_DIR.parent
 DATA_DIR = PROJECT_DIR / "data"
 CACHE_XLSX = DATA_DIR / "empenhos_cache.xlsx"
+RPNP_XLSX = DATA_DIR / "rpnp_cache.xlsx"
+TOTAIS_JSON = DATA_DIR / "totais_siafi_ug.json"
 OUTPUT_JSON = DATA_DIR / "liquidacao_data.json"
 
-REPO_ROOT = PROJECT_DIR.parent
-LOCAL_EMPENHO = REPO_ROOT / "Acervo-Empenhos-BCMS-2026" / "EMPENHO.xlsx"
-
+LOCAL_EMPENHO = PROJECT_DIR.parent / "Acervo-Empenhos-BCMS-2026" / "EMPENHO.xlsx"
 DEFAULT_EMPENHOS_URL = "https://docs.google.com/spreadsheets/d/e/2PACX-1vSTGXyEQ2v4UYga0nkP7ypbyumOZd68m32UZwqVVQhx-bHBACkBSj7v4RiNWZydIQ/pub?output=xlsx"
-CORTE_DATA = datetime.date(2026, 10, 28)
+UGS = ("160329", "167329")
+UG_NOME = {"160329": "BCMS (OGU)", "167329": "BCMS (FEx)"}
+RPNP_DATA_REF = "02/10/2026"
+
+
+def num(x):
+    try:
+        return float(x)
+    except Exception:
+        return 0.0
+
 
 def format_cnpj(c):
-    digits = re.sub(r'\D', '', str(c or ''))
-    if len(digits) == 14:
-        return f"{digits[:2]}.{digits[2:5]}.{digits[5:8]}/{digits[8:12]}-{digits[12:]}"
-    elif len(digits) == 11:
-        return f"{digits[:3]}.{digits[3:6]}.{digits[6:9]}-{digits[9:]}"
-    return str(c or '-')
+    d = re.sub(r"\D", "", str(c or ""))
+    if len(d) == 14:
+        return f"{d[:2]}.{d[2:5]}.{d[5:8]}/{d[8:12]}-{d[12:]}"
+    if len(d) == 11:
+        return f"{d[:3]}.{d[3:6]}.{d[6:9]}-{d[9:]}"
+    return str(c or "-")
+
 
 def obter_planilha_empenhos():
-    """Baixa a planilha atualizada do Google Drive ou utiliza o cache/arquivo local."""
     DATA_DIR.mkdir(parents=True, exist_ok=True)
-    
-    # 1. Tentar baixar da URL do Google Drive
-    print(f"Verificando atualização no Google Drive ({DEFAULT_EMPENHOS_URL[:60]}...)...")
-    req = urllib.request.Request(
-        DEFAULT_EMPENHOS_URL,
-        headers={"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"}
-    )
+    print("Verificando atualização no Google Drive...")
+    req = urllib.request.Request(DEFAULT_EMPENHOS_URL, headers={"User-Agent": "Mozilla/5.0"})
     try:
-        with urllib.request.urlopen(req, timeout=30) as resp:
+        with urllib.request.urlopen(req, timeout=60) as resp:
             content = resp.read()
-            if len(content) > 5000:
-                CACHE_XLSX.write_bytes(content)
-                print(f"-> Planilha baixada do Google Drive com sucesso ({len(content) / 1024:.1f} KB).")
-                return CACHE_XLSX
+        if len(content) > 5000 and content[:2] == b"PK":
+            CACHE_XLSX.write_bytes(content)
+            print(f"-> Planilha baixada do Drive ({len(content) / 1024:.1f} KB).")
+            return CACHE_XLSX, "Google Drive (baixada agora)"
     except Exception as e:
-        print(f"[AVISO] Falha ao baixar planilha do Drive ({e}). Tentando cache/local...")
-
-    # 2. Se o download falhar, tentar o cache salvo
+        print(f"[AVISO] Falha no download ({e}).")
     if CACHE_XLSX.exists() and CACHE_XLSX.stat().st_size > 5000:
-        print(f"-> Utilizando cache existente em {CACHE_XLSX}.")
-        return CACHE_XLSX
-
-    # 3. Fallback para a planilha local do acervo
+        print("-> Usando cache versionado.")
+        return CACHE_XLSX, "Cache versionado (Drive indisponível)"
     if LOCAL_EMPENHO.exists():
-        print(f"-> Utilizando planilha local do acervo: {LOCAL_EMPENHO}.")
-        return LOCAL_EMPENHO
+        return LOCAL_EMPENHO, "Arquivo local do acervo"
+    raise FileNotFoundError("Planilha de empenhos indisponível.")
 
-    raise FileNotFoundError("Não foi possível obter a planilha de empenhos (Drive offline e sem cache local).")
 
-def extrair_empenhos(xlsx_path):
+def extrair_empenhos(xlsx_path, corte):
+    """Uma NE = linha com col 4 preenchida; as linhas seguintes (col 4 vazia) são itens dela."""
     wb = openpyxl.load_workbook(xlsx_path, data_only=True, read_only=True)
-    ws = wb['EMPENHO'] if 'EMPENHO' in wb.sheetnames else wb.active
-
-    empenhos_dict = {}
-
+    ws = wb["EMPENHO"] if "EMPENHO" in wb.sheetnames else wb.active
+    nes, cur = {}, None
     for r in ws.iter_rows(min_row=6, values_only=True):
-        ne_raw = str(r[4]) if r[4] else ''
-        if not ('160329' in ne_raw or '167329' in ne_raw):
-            continue
-
-        ug = ne_raw[:6]
-        ne_num = ne_raw[11:] if len(ne_raw) >= 17 else ne_raw
-        key = f"{ug}_{ne_num}"
-
-        if key not in empenhos_dict:
-            emissao_str = str(r[2]).strip() if r[2] else ''
+        if r[4]:
+            raw = str(r[4])
+            cur = None
+            if not raw.startswith(UGS):
+                continue
+            ug, ne_num = raw[:6], raw[11:]
+            key = f"{ug}_{ne_num}"
+            emissao = str(r[2]).strip() if r[2] else ""
             aging = 0
             try:
-                p = emissao_str.split('/')
-                dt = datetime.date(int(p[2]), int(p[1]), int(p[0]))
-                aging = (CORTE_DATA - dt).days
+                p = emissao.split("/")
+                aging = (corte - datetime.date(int(p[2]), int(p[1]), int(p[0]))).days
             except Exception:
                 pass
-
-            if aging <= 30:
-                faixa_aging = "0-30 dias"
-                semaforo = "verde"
-            elif aging <= 60:
-                faixa_aging = "31-60 dias"
-                semaforo = "amarelo"
-            elif aging <= 90:
-                faixa_aging = "61-90 dias"
-                semaforo = "laranja"
-            else:
-                faixa_aging = "> 90 dias"
-                semaforo = "vermelho"
-
-            obj_raw = str(r[20]).strip() if r[20] else ''
-            proc_m = re.search(r'(PE\s*[\d/_-]+|PREG[ÃA]O\s*[\d/_-]+|DISPENSA\s*[\d/_-]+|DIEX\s*[\d/_-]+)', obj_raw, re.IGNORECASE)
-            processo = proc_m.group(1).upper() if proc_m else "DISPENSA / DIRETO"
-
-            nc_m = re.search(r'(2026NC\d{6})', obj_raw)
-            nc_origem = nc_m.group(1) if nc_m else "-"
-
-            empenhos_dict[key] = {
-                "key": key,
-                "ne_num": ne_num,
-                "ne_full": ne_raw,
-                "ug": ug,
-                "ug_nome": "BCMS (OGU)" if ug == "160329" else "BCMS (FEx)",
-                "emissao": emissao_str,
-                "aging_dias": max(0, aging),
-                "faixa_aging": faixa_aging,
-                "semaforo": semaforo,
+            desc = str(r[20]).strip() if r[20] else ""
+            m_proc = re.search(r"(PE\s*[\d/_-]+|PREG[ÃA]O\s*[\d/_-]+|DISPENSA\s*[\d/_-]+|DIEX\s*[\d/_-]+)", desc, re.I)
+            m_nc = re.search(r"(20\d{2}NC\d{6})", desc)
+            valor = round(num(r[7]), 2)
+            nes[key] = {
+                "key": key, "ne_num": ne_num, "ne_full": raw, "ug": ug, "ug_nome": UG_NOME[ug],
+                "emissao": emissao, "idade_dias": max(0, aging),
                 "cnpj": format_cnpj(r[5]),
-                "fornecedor": str(r[6]).strip() if r[6] else "Fornecedor Cadastrado",
-                "nd": str(r[8]).strip() if r[8] else "339030",
-                "pi": str(r[10]).strip() if r[10] else "FCA157XDECO",
-                "tipo": str(r[19]).strip() if r[19] else "ORDINARIO",
-                "objeto": obj_raw,
-                "processo": processo,
-                "nc_origem": nc_origem,
+                "fornecedor": str(r[6]).strip() if r[6] else "-",
+                "nd": str(r[8]).strip() if r[8] else "-",
+                "pi": str(r[10]).strip() if r[10] else "-",
+                "tipo": str(r[19]).strip() if r[19] else "-",
+                "objeto": desc,
+                "processo": m_proc.group(1).upper() if m_proc else "-",
+                "nc_origem": m_nc.group(1) if m_nc else "-",
+                "status_assinatura": str(r[22]).strip() if r[22] else "-",
+                "valor_empenhado": valor,
+                "situacao": "ANULADA" if abs(valor) < 0.005 else "EMPENHADA",
+                "valor_liquidado": None,
+                "saldo_a_liquidar": None,
                 "itens": [],
-                "valor_empenhado": 0.0,
-                "valor_liquidado": 0.0,
-                "saldo_a_liquidar": 0.0
             }
-
-        try:
-            val_op = float(str(r[16]).replace(',', '.')) if r[16] is not None else 0.0
-            op = str(r[17]).strip().upper() if r[17] else 'INCLUSAO'
-            item_desc = str(r[13]).strip() if r[13] else ''
-            
-            if op == 'ANULACAO':
-                empenhos_dict[key]["valor_empenhado"] -= val_op
-            else:
-                empenhos_dict[key]["valor_empenhado"] += val_op
-
-            if item_desc and len(empenhos_dict[key]["itens"]) < 5:
-                empenhos_dict[key]["itens"].append({
-                    "item_num": str(r[12] or '1'),
-                    "descricao": item_desc,
-                    "valor": val_op
+            cur = key
+        elif cur:
+            desc_item = str(r[13]).strip() if r[13] else ""
+            if desc_item and len(nes[cur]["itens"]) < 8:
+                nes[cur]["itens"].append({
+                    "item_num": str(int(num(r[12]))) if r[12] is not None else "-",
+                    "descricao": desc_item,
+                    "operacao": str(r[17]).strip() if r[17] else "-",
+                    "valor": round(num(r[16]), 2),
                 })
-        except Exception:
-            pass
-
     wb.close()
+    return list(nes.values())
 
-    for k, item in empenhos_dict.items():
-        v_emp = max(0.0, round(item["valor_empenhado"], 2))
-        item["valor_empenhado"] = v_emp
-        if item["aging_dias"] > 120 and v_emp > 0:
-            v_liq = round(v_emp * 0.85, 2)
-        elif item["aging_dias"] > 60 and v_emp > 0:
-            v_liq = round(v_emp * 0.50, 2)
-        elif item["aging_dias"] > 30 and v_emp > 0:
-            v_liq = round(v_emp * 0.20, 2)
-        else:
-            v_liq = 0.0
 
-        item["valor_liquidado"] = v_liq
-        item["saldo_a_liquidar"] = max(0.0, round(v_emp - v_liq, 2))
+def extrair_rpnp():
+    """Colunas reais: 4=531110100 inscrito | 5=531210000 reinscrição | 6=631100000 a liquidar |
+    7=631200000 em liquidação | 8=631300000 liquidado a pagar | 9=631400000 pago."""
+    wb = openpyxl.load_workbook(RPNP_XLSX, data_only=True, read_only=True)
+    ws = wb.active
+    out, ug = [], None
+    for r in ws.iter_rows(values_only=True):
+        if r[0] and str(r[0]).strip().isdigit():
+            ug = str(r[0]).strip()
+        if ug not in UGS or not r[2] or str(r[0]).strip() == "Total":
+            continue
+        if str(r[0]).strip().lower() == "total":
+            continue
+        out.append({
+            "ug": ug, "ug_nome": UG_NOME[ug], "acao": str(r[2]).strip(), "nome": str(r[3]).strip().title(),
+            "inscrito": round(num(r[4]), 2), "reinscricao": round(num(r[5]), 2),
+            "a_liquidar": round(num(r[6]), 2), "em_liquidacao": round(num(r[7]), 2),
+            "liquidado_a_pagar": round(num(r[8]), 2), "pago": round(num(r[9]), 2),
+        })
+    wb.close()
+    return out
 
-    return list(empenhos_dict.values())
 
-def extrair_restos_a_pagar():
-    rap_acoes = [
-        {"ug": "160329", "ug_nome": "BCMS (OGU)", "acao": "14LW", "nome": "Implantacao do Sistema Estrategico Astros", "inscrito": 299999.82, "a_liquidar": 299999.82, "em_liquidacao": 0.0, "liquidado_a_pagar": 0.0, "pago": 299999.82},
-        {"ug": "160329", "ug_nome": "BCMS (OGU)", "acao": "156M", "nome": "Modernizacao e Transformacao Estrategica", "inscrito": 579868.83, "a_liquidar": 579868.83, "em_liquidacao": 0.0, "liquidado_a_pagar": 0.0, "pago": 579868.83},
-        {"ug": "160329", "ug_nome": "BCMS (OGU)", "acao": "2000", "nome": "Administracao da Unidade", "inscrito": 545237.97, "a_liquidar": 505658.68, "em_liquidacao": 39579.29, "liquidado_a_pagar": 27129.36, "pago": 557687.90},
-        {"ug": "160329", "ug_nome": "BCMS (OGU)", "acao": "212B", "nome": "Beneficios Obrigatorios aos Servidores", "inscrito": 854573.70, "a_liquidar": 781876.52, "em_liquidacao": 72697.18, "liquidado_a_pagar": 0.0, "pago": 781876.52},
-        {"ug": "160329", "ug_nome": "BCMS (OGU)", "acao": "212O", "nome": "Movimentacao de Militares", "inscrito": 11346.06, "a_liquidar": 11346.06, "em_liquidacao": 0.0, "liquidado_a_pagar": 0.0, "pago": 11346.06},
-        {"ug": "160329", "ug_nome": "BCMS (OGU)", "acao": "219D", "nome": "Adequacao de Ativos de Infraestrutura", "inscrito": 127339.81, "a_liquidar": 127339.81, "em_liquidacao": 0.0, "liquidado_a_pagar": 0.0, "pago": 127339.81},
-        {"ug": "160329", "ug_nome": "BCMS (OGU)", "acao": "21A0", "nome": "Aprestamento das Forcas e Prontidao", "inscrito": 887118.79, "a_liquidar": 821130.00, "em_liquidacao": 65936.84, "liquidado_a_pagar": 51.95, "pago": 821130.00},
-        {"ug": "160329", "ug_nome": "BCMS (OGU)", "acao": "2865", "nome": "Suprimento de Fardamento", "inscrito": 2105.00, "a_liquidar": 2105.00, "em_liquidacao": 0.0, "liquidado_a_pagar": 0.0, "pago": 2105.00},
-        {"ug": "167329", "ug_nome": "BCMS (FEx)", "acao": "2000", "nome": "Administracao da Unidade (FEx)", "inscrito": 53194.96, "a_liquidar": 53194.96, "em_liquidacao": 0.0, "liquidado_a_pagar": 0.0, "pago": 53194.96},
-        {"ug": "167329", "ug_nome": "BCMS (FEx)", "acao": "2004", "nome": "Assistencia Medica e Odontologica", "inscrito": 174566.24, "a_liquidar": 174566.24, "em_liquidacao": 0.0, "liquidado_a_pagar": 0.0, "pago": 174566.24},
-        {"ug": "167329", "ug_nome": "BCMS (FEx)", "acao": "21D2", "nome": "Recomposicao de Meios Forca Terrestre", "inscrito": 66728.54, "a_liquidar": 35637.31, "em_liquidacao": 31091.23, "liquidado_a_pagar": 0.0, "pago": 35637.31},
-        {"ug": "167329", "ug_nome": "BCMS (FEx)", "acao": "21GN", "nome": "Ensino Profissional Militar", "inscrito": 21339.18, "a_liquidar": 21339.18, "em_liquidacao": 0.0, "liquidado_a_pagar": 0.0, "pago": 21339.18},
-        {"ug": "167329", "ug_nome": "BCMS (FEx)", "acao": "2919", "nome": "Produtos Controlados", "inscrito": 152137.11, "a_liquidar": 90939.80, "em_liquidacao": 61197.31, "liquidado_a_pagar": 0.0, "pago": 90939.80}
-    ]
-    return rap_acoes
+def carregar_totais_ug():
+    """Totais oficiais SIAFI por UG (conferidos: empenhado fecha com a soma da planilha)."""
+    d = json.loads(TOTAIS_JSON.read_text(encoding="utf-8"))
+    return d
+
 
 def gerar_base_completa():
-    planilha = obter_planilha_empenhos()
-    print(f"Processando dados da planilha: {planilha.name}...")
-    empenhos = extrair_empenhos(planilha)
-    print(f"-> {len(empenhos)} empenhos extraídos.")
+    planilha, origem = obter_planilha_empenhos()
+    corte = datetime.date.today()
+    empenhos = extrair_empenhos(planilha, corte)
+    rap = extrair_rpnp()
+    totais_ug = carregar_totais_ug()
 
-    rap = extrair_restos_a_pagar()
+    # Conferência: soma das NEs da planilha x empenhado oficial do SIAFI
+    conf = {}
+    for ug in UGS:
+        soma = round(sum(e["valor_empenhado"] for e in empenhos if e["ug"] == ug), 2)
+        oficial = totais_ug[ug]["empenhado"]
+        conf[ug] = {"soma_planilha": soma, "oficial_siafi": oficial, "diferenca": round(soma - oficial, 2)}
 
-    totais_bcms = {
-        "160329": {
-            "provisao": 9109522.25,
-            "credito_disponivel": 698081.51,
-            "empenhado": 8411440.74,
-            "liquidado": 4670789.39,
-            "pago": 4557157.93,
-            "a_liquidar": 3740651.35,
-            "a_pagar": 113631.46,
-            "taxa_liquidacao": 55.53
-        },
-        "167329": {
-            "provisao": 2475256.45,
-            "credito_disponivel": 2923.51,
-            "empenhado": 2472332.94,
-            "liquidado": 951796.12,
-            "pago": 945923.12,
-            "a_liquidar": 1520536.82,
-            "a_pagar": 5873.00,
-            "taxa_liquidacao": 38.50
-        },
-        "consolidado": {
-            "provisao": 11584778.70,
-            "credito_disponivel": 701005.02,
-            "empenhado": 10883773.68,
-            "liquidado": 5622585.51,
-            "pago": 5503081.05,
-            "a_liquidar": 5261188.17,
-            "a_pagar": 119504.46,
-            "taxa_liquidacao": 51.66
-        }
-    }
-
-    tot_rpnp_a_liquidar = sum(r["a_liquidar"] for r in rap)
-    tot_rpnp_em_liquidacao = sum(r["em_liquidacao"] for r in rap)
-    tot_rpnp_liquidado_a_pagar = sum(r["liquidado_a_pagar"] for r in rap)
-    tot_rpnp_pago = sum(r["pago"] for r in rap)
+    cons = {k: round(sum(totais_ug[u][k] for u in UGS), 2)
+            for k in ("provisao", "credito_disponivel", "empenhado", "liquidado", "pago")}
+    cons["a_liquidar"] = round(cons["empenhado"] - cons["liquidado"], 2)
+    cons["a_pagar"] = round(cons["liquidado"] - cons["pago"], 2)
+    cons["taxa_liquidacao"] = round(cons["liquidado"] / cons["empenhado"] * 100, 2) if cons["empenhado"] else 0.0
+    totais = {}
+    for ug in UGS:
+        t = dict(totais_ug[ug])
+        t["a_liquidar"] = round(t["empenhado"] - t["liquidado"], 2)
+        t["a_pagar"] = round(t["liquidado"] - t["pago"], 2)
+        t["taxa_liquidacao"] = round(t["liquidado"] / t["empenhado"] * 100, 2) if t["empenhado"] else 0.0
+        totais[ug] = t
+    totais["consolidado"] = cons
 
     totais_rap = {
-        "rpnp_a_liquidar": round(tot_rpnp_a_liquidar, 2),
-        "rpnp_em_liquidacao": round(tot_rpnp_em_liquidacao, 2),
-        "rpnp_liquidado_a_pagar": round(tot_rpnp_liquidado_a_pagar, 2),
-        "rpnp_pago": round(tot_rpnp_pago, 2),
-        "total_rap_geral": round(tot_rpnp_a_liquidar + tot_rpnp_liquidado_a_pagar, 2)
+        "rpnp_inscrito": round(sum(r["inscrito"] for r in rap), 2),
+        "rpnp_a_liquidar": round(sum(r["a_liquidar"] for r in rap), 2),
+        "rpnp_em_liquidacao": round(sum(r["em_liquidacao"] for r in rap), 2),
+        "rpnp_liquidado_a_pagar": round(sum(r["liquidado_a_pagar"] for r in rap), 2),
+        "rpnp_pago": round(sum(r["pago"] for r in rap), 2),
     }
 
-    aging_dist = {
-        "0-30 dias": {"qtd": 0, "valor": 0.0},
-        "31-60 dias": {"qtd": 0, "valor": 0.0},
-        "61-90 dias": {"qtd": 0, "valor": 0.0},
-        "> 90 dias": {"qtd": 0, "valor": 0.0}
-    }
+    # Idade dos empenhos emitidos (NÃO é aging de liquidação: a fonte não baixa por liquidação)
+    faixas = {"0-30 dias": [0, 30], "31-60 dias": [31, 60], "61-90 dias": [61, 90], "> 90 dias": [91, 10**6]}
+    idade = {k: {"qtd": 0, "valor": 0.0} for k in faixas}
     for e in empenhos:
-        faixa = e["faixa_aging"]
-        if faixa in aging_dist:
-            aging_dist[faixa]["qtd"] += 1
-            aging_dist[faixa]["valor"] += e["saldo_a_liquidar"]
+        if e["situacao"] != "EMPENHADA":
+            continue
+        for k, (a, b) in faixas.items():
+            if a <= e["idade_dias"] <= b:
+                e["faixa_idade"] = k
+                idade[k]["qtd"] += 1
+                idade[k]["valor"] = round(idade[k]["valor"] + e["valor_empenhado"], 2)
+                break
 
-    for k in aging_dist:
-        aging_dist[k]["valor"] = round(aging_dist[k]["valor"], 2)
-
-    fornec_map = {}
+    forn = {}
     for e in empenhos:
-        cnpj = e["cnpj"]
-        if cnpj not in fornec_map:
-            fornec_map[cnpj] = {
-                "cnpj": cnpj,
-                "razao": e["fornecedor"],
-                "qtd_nes": 0,
-                "tot_empenhado": 0.0,
-                "saldo_a_liquidar": 0.0
-            }
-        fornec_map[cnpj]["qtd_nes"] += 1
-        fornec_map[cnpj]["tot_empenhado"] += e["valor_empenhado"]
-        fornec_map[cnpj]["saldo_a_liquidar"] += e["saldo_a_liquidar"]
+        if e["situacao"] != "EMPENHADA":
+            continue
+        f = forn.setdefault(e["cnpj"], {"cnpj": e["cnpj"], "razao": e["fornecedor"], "qtd_nes": 0, "tot_empenhado": 0.0})
+        f["qtd_nes"] += 1
+        f["tot_empenhado"] = round(f["tot_empenhado"] + e["valor_empenhado"], 2)
+    top = sorted(forn.values(), key=lambda x: -x["tot_empenhado"])[:15]
 
-    top_fornecedores = sorted(fornec_map.values(), key=lambda x: x["saldo_a_liquidar"], reverse=True)[:15]
-    for f in top_fornecedores:
-        f["tot_empenhado"] = round(f["tot_empenhado"], 2)
-        f["saldo_a_liquidar"] = round(f["saldo_a_liquidar"], 2)
-
-    data_payload = {
+    qtd_anuladas = sum(1 for e in empenhos if e["situacao"] == "ANULADA")
+    payload = {
         "metadata": {
             "unidade": "Batalhão Central de Manutenção e Suprimento (BCMS)",
             "orgao_vinculado": "Base de Apoio Logístico (Ba Ap Log)",
             "exercicio": 2026,
-            "corte_atualizacao": CORTE_DATA.strftime("%d/%m/%Y"),
-            "fonte_sincronizacao": "Google Drive (Atualização Automática)",
-            "gerado_em": datetime.datetime.now().strftime("%d/%m/%Y %H:%M:%S")
+            "corte_atualizacao": corte.strftime("%d/%m/%Y"),
+            "fonte_empenhos": origem,
+            "fonte_rpnp": f"Cache do Tesouro Gerencial de {RPNP_DATA_REF}",
+            "gerado_em": datetime.datetime.now().strftime("%d/%m/%Y %H:%M:%S"),
         },
-        "totais_siafi": totais_bcms,
+        "auditoria": {
+            "conferencia_empenhado": conf,
+            "qtd_nes": len(empenhos),
+            "qtd_nes_anuladas_valor_zero": qtd_anuladas,
+            "liquidacao_por_ne_disponivel": False,
+            "limitacao": "A planilha EMPENHO traz as contas 622110000 e 622130100, que não discriminam a liquidação por NE. "
+                         "Para identificar NEs já liquidadas é preciso incluir as contas 622920101/622920103 na consulta do Tesouro Gerencial.",
+        },
+        "totais_siafi": totais,
         "totais_rap": totais_rap,
-        "aging_distribuicao": aging_dist,
-        "top_fornecedores": top_fornecedores,
+        "idade_distribuicao": idade,
+        "top_fornecedores": top,
         "restos_a_pagar": rap,
-        "empenhos": empenhos
+        "empenhos": empenhos,
     }
+    OUTPUT_JSON.write_text(json.dumps(payload, indent=2, ensure_ascii=False), encoding="utf-8")
+    print(f"{len(empenhos)} NEs ({qtd_anuladas} anuladas) | conferência empenhado: {conf}")
+    print(f"RPNP a liquidar: R$ {totais_rap['rpnp_a_liquidar']:.2f}")
+    return payload
 
-    OUTPUT_JSON.parent.mkdir(parents=True, exist_ok=True)
-    OUTPUT_JSON.write_text(json.dumps(data_payload, indent=2, ensure_ascii=False), encoding="utf-8")
-    print(f"Base exportada com sucesso para: {OUTPUT_JSON}")
-    return data_payload
 
 if __name__ == "__main__":
     gerar_base_completa()

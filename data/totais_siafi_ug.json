@@ -1,0 +1,16 @@
+{
+  "160329": {
+    "provisao": 9116522.25,
+    "credito_disponivel": 112059.36,
+    "empenhado": 9004462.89,
+    "liquidado": 4711254.04,
+    "pago": 4580742.17
+  },
+  "167329": {
+    "provisao": 2475256.45,
+    "credito_disponivel": 2923.51,
+    "empenhado": 2472332.94,
+    "liquidado": 953473.12,
+    "pago": 951796.12
+  }
+}
